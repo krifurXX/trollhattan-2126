@@ -1,0 +1,124 @@
+{
+  "indicators": {
+    "hojum_effekt": {
+      "name": "Hojum installed electrical capacity",
+      "unit": "MW",
+      "note": "Plant specification checked in 2026; not annual production or municipally available capacity."
+    },
+    "hojum_fallhojd": {
+      "name": "Hojum head",
+      "unit": "m",
+      "note": "Hydraulic head, not a water level in RH 2000."
+    },
+    "hojum_vattenforing": {
+      "name": "Hojum specified discharge",
+      "unit": "m³/s",
+      "note": "Plant specification, not observed annual mean river flow."
+    },
+    "olidan_effekt": {
+      "name": "Olidan installed electrical capacity",
+      "unit": "MW",
+      "note": "Vattenfall plant specification checked in 2026."
+    },
+    "olidan_vattenforing": {
+      "name": "Olidan specified discharge",
+      "unit": "m³/s",
+      "note": "No conversion to annual generation has been made."
+    },
+    "olidan_driftstart": {
+      "name": "First electricity supply from Olidan",
+      "unit": "year",
+      "note": "Electricity was supplied to industry and railways."
+    },
+    "fjarrvarme_trabransle": {
+      "name": "Wood fuel share of district heat",
+      "unit": "%",
+      "note": "2025 production mix."
+    },
+    "fjarrvarme_spillvarme": {
+      "name": "Waste heat share of district heat",
+      "unit": "%",
+      "note": "2025 production mix; denominator differs from energy input."
+    },
+    "fjarrvarme_spillvarme_mwh": {
+      "name": "Waste heat used in district heating",
+      "unit": "MWh",
+      "note": "Reported energy in 2025."
+    },
+    "fjarrvarme_fossilt": {
+      "name": "Fossil share of district heat",
+      "unit": "%",
+      "note": "Rounded production share; not zero."
+    },
+    "fjarrvarme_klimatintensitet": {
+      "name": "Emissions intensity of supplied district heat",
+      "unit": "kg CO2e/MWh",
+      "note": "Reported utility value; fossil-free does not mean zero life-cycle emissions."
+    },
+    "lan_temperatur_referens": {
+      "name": "Historical county mean annual temperature",
+      "unit": "°C",
+      "note": "County mean, not a local weather station."
+    },
+    "lan_temperaturokning_rcp45": {
+      "name": "County warming under RCP4.5",
+      "unit": "°C",
+      "note": "Approximately 3 degrees against 1961–1990. A 2015 scenario, not a 2126 forecast."
+    },
+    "lan_temperaturokning_rcp85": {
+      "name": "County warming under RCP8.5",
+      "unit": "°C",
+      "note": "Approximately 5 degrees against 1961–1990. Regional scenario, not a municipal temperature measurement."
+    },
+    "vattenverk_planerad_drift": {
+      "name": "Planned commissioning of new waterworks",
+      "unit": "year",
+      "note": "Planned around 2030, not guaranteed completion. Lake Vänern becomes the new raw water source."
+    },
+    "vattenverk_byggstart": {
+      "name": "Construction start of new waterworks",
+      "unit": "year",
+      "note": "Construction began in November 2024."
+    },
+    "kanal_langd": {
+      "name": "Length of Trollhätte Canal",
+      "unit": "km",
+      "note": "The entire fairway, not only the municipal section."
+    },
+    "kanal_nivaskillnad": {
+      "name": "Total canal level difference",
+      "unit": "m",
+      "note": "Lake Vänern to the sea; not sea level at central Trollhättan."
+    },
+    "slussar_trollhattan": {
+      "name": "Locks in the present Trollhättan section",
+      "unit": "locks",
+      "note": "Four of the canal’s six locks."
+    },
+    "kanal_farledsdjup": {
+      "name": "Specified minimum fairway depth",
+      "unit": "m",
+      "note": "Fairway depth, not maximum permitted vessel draught."
+    },
+    "slussar_planerad_drift": {
+      "name": "Planned commissioning of new locks",
+      "unit": "year",
+      "note": "June 2026 schedule: around 2034. Earlier 2030 dates are not the current plan."
+    },
+    "klimatmal_geografiskt": {
+      "name": "Target reduction in territorial CO2 emissions",
+      "unit": "%",
+      "note": "Policy target: reduction from 2022 to 2030, not an observed outcome."
+    },
+    "klimatmal_konsumtion": {
+      "name": "Target per-capita consumption emissions",
+      "unit": "ton CO2e/person",
+      "note": "Consumption target; separate from territorial emissions."
+    },
+    "klimatmal_nettonoll": {
+      "name": "Net-zero target year",
+      "unit": "year",
+      "note": "By 2045 according to the municipal long-term target."
+    }
+  }
+}

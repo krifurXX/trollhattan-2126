@@ -1,0 +1,448 @@
+{
+  "topic": "samhalle-ekonomi",
+  "compiled": "2026-10-12",
+  "indicators": [
+    {
+      "id": "befolkning_prognos_2026",
+      "sdg": [
+        11
+      ],
+      "name_sv": "Befolkningsprognos 2026",
+      "value": 59328,
+      "unit": "personer",
+      "year": 2026,
+      "scope": "Trollhättans kommun",
+      "direction": "context",
+      "source": {
+        "title": "Befolkningsprognos Trollhättans kommun 2026–2035, tabell 1–2",
+        "publisher": "Trollhättans stad",
+        "url": "https://www.trollhattan.se/contentassets/ccfe1b1ca62e46dd96c40eef76617e1e/trollhattan_rapport_kommunprognos_20260303.pdf/"
+      },
+      "note_sv": "Kommunens prognos, inte utfall.",
+      "confidence": "high"
+    },
+    {
+      "id": "befolkning_prognos_2030",
+      "sdg": [
+        11
+      ],
+      "name_sv": "Befolkningsprognos 2030",
+      "value": 60930,
+      "unit": "personer",
+      "year": 2030,
+      "scope": "Trollhättans kommun",
+      "direction": "context",
+      "source": {
+        "title": "Befolkningsprognos Trollhättans kommun 2026–2035, tabell 1–2",
+        "publisher": "Trollhättans stad",
+        "url": "https://www.trollhattan.se/contentassets/ccfe1b1ca62e46dd96c40eef76617e1e/trollhattan_rapport_kommunprognos_20260303.pdf/"
+      },
+      "note_sv": "Kommunens prognos, inte utfall.",
+      "confidence": "high"
+    },
+    {
+      "id": "befolkning_prognos_2035",
+      "sdg": [
+        11
+      ],
+      "name_sv": "Befolkningsprognos 2035",
+      "value": 62430,
+      "unit": "personer",
+      "year": 2035,
+      "scope": "Trollhättans kommun",
+      "direction": "context",
+      "source": {
+        "title": "Befolkningsprognos Trollhättans kommun 2026–2035, tabell 1–2",
+        "publisher": "Trollhättans stad",
+        "url": "https://www.trollhattan.se/contentassets/ccfe1b1ca62e46dd96c40eef76617e1e/trollhattan_rapport_kommunprognos_20260303.pdf/"
+      },
+      "note_sv": "Kommunens prognos, inte utfall.",
+      "confidence": "high"
+    },
+    {
+      "id": "aldre_80_2035",
+      "sdg": [
+        11
+      ],
+      "name_sv": "Prognos 80–100 år 2035",
+      "value": 4533,
+      "unit": "personer",
+      "year": 2035,
+      "scope": "Trollhättans kommun",
+      "direction": "context",
+      "source": {
+        "title": "Befolkningsprognos Trollhättans kommun 2026–2035, tabell 1–2",
+        "publisher": "Trollhättans stad",
+        "url": "https://www.trollhattan.se/contentassets/ccfe1b1ca62e46dd96c40eef76617e1e/trollhattan_rapport_kommunprognos_20260303.pdf/"
+      },
+      "note_sv": "Prognosens åldersgrupp.",
+      "confidence": "high"
+    },
+    {
+      "id": "aldre_65_79_2035",
+      "sdg": [
+        11
+      ],
+      "name_sv": "Prognos 65–79 år 2035",
+      "value": 9321,
+      "unit": "personer",
+      "year": 2035,
+      "scope": "Trollhättans kommun",
+      "direction": "context",
+      "source": {
+        "title": "Befolkningsprognos Trollhättans kommun 2026–2035, tabell 1–2",
+        "publisher": "Trollhättans stad",
+        "url": "https://www.trollhattan.se/contentassets/ccfe1b1ca62e46dd96c40eef76617e1e/trollhattan_rapport_kommunprognos_20260303.pdf/"
+      },
+      "note_sv": "Prognosens åldersgrupp.",
+      "confidence": "high"
+    },
+    {
+      "id": "skolbarn_6_12_2035",
+      "sdg": [
+        11
+      ],
+      "name_sv": "Prognos 6–12 år 2035",
+      "value": 4411,
+      "unit": "personer",
+      "year": 2035,
+      "scope": "Trollhättans kommun",
+      "direction": "context",
+      "source": {
+        "title": "Befolkningsprognos Trollhättans kommun 2026–2035, tabell 1–2",
+        "publisher": "Trollhättans stad",
+        "url": "https://www.trollhattan.se/contentassets/ccfe1b1ca62e46dd96c40eef76617e1e/trollhattan_rapport_kommunprognos_20260303.pdf/"
+      },
+      "note_sv": "Prognosens åldersgrupp.",
+      "confidence": "high"
+    },
+    {
+      "id": "befolkning_prognos_tillvaxt",
+      "sdg": [
+        11
+      ],
+      "name_sv": "Beräknad årlig befolkningstillväxt 2025–2035",
+      "value": 0.522,
+      "unit": "% per år",
+      "year": 2035,
+      "scope": "Trollhättans kommun",
+      "direction": "context",
+      "source": {
+        "title": "Befolkningsprognos Trollhättans kommun 2026–2035, tabell 1–2",
+        "publisher": "Trollhättans stad",
+        "url": "https://www.trollhattan.se/contentassets/ccfe1b1ca62e46dd96c40eef76617e1e/trollhattan_rapport_kommunprognos_20260303.pdf/"
+      },
+      "note_sv": "Egen beräkning: ((62 430 / 59 265)^(1/10) − 1) × 100. Ska inte extrapoleras som prognos till 2126.",
+      "confidence": "estimate"
+    },
+    {
+      "id": "hv_helarsstudenter",
+      "sdg": [
+        4,
+        8,
+        9
+      ],
+      "name_sv": "Helårsstudenter vid Högskolan Väst",
+      "value": 5640,
+      "unit": "helårsstudenter",
+      "year": 2025,
+      "scope": "Högskolan Väst, hela lärosätet",
+      "direction": "context",
+      "source": {
+        "title": "Årsredovisning 2025, s. 7, 9 och 27",
+        "publisher": "Högskolan Väst",
+        "url": "https://www.hv.se/globalassets/dokument/styra-och-leda/arsredovisning-2025.pdf"
+      },
+      "note_sv": "Hela lärosätet, även distans.",
+      "confidence": "high"
+    },
+    {
+      "id": "hv_anstallda",
+      "sdg": [
+        4,
+        8,
+        9
+      ],
+      "name_sv": "Högskolan Västs anställda",
+      "value": 700,
+      "unit": "personer",
+      "year": 2025,
+      "scope": "Högskolan Väst, hela lärosätet",
+      "direction": "context",
+      "source": {
+        "title": "Årsredovisning 2025, s. 7, 9 och 27",
+        "publisher": "Högskolan Väst",
+        "url": "https://www.hv.se/globalassets/dokument/styra-och-leda/arsredovisning-2025.pdf"
+      },
+      "note_sv": "Medelantal enligt sammanfattningen.",
+      "confidence": "high"
+    },
+    {
+      "id": "hv_forskning_omsattning",
+      "sdg": [
+        4,
+        8,
+        9
+      ],
+      "name_sv": "Högskolan Västs forskningsomsättning",
+      "value": 210,
+      "unit": "mnkr",
+      "year": 2025,
+      "scope": "Högskolan Väst, hela lärosätet",
+      "direction": "context",
+      "source": {
+        "title": "Årsredovisning 2025, s. 7, 9 och 27",
+        "publisher": "Högskolan Väst",
+        "url": "https://www.hv.se/globalassets/dokument/styra-och-leda/arsredovisning-2025.pdf"
+      },
+      "note_sv": "Avrundad uppgift.",
+      "confidence": "high"
+    },
+    {
+      "id": "hv_avancerad_helarsstudenter",
+      "sdg": [
+        4,
+        8,
+        9
+      ],
+      "name_sv": "Helårsstudenter på avancerad nivå",
+      "value": 1208,
+      "unit": "helårsstudenter",
+      "year": 2025,
+      "scope": "Högskolan Väst, hela lärosätet",
+      "direction": "context",
+      "source": {
+        "title": "Årsredovisning 2025, s. 7, 9 och 27",
+        "publisher": "Högskolan Väst",
+        "url": "https://www.hv.se/globalassets/dokument/styra-och-leda/arsredovisning-2025.pdf"
+      },
+      "note_sv": "Inklusive studieavgiftsbetalande.",
+      "confidence": "high"
+    },
+    {
+      "id": "hv_prestationsgrad",
+      "sdg": [
+        4,
+        8,
+        9
+      ],
+      "name_sv": "Högskolan Västs prestationsgrad",
+      "value": 80,
+      "unit": "%",
+      "year": 2025,
+      "scope": "Högskolan Väst, hela lärosätet",
+      "direction": "context",
+      "source": {
+        "title": "Årsredovisning 2025, s. 7, 9 och 27",
+        "publisher": "Högskolan Väst",
+        "url": "https://www.hv.se/globalassets/dokument/styra-och-leda/arsredovisning-2025.pdf"
+      },
+      "note_sv": "Avklarade poäng relativt registrerad studievolym; inte examensandel.",
+      "confidence": "high"
+    },
+    {
+      "id": "gkn_additiv_investering",
+      "sdg": [
+        8,
+        9,
+        12
+      ],
+      "name_sv": "Annonserad investering i additiv tillverkning",
+      "value": 600,
+      "unit": "mnkr",
+      "year": 2024,
+      "scope": "GKN Aerospace, projekt i Trollhättan",
+      "direction": "context",
+      "source": {
+        "title": "GKN Aerospace invests £50 million, 10 januari 2024",
+        "publisher": "GKN Aerospace",
+        "url": "https://www.gknaerospace.com/news-insights/news/gkn-aerospace-invests-50-million-to-grow-world-leading-sustainable-additive-fabrication-capability/"
+      },
+      "note_sv": "Annonserad 2024, inte verifierat utfall.",
+      "confidence": "medium"
+    },
+    {
+      "id": "gkn_industriklivet_stod",
+      "sdg": [
+        8,
+        9,
+        12
+      ],
+      "name_sv": "Industriklivets stöd till GKN-projektet",
+      "value": 152,
+      "unit": "mnkr",
+      "year": 2024,
+      "scope": "GKN Aerospace, projekt i Trollhättan",
+      "direction": "context",
+      "source": {
+        "title": "GKN Aerospace invests £50 million, 10 januari 2024",
+        "publisher": "GKN Aerospace",
+        "url": "https://www.gknaerospace.com/news-insights/news/gkn-aerospace-invests-50-million-to-grow-world-leading-sustainable-additive-fabrication-capability/"
+      },
+      "note_sv": "Ingår i investeringen.",
+      "confidence": "medium"
+    },
+    {
+      "id": "gkn_additiv_jobbtillskott",
+      "sdg": [
+        8,
+        9,
+        12
+      ],
+      "name_sv": "GKN:s förväntade nya arbetstillfällen",
+      "value": 150,
+      "unit": "arbetstillfällen",
+      "year": 2024,
+      "scope": "GKN Aerospace, projekt i Trollhättan",
+      "direction": "context",
+      "source": {
+        "title": "GKN Aerospace invests £50 million, 10 januari 2024",
+        "publisher": "GKN Aerospace",
+        "url": "https://www.gknaerospace.com/news-insights/news/gkn-aerospace-invests-50-million-to-grow-world-leading-sustainable-additive-fabrication-capability/"
+      },
+      "note_sv": "Företagets förväntan, inte observerad sysselsättning.",
+      "confidence": "medium"
+    },
+    {
+      "id": "gkn_materialpotential",
+      "sdg": [
+        8,
+        9,
+        12
+      ],
+      "name_sv": "Angiven maximal minskning av råmaterial",
+      "value": 80,
+      "unit": "%",
+      "year": 2024,
+      "scope": "GKN Aerospace, projekt i Trollhättan",
+      "direction": "context",
+      "source": {
+        "title": "GKN Aerospace invests £50 million, 10 januari 2024",
+        "publisher": "GKN Aerospace",
+        "url": "https://www.gknaerospace.com/news-insights/news/gkn-aerospace-invests-50-million-to-grow-world-leading-sustainable-additive-fabrication-capability/"
+      },
+      "note_sv": "Upp till 80 procent enligt företaget. Ingen generell kommunal utsläppsfaktor.",
+      "confidence": "medium"
+    },
+    {
+      "id": "arbetstillfallen_lokalt",
+      "sdg": [
+        8
+      ],
+      "name_sv": "Arbetstillfällen i Trollhättan",
+      "value": 30000,
+      "unit": "arbetstillfällen",
+      "year": 2025,
+      "scope": "Trollhättans kommun",
+      "direction": "context",
+      "source": {
+        "title": "Årsredovisning 2025, s. 16",
+        "publisher": "Trollhättans stad",
+        "url": "https://www.trollhattan.se/file/download/?contentRef=127237"
+      },
+      "note_sv": "Cirka-tal i årsredovisningen; statistikens referensår anges inte.",
+      "confidence": "medium"
+    },
+    {
+      "id": "arbetsstallen_lokalt",
+      "sdg": [
+        8
+      ],
+      "name_sv": "Arbetsställen i Trollhättan",
+      "value": 5000,
+      "unit": "arbetsställen",
+      "year": 2025,
+      "scope": "Trollhättans kommun",
+      "direction": "context",
+      "source": {
+        "title": "Årsredovisning 2025, s. 16",
+        "publisher": "Trollhättans stad",
+        "url": "https://www.trollhattan.se/file/download/?contentRef=127237"
+      },
+      "note_sv": "Cirka-tal i årsredovisningen; inte antal företag.",
+      "confidence": "medium"
+    },
+    {
+      "id": "kommunanstallda",
+      "sdg": [
+        8,
+        16
+      ],
+      "name_sv": "Kommunanställda",
+      "value": 4916,
+      "unit": "personer",
+      "year": 2025,
+      "scope": "Trollhättans kommun",
+      "direction": "context",
+      "source": {
+        "title": "Årsredovisning kortversion 2025",
+        "publisher": "Trollhättans stad",
+        "url": "https://www.trollhattan.se/startsida/kommun-och-politik/kommunfakta/arsredovisning-och-bokslut/arsredovisning-kortversion-2025/"
+      },
+      "note_sv": "Kortversionens personaluppgift.",
+      "confidence": "high"
+    },
+    {
+      "id": "kommun_nettoinvesteringar",
+      "sdg": [
+        9,
+        11
+      ],
+      "name_sv": "Kommunens nettoinvesteringar",
+      "value": 195,
+      "unit": "mnkr",
+      "year": 2025,
+      "scope": "Trollhättans kommun",
+      "direction": "context",
+      "source": {
+        "title": "Årsredovisning kortversion 2025",
+        "publisher": "Trollhättans stad",
+        "url": "https://www.trollhattan.se/startsida/kommun-och-politik/kommunfakta/arsredovisning-och-bokslut/arsredovisning-kortversion-2025/"
+      },
+      "note_sv": "Årets totala nettoinvesteringar.",
+      "confidence": "high"
+    },
+    {
+      "id": "gkn_titan_besparing",
+      "sdg": [
+        9,
+        12,
+        13
+      ],
+      "name_sv": "Rapporterad titanbesparing med additiv teknik",
+      "value": 25,
+      "unit": "ton titan",
+      "year": 2025,
+      "scope": "GKN Aerospace, additiv tillverkning",
+      "direction": "context",
+      "source": {
+        "title": "Impact Report 2025, Teknik som utvecklats på PTC har tagits till serieproduktion",
+        "publisher": "Innovatum Science Park",
+        "url": "https://impactreport.innovatumsciencepark.se/"
+      },
+      "note_sv": "Företagsuppgift för ett år i rapporten. Systemgräns och beräkningsmetod redovisas inte; inte kommunens territoriella utsläpp.",
+      "confidence": "medium"
+    },
+    {
+      "id": "gkn_co2_besparing",
+      "sdg": [
+        9,
+        12,
+        13
+      ],
+      "name_sv": "Rapporterad koldioxidbesparing med additiv teknik",
+      "value": 450,
+      "unit": "ton CO₂",
+      "year": 2025,
+      "scope": "GKN Aerospace, additiv tillverkning",
+      "direction": "context",
+      "source": {
+        "title": "Impact Report 2025, Teknik som utvecklats på PTC har tagits till serieproduktion",
+        "publisher": "Innovatum Science Park",
+        "url": "https://impactreport.innovatumsciencepark.se/"
+      },
+      "note_sv": "Företagsuppgift för ett år i rapporten. Systemgräns och beräkningsmetod redovisas inte; inte kommunens territoriella utsläpp.",
+      "confidence": "medium"
+    }
+  ]
+}

@@ -1,0 +1,31 @@
+# Local environments and secrets
+.venv/
+.env
+node_modules
+__pycache__/
+*.pyc
+.DS_Store
+.claude/settings.local.json
+
+# Generated per machine / per place (rebuild with `python3 sustainable.py build <slug>`)
+cache/
+cities/*
+!cities/trollhattan/
+!cities/README.md
+site/dist/
+site/test-results/
+site/public/city
+site/art/
+*.blend1
+
+# Local launcher runtime and state
+.launcher/
+
+# Build products and local-only files
+cities/trollhattan/build/
+cities/trollhattan/renders/
+cities/trollhattan/horizon-osm/
+cities/trollhattan/*.blend
+.env.*
+!.env.example
+drafts/

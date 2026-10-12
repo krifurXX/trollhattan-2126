@@ -1,0 +1,902 @@
+{
+ "indicators": {
+  "konsumtionsbaserade_utslapp_sverige": {
+   "name": "Consumption-based greenhouse gas emissions per person",
+   "note": "Down about 36% per capita 2008–2023; about 60% comes from household consumption. Considerably higher than the territorial figure of about 4.5 t per inhabitant.",
+   "unit": "t CO2e per person per year"
+  },
+  "forsorjningsformaga_spannmal_sverige": {
+   "name": "Sweden's self-sufficiency, cereals",
+   "note": "The 2023/24 season (weak harvest). Sweden is a net exporter of cereals. The Swedish Board of Agriculture does not report an overall self-sufficiency rate for all food.",
+   "unit": "%"
+  },
+  "forsorjningsformaga_mejeri_sverige": {
+   "name": "Sweden's self-sufficiency, dairy products",
+   "note": "Down from 112% in 1995. Cheese only 39%. Eggs 95% (2023, salmonella outbreak).",
+   "unit": "%"
+  },
+  "forsorjningsformaga_tomat_sverige": {
+   "name": "Sweden's self-sufficiency, fresh tomatoes",
+   "note": "An example of import dependence for fruit and vegetables: apples 29%, cucumbers 48%, strawberries 69%, onions 78%, carrots 97%.",
+   "unit": "%"
+  },
+  "ensamhet_ofta_alltid_sverige": {
+   "name": "Often or always troubled by loneliness",
+   "note": "National Public Health Survey 2024. A further 13% are sometimes troubled by it.",
+   "unit": "%"
+  },
+  "unga_skarmtid_over_3h": {
+   "name": "13–16-year-olds with more than 3 hours of leisure screen time per day",
+   "note": "Computer, mobile phone and tablet on a typical day; 93% among 17–18-year-olds. The Public Health Agency of Sweden recommends no more than 2–3 hours for 13–18-year-olds.",
+   "unit": "%"
+  },
+  "internet_dagligen": {
+   "name": "Use the internet daily",
+   "note": "Population aged 16+. 97% use the internet; almost everyone who does not is a pensioner. 4 in 10 Swedes (aged 8+) use AI tools.",
+   "unit": "%"
+  },
+  "hemberedskap_en_vecka": {
+   "name": "Households prepared at home for at least one week",
+   "note": "Web panel, 2,009 people aged 16+, Dec 2024–Feb 2025. 63% plan to strengthen their preparedness.",
+   "unit": "%"
+  },
+  "dryck_hemma_en_vecka": {
+   "name": "Have drinks/water at home for at least one week",
+   "note": "8,108 responses, December 2025. 61% have food for at least one week – water is the weakest link in household preparedness.",
+   "unit": "%"
+  },
+  "kontant_senaste_kop": {
+   "name": "Paid in cash at their most recent purchase",
+   "note": "10% in 2023 and 40% in 2010. Low cash use increases vulnerability when digital payments are disrupted.",
+   "unit": "%"
+  },
+  "beredskapslager_livsmedel_budget": {
+   "name": "Government funding for emergency stockpiles in the food supply chain",
+   "note": "Part of SEK 1,071 million for food and drinking water preparedness in 2026. Government food stockpiles are now being built up from virtually zero; a new law on emergency stockpiles is proposed to apply from 1 July 2026.",
+   "unit": "SEK million"
+  },
+  "livsmedelsavfall_per_person_sverige": {
+   "name": "Food waste in the retail and consumer stages",
+   "note": "880,000 tonnes in total. Households account for 72%: 16 kg of avoidable food waste + 45 kg of other food waste per person. No reduction since 2020, despite an interim target of −20% by 2025.",
+   "unit": "kg/person/year"
+  },
+  "skyfall_klimatfaktor_2071_2100_rcp85": {
+   "name": "Climate factor for cloudbursts 2071–2100 (RCP8.5 ≈ SSP5-8.5)",
+   "unit": "factor",
+   "note": "Short cloudbursts become about 40% more intense by 2071–2100 with RCP8.5 and about 20% with RCP4.5 (2041–2070: 20% and 15% respectively). Applies to all return periods and the whole country. Svenskt Vatten recommends at least 1.25 for rain shorter than one hour."
+  },
+  "overdodlighet_varmebolja_2018": {
+   "name": "Excess mortality during the heatwave in summer 2018",
+   "unit": "deaths",
+   "note": "About 700 more deaths than normal over the whole summer; SMHI cites 600–745 attributable to the heat. Mainly older people and the chronically ill were affected."
+  },
+  "dodlighetsokning_varme_26c": {
+   "name": "Increase in mortality per day when it is at least 26 °C for three days in a row",
+   "unit": "%",
+   "note": "Mortality rises by about 10% per day at 26 °C or more three days in a row, and by a further 10% at 30 °C. Older people, the chronically ill and small children are most sensitive."
+  },
+  "rvu_bil_andel_sverige": {
+   "name": "Car share of main trips in Sweden",
+   "unit": "%",
+   "note": "Own calculation: 2,053 million car trips out of almost 3.9 billion main trips. Trafikanalys writes \"just over half of all trips\"."
+  },
+  "rvu_kollektiv_andel_sverige": {
+   "name": "Public transport modes' share of main trips in Sweden",
+   "unit": "%",
+   "note": "Own calculation: 708 million of approx. 3,900 million main trips. Increased by 5% from 2023 but is 10% below 2019."
+  },
+  "rvu_gang_andel_sverige": {
+   "name": "Walking's share of main trips in Sweden",
+   "unit": "%",
+   "note": "Own calculation: 499 million of approx. 3,900 million main trips. Walking trips fell by 9% from 2023 and are 20% below 2019."
+  },
+  "rvu_cykel_andel_sverige": {
+   "name": "Cycling's share of main trips in Sweden",
+   "unit": "%",
+   "note": "Own calculation: 480 million of approx. 3,900 million main trips; +12% from 2023. Cycling accounts for only 2.2 of 137 billion kilometres travelled."
+  },
+  "fritidsbatar_elmotor_andel_sverige": {
+   "name": "Motorboats with an electric motor",
+   "unit": "% of motorboats",
+   "note": "Share of motorboats with an electric motor (multiple answers possible): 4% for open motorboats, 2% for cabin boats. 17% still have a banned carburettor two-stroke engine. Measured in energy or traffic work, the electric share is much lower. A national measure: local data is lacking."
+  },
+  "arbetstid_overenskommen": {
+   "name": "Agreed (contractual) mean working hours per week, employed aged 15–74",
+   "unit": "hours/week",
+   "note": "Margin of error ±0.1. Aged 20–64: 38.1 hours. Men 38.2 and women 36.2 hours (aged 15–74). Agreed weekly hours is the measure that best matches the model's \"working time\". Municipal figures are not available in the Labour Force Survey (AKU)."
+  },
+  "arbetstid_faktisk": {
+   "name": "Actual mean hours worked per week, employed aged 15–74",
+   "unit": "hours/week",
+   "note": "Margin of error ±0.2. Average over all weeks of the year, so holiday, sickness and parental leave are counted. The measure therefore cannot be compared with an agreed 40-hour week. Aged 20–64: 30.6; men 31.6, women 27.7. In 2015: 30.1 hours."
+  },
+  "deltid_andel": {
+   "name": "Employed with agreed working hours under 35 hours per week",
+   "unit": "%",
+   "note": "Own calculation: (277.8 + 601.9 thousand with 1–34 hours) / 5,263.0 thousand employed = 16.7%. Women 21.6%, men 12.3%. About 254 thousand lack agreed working hours; if they are excluded, the share becomes 17.6%."
+  },
+  "sex_timmars_arbetsdag_stod": {
+   "name": "Share who think a six-hour working day is a good proposal",
+   "unit": "%",
+   "note": "The national SOM survey 2025: 55% good proposal, 22% neither, 23% bad proposal. Shows how large the support is for a reduction in working time."
+  },
+  "hog_tillit_till_manniskor": {
+   "name": "High interpersonal trust (7–10 on a scale of 0–10)",
+   "unit": "%",
+   "note": "The question reads: \"to what extent can people in general be trusted?\". 31% have medium (4–6) and 12% low (0–3) trust. A different measure from the yes/no question in the Health in Sweden survey (HLV), on which the model's trust is based."
+  },
+  "ideellt_arbete_andel": {
+   "name": "Share who have done voluntary work in the past year, aged 16–84",
+   "unit": "%",
+   "note": "Population study 2024. The share has been stable at 48–53% since 1992, with the most men and middle-aged people. According to SOM 2025, 34% are members of a sports or outdoor association, 40% of a trade union and 14% of a cultural association."
+  },
+  "livsmedelsberedskap_planeringsmal_dagar": {
+   "name": "National planning target: food supply during a security-policy crisis (at least three months)",
+   "unit": "days (minimum)",
+   "note": "Food supply is to be secured \"for at least three months where logistics flows with the outside world are limited\" (90 days = own conversion). On 26 May 2026 the Riksdag adopted an act on emergency stockpiles in the food chain (SFS 2026:837), in force 1 July 2026. The first state grain stores are being built in Norrland during 2026. A target level, not a measured stock."
+  },
+  "internet_icke_anvandare": {
+   "name": "Share of the population aged 16+ who do not use the internet",
+   "unit": "%",
+   "note": "Almost exclusively people of retirement age. 95% use e-ID, in practice mobile BankID, a single critical dependency. Almost one in four has refrained from booking a medical appointment because healthcare e-services are too difficult."
+  },
+  "generativ_ai_anvandning": {
+   "name": "Share aged 16+ who have used generative AI tools",
+   "unit": "%",
+   "note": "25% in 2024. 18% use AI at work. 35% of companies used AI in 2025, and among large companies 72%."
+  },
+  "kommuner_ai_i_alla_delar": {
+   "name": "Municipalities where AI is used to some extent in all parts of the operations",
+   "unit": "% of responding municipalities",
+   "note": "No municipality says that AI permeates the whole municipality. 40% use AI in some parts and 34% only among a few individuals. Barely one in four municipalities has an AI strategy (four in ten among municipalities with at least 50,000 inhabitants), and nearly half have guidelines. 7% have trained all staff. This is not an SKR survey, since none was found."
+  },
+  "ai_forordningen_hogrisk_tillampning": {
+   "name": "Year the EU AI Act starts to apply to stand-alone high-risk systems (Annex III), 2 December",
+   "unit": "year",
+   "note": "The AI Act entered into force on 1 August 2024. Prohibitions and AI literacy have applied since 2 February 2025, GPAI rules since August 2025 and the rest of the regulation since 2 August 2026. The AI Omnibus (in force 27 July 2026) postponed the high-risk requirements to 2 December 2027 (Annex III, including public benefits) and 2 August 2028 (Annex I). Municipalities' AI in the exercise of public authority is mainly affected by Annex III."
+  },
+  "konsumtion_kokvaxter_per_person": {
+   "name": "Consumption of fresh and frozen vegetables per person",
+   "unit": "kg/person/year",
+   "note": "Total consumption, almost doubled since 1980. Direct consumption of fresh vegetables is 45.8 kg and of root vegetables 10.5 kg. Used as the denominator when calculating urban cultivation's share."
+  },
+  "konsumtion_frukt_bar_per_person": {
+   "name": "Consumption of fresh and frozen fruit and berries per person",
+   "unit": "kg/person/year",
+   "note": "Same level as in 1980. Including processed products (juice, jam and so on), consumption of fruit and berries is 82.4 kg per person per year."
+  },
+  "utslapp_per_gastnatt": {
+   "name": "Climate impact per tourist guest night (West Sweden)",
+   "unit": "kg CO2e/guest night",
+   "note": "Life-cycle calculation for tourism in West Sweden: 110 kg CO2e per tourist and 39 kg per guest night, of which travel to and from the destination is 54% and accommodation 23%."
+  },
+  "ecodriving_bransle_besparing": {
+   "name": "Fuel saving from simulator-based eco-driving training (Kalmar Maritime Academy)",
+   "unit": "% (up to)",
+   "note": "Courses for masters of small passenger ferries in the Stockholm archipelago have cut fuel use by up to 13%. Since 2015 more than 400 crew members on the Swedish Transport Administration's road ferries have been trained (1.5 litres less per crossing, a claimed 11,000 tonnes of CO₂ a year), and more than 700 officers in total. The figures are the simulator maker Kongsberg's account of a Linnaeus University report that has not been reviewed here."
+  },
+  "unga_19_24_sverige_prognos_2050": {
+   "name": "Residents aged 19–24 in Sweden in 2050 according to Statistics Sweden's population projection",
+   "unit": "people",
+   "note": "Sum of single-year ages 19–24 (own summation): 740,827 (2026), peaking at 779,316 (2035) and 667,595 (2050), i.e. −14% from the peak and −10% compared with 2026 (own calculations). Higher education's natural recruitment base grows until the mid-2030s and then shrinks, which sharpens competition for students."
+  },
+  "befolkning_total": {
+   "name": "Population of Trollhättan Municipality",
+   "unit": "inhabitants",
+   "note": "Registered residents on 31 December (Statistics Sweden)."
+  },
+  "befolkningstillvaxt_1ar": {
+   "name": "Population change, past year",
+   "unit": "%",
+   "note": "Change in population since the year before (Statistics Sweden). Sweden 0.168%, the county 0.281% (2025)."
+  },
+  "befolkningstillvaxt_5ar": {
+   "name": "Population change, past five years",
+   "unit": "%",
+   "note": "Change in population over the last five years (Statistics Sweden). Sweden 2.2%, the county 2.5% (2025)."
+  },
+  "befolkningstathet": {
+   "name": "Population density",
+   "unit": "inhabitants/km²",
+   "note": "Residents per square kilometre of land (Statistics Sweden). Sweden 25.9 inhabitants/km², the county 74.3 inhabitants/km² (2025)."
+  },
+  "andel_0_19": {
+   "name": "Share of inhabitants aged 0–19",
+   "unit": "%",
+   "note": "Share of the population aged 0–19 (Statistics Sweden). Sweden 22.4%, the county 22.3% (2025)."
+  },
+  "andel_65_plus": {
+   "name": "Share of inhabitants aged 65+",
+   "unit": "%",
+   "note": "Share of the population aged 65 or over (Statistics Sweden). Sweden 21.1%, the county 20.5% (2025)."
+  },
+  "andel_80_plus": {
+   "name": "Share of inhabitants aged 80+",
+   "unit": "%",
+   "note": "Share of the population aged 80 or over (Statistics Sweden). Sweden 6.4%, the county 6.2% (2025)."
+  },
+  "landareal": {
+   "name": "Land area",
+   "unit": "km²",
+   "note": "Land area, water excluded (Statistics Sweden)."
+  },
+  "hushall_antal": {
+   "name": "Number of households",
+   "unit": "households",
+   "note": "Number of households (Statistics Sweden)."
+  },
+  "vaxthusgaser_per_inv": {
+   "name": "Territorial greenhouse gas emissions per inhabitant",
+   "unit": "t CO2e per inhabitant",
+   "note": "Territorial emissions within the municipality (national emissions database, RUS/SMHI) – not consumption-based. Sweden 4.5 t CO2e per inhabitant, the county 5.5 t CO2e per inhabitant (2024)."
+  },
+  "vaxthusgaser_transporter_per_inv": {
+   "name": "Emissions from transport per inhabitant",
+   "unit": "t CO2e per inhabitant",
+   "note": "Domestic transport within the municipality (RUS/SMHI). Sweden 1.6 t CO2e per inhabitant, the county 1.6 t CO2e per inhabitant (2024)."
+  },
+  "vaxthusgaser_jordbruk_per_inv": {
+   "name": "Emissions from agriculture per inhabitant",
+   "unit": "t CO2e per inhabitant",
+   "note": "Farming's emissions: livestock digestion, manure and soils (RUS/SMHI). Sweden 0.585 t CO2e per inhabitant, the county 0.594 t CO2e per inhabitant (2024)."
+  },
+  "vaxthusgaser_el_fjarrvarme_per_inv": {
+   "name": "Emissions from electricity and district heating production per inhabitant",
+   "unit": "t CO2e per inhabitant",
+   "note": "Emissions from the municipality's electricity and district-heating production (RUS/SMHI). Sweden 0.489 t CO2e per inhabitant, the county 0.399 t CO2e per inhabitant (2024)."
+  },
+  "vaxthusgaser_industri_per_inv": {
+   "name": "Emissions from industry per inhabitant",
+   "unit": "t CO2e per inhabitant",
+   "note": "Industry's combustion and process emissions (RUS/SMHI). Sweden 1.2 t CO2e per inhabitant, the county 2.4 t CO2e per inhabitant (2024)."
+  },
+  "elanvandning_per_inv": {
+   "name": "Final electricity use per inhabitant",
+   "unit": "MWh per inhabitant",
+   "note": "All final use of electricity in the municipality, industry included (Swedish Energy Agency/Statistics Sweden). Sweden 11.9 MWh per inhabitant, the county 10.3 MWh per inhabitant (2024)."
+  },
+  "fjarrvarme_fornybar_andel": {
+   "name": "Renewable share of district heating production",
+   "unit": "%",
+   "note": "Share of the municipality's district-heating production from renewable sources (Swedish Energy Agency/Statistics Sweden). Sweden 83.9% (2024)."
+  },
+  "elproduktion_lokal": {
+   "name": "Electricity production within the municipality",
+   "unit": "MWh/year",
+   "note": "All electricity produced within the municipality – hydro, wind, solar and combined heat and power (Swedish Energy Agency/Statistics Sweden)."
+  },
+  "solceller_installerad_effekt": {
+   "name": "Installed solar PV capacity",
+   "unit": "MW",
+   "note": "Grid-connected solar installations, installed capacity (Swedish Energy Agency)."
+  },
+  "vindkraft_installerad_effekt": {
+   "name": "Installed wind power capacity within the municipality",
+   "unit": "MW",
+   "note": "Installed capacity of wind turbines within the municipality (Swedish Energy Agency)."
+  },
+  "elbilar_andel": {
+   "name": "Share of electric cars in the passenger car fleet",
+   "unit": "%",
+   "note": "Electric cars as a share of the cars in use (Transport Analysis). Sweden 8.6%, the county 8.5% (2025)."
+  },
+  "kollektivtrafiknara_lage": {
+   "name": "Population living close to public transport",
+   "unit": "%",
+   "note": "Share with a stop with at least one departure an hour (weekdays 6–20) within 500 m as the crow flies. Sweden 80.9%, the county 82.0% (2024)."
+  },
+  "cykelvag_per_inv": {
+   "name": "Cycle paths per inhabitant",
+   "unit": "metres per inhabitant",
+   "note": "Total length of cycle paths – municipal, state and private – per resident. Sweden 2.7 metres per inhabitant (2025)."
+  },
+  "ekologisk_akermark_andel": {
+   "name": "Organically farmed arable land",
+   "unit": "%",
+   "note": "Share of arable land farmed organically (Swedish Board of Agriculture). Sweden 14.1%, the county 18.7% (2025)."
+  },
+  "grundvatten_god_status": {
+   "name": "Groundwater bodies with good chemical and quantitative status",
+   "unit": "%",
+   "note": "Share of groundwater bodies in good chemical and quantitative status (VISS/county boards). Sweden 97.2%, the county 99.2% (2022)."
+  },
+  "skyddad_natur_total": {
+   "name": "Protected nature, share of total area",
+   "unit": "%",
+   "note": "National parks, nature reserves, nature conservation areas and biotope protection as a share of the total area (Statistics Sweden/Swedish EPA). Sweden 12.1%, the county 7.2% (2025)."
+  },
+  "medellivslangd_man": {
+   "name": "Life expectancy, men",
+   "unit": "years",
+   "note": "Life expectancy at birth, five-year average (Statistics Sweden). Sweden 81.8 years, the county 81.6 years (2025)."
+  },
+  "medellivslangd_kvinnor": {
+   "name": "Life expectancy, women",
+   "unit": "years",
+   "note": "Life expectancy at birth, five-year average (Statistics Sweden). Sweden 85.1 years, the county 85.0 years (2025)."
+  },
+  "sjalvskattad_god_halsa": {
+   "name": "Good self-rated health",
+   "unit": "%",
+   "note": "Share aged 16–84 who rate their health good or very good (Public Health Agency's national survey, several years pooled). Sweden 71.0%, the county 71.0% (2024)."
+  },
+  "fetma": {
+   "name": "Obesity (BMI ≥ 30)",
+   "unit": "%",
+   "note": "Share aged 16–84 with a BMI of 30 or more (national public health survey, several years pooled). Sweden 17.3%, the county 16.4% (2024)."
+  },
+  "fysiskt_aktiva": {
+   "name": "Physically active at least 150 min/week",
+   "unit": "%",
+   "note": "Share aged 16–84 physically active at least 150 minutes a week (national public health survey). Sweden 66.1%, the county 64.4% (2024)."
+  },
+  "allvarlig_psykisk_pafrestning": {
+   "name": "Serious psychological distress (adults 16–84)",
+   "unit": "%",
+   "note": "Share aged 16–84 with serious psychological distress on the Kessler 6 scale (national public health survey). Sweden 10.0%, the county 9.8% (2024)."
+  },
+  "psykisk_ohalsa_barn_unga": {
+   "name": "Mental ill health among children and young people aged 0–19",
+   "unit": "%",
+   "note": "Share aged 0–19 with a psychiatric diagnosis, psychotropic drugs or psychiatric care during the year (National Board of Health and Welfare). Sweden 10.0% (2024)."
+  },
+  "avsaknad_emotionellt_stod": {
+   "name": "Lack of emotional support (proxy for loneliness)",
+   "unit": "%",
+   "note": "Share aged 16–84 lacking emotional support – a measure close to loneliness (national public health survey). Sweden 13.3%, the county 14.2% (2024)."
+  },
+  "gymnasieexamen_4ar": {
+   "name": "Upper secondary diploma within 4 years",
+   "unit": "%",
+   "note": "Upper-secondary pupils registered in the municipality who graduate within four years, introductory programmes included (National Agency for Education). Sweden 74.8% (2025)."
+  },
+  "eftergymnasial_utbildning_25_64": {
+   "name": "Post-secondary education, ages 25–64",
+   "unit": "%",
+   "note": "Share aged 25–64 with post-secondary education (Statistics Sweden). Sweden 48.5%, the county 49.1% (2025)."
+  },
+  "arbetsloshet_20_64": {
+   "name": "Unemployment, ages 20–64 (BAS)",
+   "unit": "%",
+   "note": "Register-based unemployment aged 20–64 in November (Statistics Sweden). Sweden 5.4%, the county 5.0% (2024)."
+  },
+  "unga_varken_arbetar_studerar": {
+   "name": "Young people aged 16–24 who are neither working nor studying",
+   "unit": "%",
+   "note": "Share aged 16–24 neither working nor studying (Statistics Sweden). Sweden 6.2%, the county 5.9% (2024)."
+  },
+  "medianinkomst_20_64": {
+   "name": "Median income (total earned income), ages 20–64",
+   "unit": "SEK/year",
+   "note": "Total earned income aged 20–64, median (Statistics Sweden). Sweden 401,400 SEK/year, the county 404,900 SEK/year (2024)."
+  },
+  "gini_disponibel_inkomst": {
+   "name": "Gini coefficient, disposable income",
+   "unit": "index 0–1",
+   "note": "Gini coefficient of households' disposable income; 0 is complete equality (Statistics Sweden). Sweden 0.314, the county 0.296 (2024)."
+  },
+  "barn_lag_ekonomisk_standard": {
+   "name": "Children and young people aged 0–19 with a low economic standard",
+   "unit": "%",
+   "note": "Share aged 0–19 in households below 60% of the median economic standard (Statistics Sweden). Sweden 17.0%, the county 17.0% (2024)."
+  },
+  "nystartade_foretag_per_1000": {
+   "name": "New businesses per 1,000 inhabitants aged 16–64",
+   "unit": "number per 1,000",
+   "note": "New firms per 1,000 residents aged 16–64 (Growth Analysis). Sweden 11.5 number per 1,000, the county 11.3 number per 1,000 (2025)."
+  },
+  "trangboddhet_norm2": {
+   "name": "Overcrowding in multi-dwelling buildings (norm 2)",
+   "unit": "%",
+   "note": "Share living in blocks of flats with more than two people per room, kitchen and living room not counted (Statistics Sweden). Sweden 15.1%, the county 15.2% (2025)."
+  },
+  "fardigstallda_bostader_per_1000": {
+   "name": "Completed dwellings per 1,000 inhabitants",
+   "unit": "dwellings per 1,000 inhabitants",
+   "note": "Dwellings completed by new building and conversion per 1,000 residents (Statistics Sweden). Sweden 3.1 dwellings per 1,000 inhabitants, the county 2.6 dwellings per 1,000 inhabitants (2025)."
+  },
+  "kvinnor_kommunfullmaktige": {
+   "name": "Share of women on the Municipal Council",
+   "unit": "%",
+   "note": "Share of women among the municipal council's members this term (Statistics Sweden). Sweden 43.0% (2025)."
+  },
+  "avsaknad_tillit": {
+   "name": "Lack of trust in others",
+   "unit": "%",
+   "note": "Share aged 16–84 answering no to whether most people can be trusted (national public health survey). Sweden 29.6%, the county 28.2% (2024)."
+  },
+  "otrygghet_kvall": {
+   "name": "Feel unsafe outdoors late in the evening in their own neighbourhood",
+   "unit": "%",
+   "note": "Share who feel unsafe, or stay in, late at night in their own neighbourhood (Swedish Crime Survey); uncertain at municipal level. Sweden 25.0%, the county 25.6% (2025)."
+  },
+  "bredband_100mbit": {
+   "name": "Access to fixed broadband ≥ 100 Mbit/s",
+   "unit": "% of households",
+   "note": "Households with fixed broadband of at least 100 Mbit/s, or the immediate possibility, on 1 October (Post and Telecom Authority). Sweden 100% of households, the county 99.7% of households (2025)."
+  },
+  "kommunalt_avfall_kg_per_inv": {
+   "name": "Municipal waste collected per inhabitant",
+   "unit": "kg per inhabitant",
+   "note": "Municipal waste collected per resident, adjusted for holiday homes, tourism and commuting (Avfall Sverige). Sweden 424 kg per inhabitant, the county 436 kg per inhabitant (2025)."
+  },
+  "materialatervinning_andel": {
+   "name": "Municipal waste sent to material recycling, incl. biological treatment",
+   "unit": "%",
+   "note": "Share of municipal waste collected for material recycling, biological treatment included (Avfall Sverige). The EU targets are 55% in 2025 and 65% in 2035. Sweden 40.0%, the county 39.3% (2025)."
+  },
+  "medborgare_nojda_dricksvattenarbete": {
+   "name": "Inhabitants who consider the municipality's work to secure drinking water to be good",
+   "unit": "%",
+   "note": "Share who think the municipality's work to secure drinking water is good (Statistics Sweden's citizen survey). Sweden 88.9%, the county 91.1% (2025)."
+  },
+  "vattenforekomster_god_status": {
+   "name": "Water bodies (all types) with good status",
+   "unit": "%",
+   "note": "Share of the municipality's water bodies – lakes, rivers, coast and groundwater – in good status (VISS). Sweden 48.5%, the county 33.3% (2022)."
+  },
+  "medelavstand_skyddad_natur": {
+   "name": "Average distance to protected nature",
+   "unit": "km",
+   "note": "Residents' average distance to the nearest protected nature area (Statistics Sweden). Sweden 2.0 km, the county 2.1 km (2025)."
+  },
+  "inpendling_antal": {
+   "name": "In-commuters to Trollhättan Municipality",
+   "unit": "people",
+   "note": "Employed people who work in the municipality but live in another (Statistics Sweden)."
+  },
+  "utpendling_antal": {
+   "name": "Out-commuters from Trollhättan Municipality",
+   "unit": "people",
+   "note": "Employed residents who work in another municipality (Statistics Sweden)."
+  },
+  "korstracka_personbil_per_inv": {
+   "name": "Distance driven by passenger car per inhabitant",
+   "unit": "mil/inhabitant/year (1 mil = 10 km)",
+   "note": "Average distance driven by cars registered in the municipality, per resident (Transport Analysis). Sweden 625 mil/inhabitant/year, the county 619 mil/inhabitant/year (2024)."
+  },
+  "fossiloberoende_personbilar_andel": {
+   "name": "Fossil-independent passenger cars, share of the fleet",
+   "unit": "%",
+   "note": "Electric, plug-in hybrid, gas, ethanol and other cars as a share of the cars in use (Transport Analysis). Sweden 26.0%, the county 25.4% (2025)."
+  },
+  "laddpunkter_publika_antal": {
+   "name": "Public charging points for electric cars",
+   "unit": "charging points",
+   "note": "Public charging points for electric cars in the municipality."
+  },
+  "vaxthusgaser_transporter_ton": {
+   "name": "Greenhouse gas emissions from transport, total",
+   "unit": "tonnes CO2e",
+   "note": "Domestic transport emissions within the municipality, total (RUS/SMHI)."
+  },
+  "elproduktion_kraftvarme": {
+   "name": "Electricity production from combined heat and power",
+   "unit": "MWh/year",
+   "note": "Electricity from combined heat and power and industrial back-pressure within the municipality (Swedish Energy Agency/Statistics Sweden)."
+  },
+  "elproduktion_vindkraft": {
+   "name": "Electricity production from wind power within the municipality",
+   "unit": "MWh/year",
+   "note": "Electricity from wind turbines within the municipality (Swedish Energy Agency/Statistics Sweden)."
+  },
+  "elproduktion_sol": {
+   "name": "Electricity production from solar power within the municipality",
+   "unit": "MWh/year",
+   "note": "Electricity from solar within the municipality (Swedish Energy Agency/Statistics Sweden)."
+  },
+  "bostadsmarknadslage_bme": {
+   "name": "Municipality's assessment of the housing market (0 = shortage, 1 = balance, 2 = surplus)",
+   "unit": "index 0–2",
+   "note": "The municipality's own assessment in the National Board of Housing's survey: 0 shortage, 1 balance, 2 surplus."
+  },
+  "bostadsmarknadslage_ungdomar_bme": {
+   "name": "Municipality's assessment of the housing market for young people aged 19–25 (0 = shortage)",
+   "unit": "index 0–2",
+   "note": "The municipality's own assessment for 19–25-year-olds in the National Board of Housing's survey: 0 shortage, 1 balance, 2 surplus."
+  },
+  "sysselsatta_arbetsstalle_kommun": {
+   "name": "Employed with a workplace in Trollhättan Municipality",
+   "unit": "people",
+   "note": "Employed people with their workplace in the municipality, wherever they live (Statistics Sweden)."
+  },
+  "kommunen_tillsvidareanstallda": {
+   "name": "Permanently employed, monthly-paid staff in Trollhättan Municipality",
+   "unit": "people",
+   "note": "The municipality's permanent monthly-paid staff – people, not full-time equivalents (SKR)."
+  },
+  "trygg_i_skolan_ak8": {
+   "name": "Year 8 pupils who feel safe at school",
+   "unit": "%",
+   "note": "Share of year-8 pupils who feel safe at school entirely or to a great extent."
+  },
+  "individuellt_valbefinnande_index": {
+   "name": "Individual well-being, municipal index (0–100)",
+   "unit": "index 0–100",
+   "note": "The Agency for Economic and Regional Growth's index of self-rated health, dental health and mental wellbeing, normalised across Sweden's municipalities (0–100). Sweden 55.2 (2025)."
+  },
+  "gott_psykiskt_valbefinnande": {
+   "name": "Inhabitants aged 16–84 with good mental well-being",
+   "unit": "%",
+   "note": "Share aged 16–84 with good mental wellbeing (national public health survey, several years pooled). Sweden 84.9%, the county 85.3% (2024)."
+  },
+  "demografisk_forsorjningskvot": {
+   "name": "Demographic dependency ratio ((0–19 + 65+) / 20–64 years)",
+   "unit": "ratio",
+   "note": "People aged 0–19 and 65+ per person aged 20–64 (Statistics Sweden): how many each person of working age supports. Sweden 0.770, the county 0.749 (2025)."
+  },
+  "ekologiska_livsmedel_kommunen": {
+   "name": "Organic food in the municipality's operations",
+   "unit": "%",
+   "note": "Organic food as a share of the municipality's food purchases by value (KRAV, Demeter, EU organic or MSC); contracted catering not included."
+  },
+  "hojum_effekt": {
+   "name": "Hojum installed electrical capacity",
+   "unit": "MW",
+   "note": "Plant specification checked in 2026; not annual production or municipally available capacity."
+  },
+  "hojum_fallhojd": {
+   "name": "Hojum head",
+   "unit": "m",
+   "note": "Hydraulic head, not a water level in RH 2000."
+  },
+  "hojum_vattenforing": {
+   "name": "Hojum specified discharge",
+   "unit": "m³/s",
+   "note": "Plant specification, not observed annual mean river flow."
+  },
+  "olidan_effekt": {
+   "name": "Olidan installed electrical capacity",
+   "unit": "MW",
+   "note": "Vattenfall plant specification checked in 2026."
+  },
+  "olidan_vattenforing": {
+   "name": "Olidan specified discharge",
+   "unit": "m³/s",
+   "note": "No conversion to annual generation has been made."
+  },
+  "olidan_driftstart": {
+   "name": "First electricity supply from Olidan",
+   "unit": "year",
+   "note": "Electricity was supplied to industry and railways."
+  },
+  "fjarrvarme_trabransle": {
+   "name": "Wood fuel share of district heat",
+   "unit": "%",
+   "note": "2025 production mix."
+  },
+  "fjarrvarme_spillvarme": {
+   "name": "Waste heat share of district heat",
+   "unit": "%",
+   "note": "2025 production mix; denominator differs from energy input."
+  },
+  "fjarrvarme_spillvarme_mwh": {
+   "name": "Waste heat used in district heating",
+   "unit": "MWh",
+   "note": "Reported energy in 2025."
+  },
+  "fjarrvarme_fossilt": {
+   "name": "Fossil share of district heat",
+   "unit": "%",
+   "note": "Rounded production share; not zero."
+  },
+  "fjarrvarme_klimatintensitet": {
+   "name": "Emissions intensity of supplied district heat",
+   "unit": "kg CO2e/MWh",
+   "note": "Reported utility value; fossil-free does not mean zero life-cycle emissions."
+  },
+  "lan_temperatur_referens": {
+   "name": "Historical county mean annual temperature",
+   "unit": "°C",
+   "note": "County mean, not a local weather station."
+  },
+  "lan_temperaturokning_rcp45": {
+   "name": "County warming under RCP4.5",
+   "unit": "°C",
+   "note": "Approximately 3 degrees against 1961–1990. A 2015 scenario, not a 2126 forecast."
+  },
+  "lan_temperaturokning_rcp85": {
+   "name": "County warming under RCP8.5",
+   "unit": "°C",
+   "note": "Approximately 5 degrees against 1961–1990. Regional scenario, not a municipal temperature measurement."
+  },
+  "vattenverk_planerad_drift": {
+   "name": "Planned commissioning of new waterworks",
+   "unit": "year",
+   "note": "Planned around 2030, not guaranteed completion. Lake Vänern becomes the new raw water source."
+  },
+  "vattenverk_byggstart": {
+   "name": "Construction start of new waterworks",
+   "unit": "year",
+   "note": "Construction began in November 2024."
+  },
+  "kanal_langd": {
+   "name": "Length of Trollhätte Canal",
+   "unit": "km",
+   "note": "The entire fairway, not only the municipal section."
+  },
+  "kanal_nivaskillnad": {
+   "name": "Total canal level difference",
+   "unit": "m",
+   "note": "Lake Vänern to the sea; not sea level at central Trollhättan."
+  },
+  "slussar_trollhattan": {
+   "name": "Locks in the present Trollhättan section",
+   "unit": "locks",
+   "note": "Four of the canal’s six locks."
+  },
+  "kanal_farledsdjup": {
+   "name": "Specified minimum fairway depth",
+   "unit": "m",
+   "note": "Fairway depth, not maximum permitted vessel draught."
+  },
+  "slussar_planerad_drift": {
+   "name": "Planned commissioning of new locks",
+   "unit": "year",
+   "note": "June 2026 schedule: around 2034. Earlier 2030 dates are not the current plan."
+  },
+  "klimatmal_geografiskt": {
+   "name": "Target reduction in territorial CO2 emissions",
+   "unit": "%",
+   "note": "Policy target: reduction from 2022 to 2030, not an observed outcome."
+  },
+  "klimatmal_konsumtion": {
+   "name": "Target per-capita consumption emissions",
+   "unit": "ton CO2e/person",
+   "note": "Consumption target; separate from territorial emissions."
+  },
+  "klimatmal_nettonoll": {
+   "name": "Net-zero target year",
+   "unit": "year",
+   "note": "By 2045 according to the municipal long-term target."
+  },
+  "alvrummet_reservat_ha": {
+   "name": "Approximate area of Älvrummet Nature Reserve",
+   "unit": "hectares",
+   "note": "The municipal visitor page states approximately 61 hectares, not the entire river landscape."
+  },
+  "ryrbacken_reservat_ha": {
+   "name": "Approximate area of Ryrbäcken Nature Reserve",
+   "unit": "hectares",
+   "note": "Approximately 43 hectares according to the municipality; south of the central model tile."
+  },
+  "varvik_planerade_bostader": {
+   "name": "Planned homes in Vårvik",
+   "unit": "homes",
+   "note": "Approximately 1,600 homes in the 2026 consultation. A planning figure, not completed homes or a population forecast."
+  },
+  "stridsberg_planerade_bostader": {
+   "name": "Planned apartments in Stridsberg",
+   "unit": "apartments",
+   "note": "Approximately 1,000 apartments within Vårvik. Included in the total of 1,600; do not add the figures."
+  },
+  "stridsberg_planomrade_ha": {
+   "name": "Stridsberg planning area",
+   "unit": "hectares",
+   "note": "The planning area covers approximately 10 hectares and retained industrial buildings."
+  },
+  "alvrummet_planerat_intrang_ha": {
+   "name": "Planned forest clearance in Älvrummet",
+   "unit": "hectares",
+   "note": "The September 2025 proposal involves about 5 hectares. This is proposed impact, not verified completed clearance."
+  },
+  "skalsbo_kompensationsskog_ha": {
+   "name": "Forest proposed for compensation measures",
+   "unit": "hectares",
+   "note": "Approximately 26 hectares of forest. The final reserve may be larger; habitats are not automatically interchangeable hectare for hectare."
+  },
+  "krontackning_riktvarde": {
+   "name": "Tree canopy planning benchmark",
+   "unit": "%",
+   "note": "The planning document gives a 30% neighbourhood canopy benchmark, not measured canopy across the city centre."
+  },
+  "synliga_trad_riktvarde": {
+   "name": "Visible-tree planning benchmark",
+   "unit": "trees",
+   "note": "The benchmark is three visible trees from home, school or workplace; an ambition, not a measured baseline."
+  },
+  "hallbarhetsstrategi_teman": {
+   "name": "Themes in the sustainability strategy",
+   "unit": "themes",
+   "note": "The strategy was adopted in 2025 and has eleven themes. The count does not measure achievement."
+  },
+  "centrum_strategiska_vagval": {
+   "name": "Strategic directions for the city centre",
+   "unit": "directions",
+   "note": "Climate neutrality, a digital centre, a visual and flexible city, and a young city."
+  },
+  "forsta_slussled_ar": {
+   "name": "Opening year of the first completed lock route",
+   "unit": "year",
+   "note": "Historical anchor for industry, trade and urban development."
+  },
+  "andra_slussled_ar": {
+   "name": "Opening year of the second lock route",
+   "unit": "year",
+   "note": "The second route opened in 1844 after six years of construction."
+  },
+  "nuvarande_slussled_ar": {
+   "name": "Opening year of the 1916 lock route",
+   "unit": "year",
+   "note": "A historical date, not a statement of current technical capacity."
+  },
+  "stadsrattigheter_ar": {
+   "name": "Year of city status",
+   "unit": "year",
+   "note": "City status was instituted in 1916."
+  },
+  "slussomrade_byggnadsminne_ar": {
+   "name": "Year of state heritage designation",
+   "unit": "year",
+   "note": "The designation covers an ensemble of buildings, locks, bridges and installations."
+  },
+  "befolkning_prognos_2026": {
+   "name": "Population projection 2026",
+   "unit": "people",
+   "note": "Municipal projection, not an observation."
+  },
+  "befolkning_prognos_2030": {
+   "name": "Population projection 2030",
+   "unit": "people",
+   "note": "Municipal projection, not an observation."
+  },
+  "befolkning_prognos_2035": {
+   "name": "Population projection 2035",
+   "unit": "people",
+   "note": "Municipal projection, not an observation."
+  },
+  "aldre_80_2035": {
+   "name": "Projected population aged 80–100 in 2035",
+   "unit": "people",
+   "note": "Age group in the projection."
+  },
+  "aldre_65_79_2035": {
+   "name": "Projected population aged 65–79 in 2035",
+   "unit": "people",
+   "note": "Age group in the projection."
+  },
+  "skolbarn_6_12_2035": {
+   "name": "Projected population aged 6–12 in 2035",
+   "unit": "people",
+   "note": "Age group in the projection."
+  },
+  "befolkning_prognos_tillvaxt": {
+   "name": "Calculated annual population growth 2025–2035",
+   "unit": "% per year",
+   "note": "Own calculation: ((62,430 / 59,265)^(1/10) − 1) × 100. Not a forecast to 2126."
+  },
+  "hv_helarsstudenter": {
+   "name": "University West full-time equivalent students",
+   "unit": "full-time equivalent students",
+   "note": "Whole university, including distance education."
+  },
+  "hv_anstallda": {
+   "name": "University West employees",
+   "unit": "people",
+   "note": "Average headcount reported in the summary."
+  },
+  "hv_forskning_omsattning": {
+   "name": "University West research turnover",
+   "unit": "SEK million",
+   "note": "Rounded figure."
+  },
+  "hv_avancerad_helarsstudenter": {
+   "name": "Second-cycle full-time equivalent students",
+   "unit": "full-time equivalent students",
+   "note": "Including fee-paying students."
+  },
+  "hv_prestationsgrad": {
+   "name": "University West performance ratio",
+   "unit": "%",
+   "note": "Completed credits relative to registered study volume; not graduation rate."
+  },
+  "gkn_additiv_investering": {
+   "name": "Announced additive manufacturing investment",
+   "unit": "SEK million",
+   "note": "Announced in 2024, not verified expenditure."
+  },
+  "gkn_industriklivet_stod": {
+   "name": "Industriklivet support for GKN project",
+   "unit": "SEK million",
+   "note": "Part of the investment."
+  },
+  "gkn_additiv_jobbtillskott": {
+   "name": "GKN projected additional jobs",
+   "unit": "jobs",
+   "note": "Company projection, not observed employment."
+  },
+  "gkn_materialpotential": {
+   "name": "Stated maximum raw material reduction",
+   "unit": "%",
+   "note": "Up to 80 percent according to the company. Not a municipal emissions factor."
+  },
+  "arbetstillfallen_lokalt": {
+   "name": "Jobs in Trollhättan",
+   "unit": "jobs",
+   "note": "Approximate annual-report figure; underlying statistical year unspecified."
+  },
+  "arbetsstallen_lokalt": {
+   "name": "Workplaces in Trollhättan",
+   "unit": "workplaces",
+   "note": "Approximate annual-report figure; not number of enterprises."
+  },
+  "kommunanstallda": {
+   "name": "Municipal employees",
+   "unit": "people",
+   "note": "Staff figure from the summary."
+  },
+  "kommun_nettoinvesteringar": {
+   "name": "Municipal net investments",
+   "unit": "SEK million",
+   "note": "Total net investment during the year."
+  },
+  "gkn_titan_besparing": {
+   "name": "Reported titanium savings from additive technology",
+   "unit": "tonnes titanium",
+   "note": "Company-reported annual saving. Boundary and method unspecified; not municipal territorial emissions."
+  },
+  "gkn_co2_besparing": {
+   "name": "Reported carbon dioxide savings from additive technology",
+   "unit": "tonnes CO₂",
+   "note": "Company-reported annual saving. Boundary and method unspecified; not municipal territorial emissions."
+  }
+ },
+ "challenges": {
+  "mark": {
+   "title": "Homes and room for greenery",
+   "text": "New homes and green spaces need to coexist. Vårvik shows how former industrial land can be reused, while mature trees and connected habitats need room of their own."
+  },
+  "sluss": {
+   "title": "Locks and habitat value",
+   "text": "The new lock route creates a conflict between navigation and existing habitats. The proposed compensation in Skälsbo needs to be followed as a separate commitment."
+  },
+  "centrum": {
+   "title": "A centre for everyday life",
+   "text": "The centre needs to be accessible, safe and useful for everyday needs. The municipal strategy connects this with commerce, social life and climate neutrality."
+  },
+  "jamlikhet": {
+   "title": "Equal living conditions",
+   "text": "The sustainability strategy addresses childhood conditions, financial security and health. The future model therefore needs to consider who benefits from improvements."
+  },
+  "gront": {
+   "title": "Trees need time and space",
+   "text": "Green planning benchmarks require space for expanding tree crowns. New planting does not immediately replace the shade and habitats of mature trees."
+  },
+  "arv": {
+   "title": "Change in a historic river city",
+   "text": "Bridges, locks and industrial sites give the city its context. Renovation and new uses need to retain these values."
+  }
+ },
+ "assets": {
+  "alven": {
+   "title": "The river landscape close to the centre",
+   "text": "Älvrummet brings nature, walking and industrial history close to the centre. Its slopes and woodland support people and biodiversity."
+  },
+  "omvandling": {
+   "title": "The transformation of Vårvik",
+   "text": "Vårvik provides experience in reusing industrial land and preserving buildings while adding homes and services."
+  },
+  "ingenjorsarv": {
+   "title": "Engineering across generations",
+   "text": "The lock routes of 1800, 1844 and 1916 show how technology and cooperation shaped Trollhättan. They provide a tangible background to future change."
+  },
+  "vardagsrum": {
+   "title": "Places to meet in the centre",
+   "text": "The centre strategy combines commerce, recreation and social life. Squares, the library and walking routes can connect these functions."
+  },
+  "riktning": {
+   "title": "A shared sustainability direction",
+   "text": "The 2025 strategy gives the municipality and its companies a shared direction. It needs to be translated into trackable measures and priorities."
+  },
+  "gronstrak": {
+   "title": "Connected green corridors",
+   "text": "Älvrummet and Ryrbäcken provide woodland and ravine habitats near the city. They form a basis for careful conservation and accessible outdoor recreation."
+  }
+ },
+ "kommun_vision": [
+  {
+   "title": "A proud and innovative city with room for the future",
+   "text": "The municipal vision emphasizes courage, new ideas, participation and action. The 2025 sustainability strategy provides a shared direction across eleven themes. The model’s century-long perspective is an independent scenario exercise."
+  }
+ ]
+}

@@ -1,0 +1,279 @@
+{
+  "kommun": {
+    "name": "Trollhättans kommun",
+    "notes_sv": "Trollhättan är en älv- och industristad i Västra Götaland. Modellen visar en centrumruta på 1,6 kilometer, medan forskning och kommunala åtgärder kan gälla hela kommunen. Framtiden 2026–2126 är en utforskande modell, inte kommunens beslutade plan."
+  },
+  "kommun_vision": [
+    {
+      "title_sv": "En stolt och innovativ stad med plats för framtiden",
+      "owner": "Trollhättans Stad",
+      "text_sv": "Stadens vision betonar mod, nytänkande, delaktighet och handlingskraft. Hållbarhetsstrategin från 2025 sätter en gemensam riktning inom elva teman. Modellens hundraårsperspektiv är ett eget scenarioarbete.",
+      "sources": [
+        {
+          "title": "Innovation på SBF",
+          "url": "https://www.trollhattan.se/innovation/"
+        },
+        {
+          "title": "Hållbar utveckling",
+          "url": "https://www.trollhattan.se/startsida/kommun-och-politik/hallbar-utveckling/"
+        }
+      ]
+    }
+  ],
+  "challenges": [
+    {
+      "id": "mark",
+      "title_sv": "Förtätning med plats för grönska",
+      "text_sv": "Nya bostäder och stadens gröna miljöer behöver rymmas tillsammans. Vårvik visar hur tidigare industrimark kan omvandlas, medan stora träd och sammanhängande natur kräver egna utrymmen.",
+      "sdg": [
+        11,
+        15
+      ],
+      "sources": [
+        {
+          "title": "Stridsbergsområdet, Vårvik – samråd 2026",
+          "url": "https://www.trollhattan.se/startsida/bygga-bo-och-miljo/kommunens-planarbete/detaljplaner/planer-under-arbete/stridsbergsomradet-varvik/"
+        },
+        {
+          "title": "Älvrummet",
+          "url": "https://www.trollhattan.se/startsida/bygga-bo-och-miljo/natur-och-parker/naturomraden-naturreservat/sidlistning-naturparlor/alvrummet/"
+        }
+      ]
+    },
+    {
+      "id": "sluss",
+      "title_sv": "Slussar och naturvärden",
+      "text_sv": "Den nya slussleden innebär en konflikt mellan farledens funktion och befintliga naturvärden. Trafikverkets kompensationsförslag för Skälsbo bör följas som ett eget åtagande.",
+      "sdg": [
+        9,
+        15
+      ],
+      "sources": [
+        {
+          "title": "Nytt naturreservat i Skälsbo ska kompensera för Älvrummet",
+          "url": "https://www.trafikverket.se/vara-projekt/projekt-i-vastra-gotalands-lan/slussar-i-trollhatte-kanal/nyheter-for-projekt-nya-slussar-i-trollhatte-kanal/2025/nytt-naturreservat-i-skalsbo-ska-kompensera-for-alvrummet/"
+        }
+      ]
+    },
+    {
+      "id": "centrum",
+      "title_sv": "En stadskärna som används varje dag",
+      "text_sv": "Centrum behöver vara tillgängligt, tryggt och användbart för fler vardagsärenden. Stadens omstartsstrategi kopplar detta till handel, möten och klimatneutralitet.",
+      "sdg": [
+        8,
+        11
+      ],
+      "sources": [
+        {
+          "title": "Omstartsstrategi stadskärnan",
+          "url": "https://www.trollhattan.se/startsida/plats-for-framtiden/pagaende-projekt/stadskarnan/omstart-stadskarnan/omstart-stadskarnan/?vv_hit=true"
+        }
+      ]
+    },
+    {
+      "id": "jamlikhet",
+      "title_sv": "Jämlika livsvillkor",
+      "text_sv": "Stadens hållbarhetsstrategi lyfter uppväxtvillkor, ekonomisk trygghet och hälsa. Framtidsmodellen behöver därför följa vilka invånare som får del av förbättringarna.",
+      "sdg": [
+        3,
+        10
+      ],
+      "sources": [
+        {
+          "title": "Hållbar utveckling",
+          "url": "https://www.trollhattan.se/startsida/kommun-och-politik/hallbar-utveckling/"
+        }
+      ]
+    },
+    {
+      "id": "gront",
+      "title_sv": "Träd behöver tid och utrymme",
+      "text_sv": "Grönplaneringens riktvärden kräver utrymme för växande trädkronor. Nyplantering ersätter inte omedelbart ett uppvuxet träds skugga och livsmiljöer.",
+      "sdg": [
+        3,
+        11,
+        15
+      ],
+      "sources": [
+        {
+          "title": "Ekosystemtjänstanalys Kopparholmen 8",
+          "url": "https://www.trollhattan.se/globalassets/dokument/bygga-bo-och-miljo/stadsbyggnad/detaljplaner/kopparholmen-8/ekosystemtjanstanalys.pdf"
+        }
+      ]
+    },
+    {
+      "id": "arv",
+      "title_sv": "Förändring i en historisk älvstad",
+      "text_sv": "Broar, slussar och industrimiljöer ger staden dess sammanhang. Ombyggnad och nya användningar behöver ta vara på dessa värden.",
+      "sdg": [
+        9,
+        11
+      ],
+      "sources": [
+        {
+          "title": "Trollhättans kanal och slussområde",
+          "url": "https://www.trollhattan.se/startsida/bygga-bo-och-miljo/bygga-nytt-andra-eller-riva/kulturhistoriska-byggnader-och-omraden/byggnadsminnen/trollhattans-kanal-och-slussomrade/"
+        }
+      ]
+    }
+  ],
+  "assets": [
+    {
+      "id": "alven",
+      "title_sv": "Älvrummet nära centrum",
+      "text_sv": "Älvrummet förenar natur, promenader och industrihistoria nära centrum. Dess branter och skogsmiljöer är en resurs för både människor och biologisk mångfald.",
+      "sdg": [
+        3,
+        11,
+        15
+      ],
+      "sources": [
+        {
+          "title": "Älvrummet",
+          "url": "https://www.trollhattan.se/startsida/bygga-bo-och-miljo/natur-och-parker/naturomraden-naturreservat/sidlistning-naturparlor/alvrummet/"
+        }
+      ]
+    },
+    {
+      "id": "omvandling",
+      "title_sv": "Vårviks omvandling",
+      "text_sv": "Vårvik ger erfarenheter av att återanvända industrimark och bevara byggnader samtidigt som bostäder och service tillkommer.",
+      "sdg": [
+        9,
+        11
+      ],
+      "sources": [
+        {
+          "title": "Stridsbergsområdet, Vårvik – samråd 2026",
+          "url": "https://www.trollhattan.se/startsida/bygga-bo-och-miljo/kommunens-planarbete/detaljplaner/planer-under-arbete/stridsbergsomradet-varvik/"
+        }
+      ]
+    },
+    {
+      "id": "ingenjorsarv",
+      "title_sv": "Ingenjörskonst genom generationer",
+      "text_sv": "Slusslederna från 1800, 1844 och 1916 visar hur teknik och samarbete har format Trollhättan. De ger en konkret bakgrund till framtidens omställning.",
+      "sdg": [
+        4,
+        9,
+        11
+      ],
+      "sources": [
+        {
+          "title": "Trollhättans historia",
+          "url": "https://www.trollhattan.se/startsida/kommun-och-politik/kommunfakta/trollhattans-historia/"
+        }
+      ]
+    },
+    {
+      "id": "vardagsrum",
+      "title_sv": "Stadskärnans mötesplatser",
+      "text_sv": "Centrumstrategin utgår från en stadskärna för handel, rekreation och socialt umgänge. Torg, bibliotek och gångstråk kan knyta samman dessa funktioner.",
+      "sdg": [
+        3,
+        11
+      ],
+      "sources": [
+        {
+          "title": "Omstartsstrategi stadskärnan",
+          "url": "https://www.trollhattan.se/startsida/plats-for-framtiden/pagaende-projekt/stadskarnan/omstart-stadskarnan/omstart-stadskarnan/?vv_hit=true"
+        }
+      ]
+    },
+    {
+      "id": "riktning",
+      "title_sv": "En gemensam hållbarhetsriktning",
+      "text_sv": "Hållbarhetsstrategin från 2025 ger kommunen och dess bolag en gemensam riktning. Den behöver omsättas i följbara åtgärder och prioriteringar.",
+      "sdg": [
+        11,
+        16,
+        17
+      ],
+      "sources": [
+        {
+          "title": "Hållbar utveckling",
+          "url": "https://www.trollhattan.se/startsida/kommun-och-politik/hallbar-utveckling/"
+        }
+      ]
+    },
+    {
+      "id": "gronstrak",
+      "title_sv": "Sammanhängande naturstråk",
+      "text_sv": "Älvrummet och Ryrbäcken ger tillgång till skogs- och ravinmiljöer nära staden. Stråken är utgångspunkter för varsam naturvård och tillgängligt friluftsliv.",
+      "sdg": [
+        3,
+        15
+      ],
+      "sources": [
+        {
+          "title": "Älvrummet",
+          "url": "https://www.trollhattan.se/startsida/bygga-bo-och-miljo/natur-och-parker/naturomraden-naturreservat/sidlistning-naturparlor/alvrummet/"
+        },
+        {
+          "title": "Ryrbäcken",
+          "url": "https://www.trollhattan.se/startsida/bygga-bo-och-miljo/natur-och-parker/naturomraden-naturreservat/sidlistning-naturparlor/ryrbacken/"
+        }
+      ]
+    }
+  ],
+  "en": {
+    "challenges": {
+      "mark": {
+        "title": "Homes and room for greenery",
+        "text": "New homes and green spaces need to coexist. Vårvik shows how former industrial land can be reused, while mature trees and connected habitats need room of their own."
+      },
+      "sluss": {
+        "title": "Locks and habitat value",
+        "text": "The new lock route creates a conflict between navigation and existing habitats. The proposed compensation in Skälsbo needs to be followed as a separate commitment."
+      },
+      "centrum": {
+        "title": "A centre for everyday life",
+        "text": "The centre needs to be accessible, safe and useful for everyday needs. The municipal strategy connects this with commerce, social life and climate neutrality."
+      },
+      "jamlikhet": {
+        "title": "Equal living conditions",
+        "text": "The sustainability strategy addresses childhood conditions, financial security and health. The future model therefore needs to consider who benefits from improvements."
+      },
+      "gront": {
+        "title": "Trees need time and space",
+        "text": "Green planning benchmarks require space for expanding tree crowns. New planting does not immediately replace the shade and habitats of mature trees."
+      },
+      "arv": {
+        "title": "Change in a historic river city",
+        "text": "Bridges, locks and industrial sites give the city its context. Renovation and new uses need to retain these values."
+      }
+    },
+    "assets": {
+      "alven": {
+        "title": "The river landscape close to the centre",
+        "text": "Älvrummet brings nature, walking and industrial history close to the centre. Its slopes and woodland support people and biodiversity."
+      },
+      "omvandling": {
+        "title": "The transformation of Vårvik",
+        "text": "Vårvik provides experience in reusing industrial land and preserving buildings while adding homes and services."
+      },
+      "ingenjorsarv": {
+        "title": "Engineering across generations",
+        "text": "The lock routes of 1800, 1844 and 1916 show how technology and cooperation shaped Trollhättan. They provide a tangible background to future change."
+      },
+      "vardagsrum": {
+        "title": "Places to meet in the centre",
+        "text": "The centre strategy combines commerce, recreation and social life. Squares, the library and walking routes can connect these functions."
+      },
+      "riktning": {
+        "title": "A shared sustainability direction",
+        "text": "The 2025 strategy gives the municipality and its companies a shared direction. It needs to be translated into trackable measures and priorities."
+      },
+      "gronstrak": {
+        "title": "Connected green corridors",
+        "text": "Älvrummet and Ryrbäcken provide woodland and ravine habitats near the city. They form a basis for careful conservation and accessible outdoor recreation."
+      }
+    },
+    "kommun_vision": [
+      {
+        "title": "A proud and innovative city with room for the future",
+        "text": "The municipal vision emphasizes courage, new ideas, participation and action. The 2025 sustainability strategy provides a shared direction across eleven themes. The model’s century-long perspective is an independent scenario exercise."
+      }
+    ]
+  }
+}

@@ -1,0 +1,481 @@
+{
+  "topic": "klimat-energi",
+  "compiled": "2026-10-12",
+  "indicators": [
+    {
+      "id": "hojum_effekt",
+      "sdg": [
+        7,
+        13
+      ],
+      "name_sv": "Hojums installerade eleffekt",
+      "value": 168,
+      "unit": "MW",
+      "year": 2026,
+      "scope": "Hojums kraftverk",
+      "direction": "context",
+      "source": {
+        "title": "Hojum",
+        "publisher": "Vattenfall",
+        "url": "https://powerplants.vattenfall.com/hojum/"
+      },
+      "note_sv": "Anläggningsuppgift kontrollerad 2026; inte årsproduktion eller kommunal tillgänglig effekt.",
+      "confidence": "high"
+    },
+    {
+      "id": "hojum_fallhojd",
+      "sdg": [
+        7,
+        13
+      ],
+      "name_sv": "Hojums fallhöjd",
+      "value": 32,
+      "unit": "m",
+      "year": 2026,
+      "scope": "Hojums kraftverk",
+      "direction": "context",
+      "source": {
+        "title": "Hojum",
+        "publisher": "Vattenfall",
+        "url": "https://powerplants.vattenfall.com/hojum/"
+      },
+      "note_sv": "Fallhöjd, inte vattennivå i RH 2000.",
+      "confidence": "high"
+    },
+    {
+      "id": "hojum_vattenforing",
+      "sdg": [
+        7,
+        13
+      ],
+      "name_sv": "Hojums angivna vattenföring",
+      "value": 640,
+      "unit": "m³/s",
+      "year": 2026,
+      "scope": "Hojums kraftverk",
+      "direction": "context",
+      "source": {
+        "title": "Hojum",
+        "publisher": "Vattenfall",
+        "url": "https://powerplants.vattenfall.com/hojum/"
+      },
+      "note_sv": "Anläggningsuppgift, inte uppmätt årsmedelflöde.",
+      "confidence": "high"
+    },
+    {
+      "id": "olidan_effekt",
+      "sdg": [
+        7,
+        13
+      ],
+      "name_sv": "Olidans installerade eleffekt",
+      "value": 84,
+      "unit": "MW",
+      "year": 2026,
+      "scope": "Olidans kraftverk",
+      "direction": "context",
+      "source": {
+        "title": "Olidan",
+        "publisher": "Vattenfall",
+        "url": "https://powerplants.vattenfall.com/sv/olidan/"
+      },
+      "note_sv": "Vattenfalls anläggningsuppgift kontrollerad 2026.",
+      "confidence": "high"
+    },
+    {
+      "id": "olidan_vattenforing",
+      "sdg": [
+        7,
+        13
+      ],
+      "name_sv": "Olidans angivna vattenföring",
+      "value": 280,
+      "unit": "m³/s",
+      "year": 2026,
+      "scope": "Olidans kraftverk",
+      "direction": "context",
+      "source": {
+        "title": "Olidan",
+        "publisher": "Vattenfall",
+        "url": "https://powerplants.vattenfall.com/sv/olidan/"
+      },
+      "note_sv": "Ingen omräkning till årsproduktion har gjorts.",
+      "confidence": "high"
+    },
+    {
+      "id": "olidan_driftstart",
+      "sdg": [
+        7,
+        9
+      ],
+      "name_sv": "Olidans första elleverans",
+      "value": 1910,
+      "unit": "år",
+      "year": 1910,
+      "scope": "Olidans kraftverk",
+      "direction": "context",
+      "source": {
+        "title": "Olidan",
+        "publisher": "Vattenfall",
+        "url": "https://powerplants.vattenfall.com/sv/olidan/"
+      },
+      "note_sv": "El levererades till industri och järnväg.",
+      "confidence": "high"
+    },
+    {
+      "id": "fjarrvarme_trabransle",
+      "sdg": [
+        7,
+        13
+      ],
+      "name_sv": "Träbränslets andel av producerad fjärrvärme",
+      "value": 86,
+      "unit": "%",
+      "year": 2025,
+      "scope": "Trollhättan Energis fjärrvärme",
+      "direction": "context",
+      "source": {
+        "title": "Fjärrvärmens ursprung 2025",
+        "publisher": "Trollhättan Energi",
+        "url": "https://www.trollhattanenergi.se/fjarrvarme/ursprung/"
+      },
+      "note_sv": "Produktionsmix 2025.",
+      "confidence": "high"
+    },
+    {
+      "id": "fjarrvarme_spillvarme",
+      "sdg": [
+        7,
+        13
+      ],
+      "name_sv": "Spillvärmens andel av producerad fjärrvärme",
+      "value": 7.7,
+      "unit": "%",
+      "year": 2025,
+      "scope": "Trollhättan Energis fjärrvärme",
+      "direction": "context",
+      "source": {
+        "title": "Fjärrvärmens ursprung 2025",
+        "publisher": "Trollhättan Energi",
+        "url": "https://www.trollhattanenergi.se/fjarrvarme/ursprung/"
+      },
+      "note_sv": "Produktionsmix 2025; annan nämnare än tillförd energi.",
+      "confidence": "high"
+    },
+    {
+      "id": "fjarrvarme_spillvarme_mwh",
+      "sdg": [
+        7,
+        13
+      ],
+      "name_sv": "Spillvärme i fjärrvärmeproduktionen",
+      "value": 23787,
+      "unit": "MWh",
+      "year": 2025,
+      "scope": "Trollhättan Energis fjärrvärme",
+      "direction": "context",
+      "source": {
+        "title": "Fjärrvärmens ursprung 2025",
+        "publisher": "Trollhättan Energi",
+        "url": "https://www.trollhattanenergi.se/fjarrvarme/ursprung/"
+      },
+      "note_sv": "Redovisad energi 2025.",
+      "confidence": "high"
+    },
+    {
+      "id": "fjarrvarme_fossilt",
+      "sdg": [
+        7,
+        13
+      ],
+      "name_sv": "Fossila bränslens andel av producerad fjärrvärme",
+      "value": 0.1,
+      "unit": "%",
+      "year": 2025,
+      "scope": "Trollhättan Energis fjärrvärme",
+      "direction": "context",
+      "source": {
+        "title": "Fjärrvärmens ursprung 2025",
+        "publisher": "Trollhättan Energi",
+        "url": "https://www.trollhattanenergi.se/fjarrvarme/ursprung/"
+      },
+      "note_sv": "Avrundad produktionsandel; inte noll.",
+      "confidence": "high"
+    },
+    {
+      "id": "fjarrvarme_klimatintensitet",
+      "sdg": [
+        7,
+        13
+      ],
+      "name_sv": "Levererad fjärrvärmes klimatpåverkan",
+      "value": 9.9,
+      "unit": "kg CO2e/MWh",
+      "year": 2025,
+      "scope": "Trollhättan Energis fjärrvärme",
+      "direction": "context",
+      "source": {
+        "title": "Fjärrvärmens ursprung 2025",
+        "publisher": "Trollhättan Energi",
+        "url": "https://www.trollhattanenergi.se/fjarrvarme/ursprung/"
+      },
+      "note_sv": "Bolagets redovisade värde; fossilfritt betyder inte noll livscykelutsläpp.",
+      "confidence": "high"
+    },
+    {
+      "id": "lan_temperatur_referens",
+      "sdg": [
+        13
+      ],
+      "name_sv": "Historisk årsmedeltemperatur i länet",
+      "value": 6.1,
+      "unit": "°C",
+      "year": "1961–1990",
+      "scope": "Västra Götalands län",
+      "direction": "context",
+      "source": {
+        "title": "Framtidsklimat i Västra Götalands län, Klimatologi 24",
+        "publisher": "SMHI",
+        "url": "https://www.smhi.se/download/18.18f5a56618fc9f08e832c144/1717803756901/Klimatologi_24%20Framtidsklimat%20i%20V%C3%A4stra%20G%C3%B6talands%20l%C3%A4n%20-%20enligt%20RCP-scenarier.pdf"
+      },
+      "note_sv": "Länsmedel, inte en lokal väderstation.",
+      "confidence": "high"
+    },
+    {
+      "id": "lan_temperaturokning_rcp45",
+      "sdg": [
+        13
+      ],
+      "name_sv": "Länets temperaturökning enligt RCP4.5",
+      "value": 3,
+      "unit": "°C",
+      "year": "2069–2098",
+      "scope": "Västra Götalands län",
+      "direction": "context",
+      "source": {
+        "title": "Framtidsklimat i Västra Götalands län, Klimatologi 24",
+        "publisher": "SMHI",
+        "url": "https://www.smhi.se/download/18.18f5a56618fc9f08e832c144/1717803756901/Klimatologi_24%20Framtidsklimat%20i%20V%C3%A4stra%20G%C3%B6talands%20l%C3%A4n%20-%20enligt%20RCP-scenarier.pdf"
+      },
+      "note_sv": "Cirka 3 grader mot 1961–1990. Scenario från 2015; inte prognos för 2126.",
+      "confidence": "medium"
+    },
+    {
+      "id": "lan_temperaturokning_rcp85",
+      "sdg": [
+        13
+      ],
+      "name_sv": "Länets temperaturökning enligt RCP8.5",
+      "value": 5,
+      "unit": "°C",
+      "year": "2069–2098",
+      "scope": "Västra Götalands län",
+      "direction": "context",
+      "source": {
+        "title": "Framtidsklimat i Västra Götalands län, Klimatologi 24",
+        "publisher": "SMHI",
+        "url": "https://www.smhi.se/download/18.18f5a56618fc9f08e832c144/1717803756901/Klimatologi_24%20Framtidsklimat%20i%20V%C3%A4stra%20G%C3%B6talands%20l%C3%A4n%20-%20enligt%20RCP-scenarier.pdf"
+      },
+      "note_sv": "Cirka 5 grader mot 1961–1990. Regionalt scenario, inte kommunal temperaturmätning.",
+      "confidence": "medium"
+    },
+    {
+      "id": "vattenverk_planerad_drift",
+      "sdg": [
+        6,
+        9
+      ],
+      "name_sv": "Planerad driftstart för nytt vattenverk",
+      "value": 2030,
+      "unit": "år",
+      "year": 2026,
+      "scope": "Östra Överby",
+      "direction": "context",
+      "source": {
+        "title": "Nytt vattenverk",
+        "publisher": "Trollhättan Energi",
+        "url": "https://www.trollhattanenergi.se/vatten-och-avlopp/vattenpaketet/nytt-vattenverk/"
+      },
+      "note_sv": "Plan omkring 2030, inte garanterat färdigställande. Vänern blir ny råvattentäkt.",
+      "confidence": "medium"
+    },
+    {
+      "id": "vattenverk_byggstart",
+      "sdg": [
+        6,
+        9
+      ],
+      "name_sv": "Byggstart för nytt vattenverk",
+      "value": 2024,
+      "unit": "år",
+      "year": 2024,
+      "scope": "Östra Överby",
+      "direction": "context",
+      "source": {
+        "title": "Nytt vattenverk",
+        "publisher": "Trollhättan Energi",
+        "url": "https://www.trollhattanenergi.se/vatten-och-avlopp/vattenpaketet/nytt-vattenverk/"
+      },
+      "note_sv": "Byggstart november 2024.",
+      "confidence": "high"
+    },
+    {
+      "id": "kanal_langd",
+      "sdg": [
+        9,
+        11
+      ],
+      "name_sv": "Trollhätte kanals längd",
+      "value": 82,
+      "unit": "km",
+      "year": 2026,
+      "scope": "Trollhätte kanal",
+      "direction": "context",
+      "source": {
+        "title": "Trollhätte kanal",
+        "publisher": "Sjöfartsverket",
+        "url": "https://www.sjofartsverket.se/sv/tjanster/kanaler-slussar-broar/trollhatte-kanal/"
+      },
+      "note_sv": "Hela farleden, inte bara sträckan i kommunen.",
+      "confidence": "high"
+    },
+    {
+      "id": "kanal_nivaskillnad",
+      "sdg": [
+        9,
+        11
+      ],
+      "name_sv": "Kanalens totala nivåskillnad",
+      "value": 44,
+      "unit": "m",
+      "year": 2026,
+      "scope": "Trollhätte kanal",
+      "direction": "context",
+      "source": {
+        "title": "Trollhätte kanal",
+        "publisher": "Sjöfartsverket",
+        "url": "https://www.sjofartsverket.se/sv/tjanster/kanaler-slussar-broar/trollhatte-kanal/"
+      },
+      "note_sv": "Vänern–havet; inte havsnivå vid centrala Trollhättan.",
+      "confidence": "high"
+    },
+    {
+      "id": "slussar_trollhattan",
+      "sdg": [
+        9,
+        11
+      ],
+      "name_sv": "Slussar i dagens Trollhättansträcka",
+      "value": 4,
+      "unit": "slussar",
+      "year": 2026,
+      "scope": "Trollhätte kanal",
+      "direction": "context",
+      "source": {
+        "title": "Trollhätte kanal",
+        "publisher": "Sjöfartsverket",
+        "url": "https://www.sjofartsverket.se/sv/tjanster/kanaler-slussar-broar/trollhatte-kanal/"
+      },
+      "note_sv": "Fyra av kanalens totalt sex slussar.",
+      "confidence": "high"
+    },
+    {
+      "id": "kanal_farledsdjup",
+      "sdg": [
+        9,
+        11
+      ],
+      "name_sv": "Minsta angivna farledsdjup",
+      "value": 6.3,
+      "unit": "m",
+      "year": 2026,
+      "scope": "Trollhätte kanal",
+      "direction": "context",
+      "source": {
+        "title": "Trollhätte kanal",
+        "publisher": "Sjöfartsverket",
+        "url": "https://www.sjofartsverket.se/sv/tjanster/kanaler-slussar-broar/trollhatte-kanal/"
+      },
+      "note_sv": "Farledsdjup, inte högsta tillåtna fartygsdjupgående.",
+      "confidence": "high"
+    },
+    {
+      "id": "slussar_planerad_drift",
+      "sdg": [
+        9,
+        11
+      ],
+      "name_sv": "Planerad driftstart för nya slussar",
+      "value": 2034,
+      "unit": "år",
+      "year": 2026,
+      "scope": "Trollhättan",
+      "direction": "context",
+      "source": {
+        "title": "Slussar i Trollhätte kanal, ny tidplan juni 2026",
+        "publisher": "Trafikverket",
+        "url": "https://www.trafikverket.se/vara-projekt/projekt-i-vastra-gotalands-lan/slussar-i-trollhatte-kanal/"
+      },
+      "note_sv": "Aktuell tidplan juni 2026: omkring 2034. Tidigare uppgift 2030 ska inte användas som aktuell plan.",
+      "confidence": "medium"
+    },
+    {
+      "id": "klimatmal_geografiskt",
+      "sdg": [
+        13
+      ],
+      "name_sv": "Minskning enligt geografiskt klimatmål",
+      "value": 70,
+      "unit": "%",
+      "year": 2030,
+      "scope": "Trollhättans kommun",
+      "direction": "context",
+      "source": {
+        "title": "Koldioxidbudget och klimatmål",
+        "publisher": "Trollhättans Stad",
+        "url": "https://www.trollhattan.se/startsida/bygga-bo-och-miljo/klimatforandringar-och-miljo/klimat/"
+      },
+      "note_sv": "Politiskt mål: minskning från 2022 till 2030, inte uppmätt utfall.",
+      "confidence": "high"
+    },
+    {
+      "id": "klimatmal_konsumtion",
+      "sdg": [
+        12,
+        13
+      ],
+      "name_sv": "Mål för konsumtionsutsläpp per invånare",
+      "value": 3,
+      "unit": "ton CO2e/person",
+      "year": 2030,
+      "scope": "Trollhättans invånare",
+      "direction": "context",
+      "source": {
+        "title": "Koldioxidbudget och klimatmål",
+        "publisher": "Trollhättans Stad",
+        "url": "https://www.trollhattan.se/startsida/bygga-bo-och-miljo/klimatforandringar-och-miljo/klimat/"
+      },
+      "note_sv": "Politiskt mål för konsumtion; skiljs från territoriella utsläpp.",
+      "confidence": "high"
+    },
+    {
+      "id": "klimatmal_nettonoll",
+      "sdg": [
+        13
+      ],
+      "name_sv": "Målår för nettonollutsläpp",
+      "value": 2045,
+      "unit": "år",
+      "year": 2045,
+      "scope": "Trollhättans Stad och samhälle",
+      "direction": "context",
+      "source": {
+        "title": "Koldioxidbudget och klimatmål",
+        "publisher": "Trollhättans Stad",
+        "url": "https://www.trollhattan.se/startsida/bygga-bo-och-miljo/klimatforandringar-och-miljo/klimat/"
+      },
+      "note_sv": "Senast 2045 enligt kommunens långsiktiga mål.",
+      "confidence": "high"
+    }
+  ]
+}

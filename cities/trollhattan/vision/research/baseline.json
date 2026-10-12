@@ -1,0 +1,3718 @@
+{
+ "compiled": "2026-10-12",
+ "kommun": {
+  "name": "Trollhättans kommun",
+  "notes_sv": "Trollhättan är en älv- och industristad i Västra Götaland. Modellen visar en centrumruta på 1,6 kilometer, medan forskning och kommunala åtgärder kan gälla hela kommunen. Framtiden 2026–2126 är en utforskande modell, inte kommunens beslutade plan."
+ },
+ "indicators": [
+  {
+   "id": "konsumtionsbaserade_utslapp_sverige",
+   "sdg": [
+    12,
+    13
+   ],
+   "name_sv": "Konsumtionsbaserade växthusgasutsläpp per person",
+   "value": 7.6,
+   "unit": "ton CO2e/person/år",
+   "year": 2023,
+   "scope": "Sverige",
+   "direction": "lower_better",
+   "source": {
+    "title": "Växthusgaser, konsumtionsbaserade utsläpp per person",
+    "publisher": "Naturvårdsverket",
+    "url": "https://www.naturvardsverket.se/data-och-statistik/konsumtion/vaxthusgaser-konsumtionsbaserade-utslapp-per-person/"
+   },
+   "note_sv": "Minskat ca 36 % per capita 2008–2023; ca 60 % kommer från hushållens konsumtion. Betydligt högre än de territoriella ca 4,5 t/inv.",
+   "confidence": "high",
+   "topic": "nationellt"
+  },
+  {
+   "id": "forsorjningsformaga_spannmal_sverige",
+   "sdg": [
+    2
+   ],
+   "name_sv": "Sveriges försörjningsförmåga, spannmål",
+   "value": 105,
+   "unit": "%",
+   "year": 2023,
+   "scope": "Sverige",
+   "direction": "higher_better",
+   "source": {
+    "title": "På tal om jordbruk och fiske 2024-06-12: Hur stor andel av svensk matkonsumtion skulle kunna täckas av livsmedel producerade i Sverige?",
+    "publisher": "Jordbruksverket",
+    "url": "https://jordbruksverket.se/download/18.224634c81900509cce84f98/1718192143943/Pa-tal-om-jordbruk-och-fiske-juni-2024-tga.pdf"
+   },
+   "note_sv": "Säsongen 2023/24 (svag skörd). Sverige är nettoexportör av spannmål. Jordbruksverket redovisar ingen samlad självförsörjningsgrad för all mat.",
+   "confidence": "high",
+   "topic": "nationellt"
+  },
+  {
+   "id": "forsorjningsformaga_mejeri_sverige",
+   "sdg": [
+    2
+   ],
+   "name_sv": "Sveriges försörjningsförmåga, mejerivaror",
+   "value": 75,
+   "unit": "%",
+   "year": 2023,
+   "scope": "Sverige",
+   "direction": "higher_better",
+   "source": {
+    "title": "På tal om jordbruk och fiske 2024-06-12: Hur stor andel av svensk matkonsumtion skulle kunna täckas av livsmedel producerade i Sverige?",
+    "publisher": "Jordbruksverket",
+    "url": "https://jordbruksverket.se/download/18.224634c81900509cce84f98/1718192143943/Pa-tal-om-jordbruk-och-fiske-juni-2024-tga.pdf"
+   },
+   "note_sv": "Har sjunkit från 112 % 1995. Ost bara 39 %. Ägg 95 % (2023, salmonellautbrott).",
+   "confidence": "high",
+   "topic": "nationellt"
+  },
+  {
+   "id": "forsorjningsformaga_tomat_sverige",
+   "sdg": [
+    2,
+    12
+   ],
+   "name_sv": "Sveriges försörjningsförmåga, färska tomater",
+   "value": 19,
+   "unit": "%",
+   "year": 2023,
+   "scope": "Sverige",
+   "direction": "higher_better",
+   "source": {
+    "title": "På tal om jordbruk och fiske 2024-06-12: Hur stor andel av svensk matkonsumtion skulle kunna täckas av livsmedel producerade i Sverige?",
+    "publisher": "Jordbruksverket",
+    "url": "https://jordbruksverket.se/download/18.224634c81900509cce84f98/1718192143943/Pa-tal-om-jordbruk-och-fiske-juni-2024-tga.pdf"
+   },
+   "note_sv": "Exempel på importberoende för frukt och grönt: äpplen 29 %, gurka 48 %, jordgubbar 69 %, lök 78 %, morötter 97 %.",
+   "confidence": "high",
+   "topic": "nationellt"
+  },
+  {
+   "id": "ensamhet_ofta_alltid_sverige",
+   "sdg": [
+    3,
+    10
+   ],
+   "name_sv": "Besväras ofta eller alltid av ensamhet",
+   "value": 6,
+   "unit": "%",
+   "year": 2024,
+   "scope": "Sverige",
+   "direction": "lower_better",
+   "source": {
+    "title": "Så vanligt är ensamhet",
+    "publisher": "Folkhälsomyndigheten",
+    "url": "https://www.folkhalsomyndigheten.se/vara-amnesomraden/psykisk-halsa/befolkningens-psykiska-halsa/sa-vanligt-ar-ensamhet/"
+   },
+   "note_sv": "Nationella folkhälsoenkäten 2024. Ytterligare 13 % besväras ibland.",
+   "confidence": "high",
+   "topic": "nationellt"
+  },
+  {
+   "id": "unga_skarmtid_over_3h",
+   "sdg": [
+    3
+   ],
+   "name_sv": "13–16-åringar med mer än 3 timmar skärmtid per dag på fritiden",
+   "value": 87,
+   "unit": "%",
+   "year": 2024,
+   "scope": "Sverige",
+   "direction": "lower_better",
+   "source": {
+    "title": "Ungar & medier 2025",
+    "publisher": "Mediemyndigheten",
+    "url": "https://www.mediemyndigheten.se/globalassets/rapporter-och-analyser/ungar--medier/mediemyndigheten-rapport-ungar-och-medier.pdf"
+   },
+   "note_sv": "Dator, mobil och surfplatta en vanlig dag; 93 % bland 17–18-åringar. Folkhälsomyndigheten rekommenderar högst 2–3 timmar för 13–18-åringar.",
+   "confidence": "high",
+   "topic": "nationellt"
+  },
+  {
+   "id": "internet_dagligen",
+   "sdg": [
+    9,
+    17
+   ],
+   "name_sv": "Använder internet dagligen",
+   "value": 93,
+   "unit": "%",
+   "year": 2025,
+   "scope": "Sverige",
+   "direction": "context",
+   "source": {
+    "title": "Svenskarna och internet 2025 – sammanfattning",
+    "publisher": "Internetstiftelsen",
+    "url": "https://svenskarnaochinternet.se/app/uploads/2025/09/svenskarna-och-internet-2025-sammanfattning.pdf"
+   },
+   "note_sv": "Befolkningen 16+. 97 % använder internet; nästan alla som inte gör det är pensionärer. 4 av 10 svenskar (8+) använder AI-verktyg.",
+   "confidence": "high",
+   "topic": "nationellt"
+  },
+  {
+   "id": "hemberedskap_en_vecka",
+   "sdg": [
+    11,
+    16
+   ],
+   "name_sv": "Hushåll med hemberedskap för minst en vecka",
+   "value": 43,
+   "unit": "%",
+   "year": 2025,
+   "scope": "Sverige",
+   "direction": "higher_better",
+   "source": {
+    "title": "Undersökning visar positivt mottagande av broschyren men också ökad oro (pressmeddelande 2025-03-14)",
+    "publisher": "MSB (nu Myndigheten för civilt försvar, MCF)",
+    "url": "https://mcf.mynewsdesk.com/pressreleases/undersoekning-visar-positivt-mottagande-av-broschyren-men-ocksaa-oekad-oro-3375311"
+   },
+   "note_sv": "Webbpanel, 2 009 personer 16+, dec 2024–feb 2025. 63 % planerar att stärka sin beredskap.",
+   "confidence": "high",
+   "topic": "nationellt"
+  },
+  {
+   "id": "dryck_hemma_en_vecka",
+   "sdg": [
+    2,
+    6,
+    11
+   ],
+   "name_sv": "Har dryck/vatten hemma för minst en vecka",
+   "value": 36,
+   "unit": "%",
+   "year": 2025,
+   "scope": "Sverige",
+   "direction": "higher_better",
+   "source": {
+    "title": "Hemberedskap 2025 (Origo Group för Livsmedelsverket)",
+    "publisher": "Livsmedelsverket",
+    "url": "https://www.livsmedelsverket.se/4904e7/globalassets/publikationsdatabas/rapporter/2026/2026---origo-hemberedskap-2025.pdf"
+   },
+   "note_sv": "8 108 svar, december 2025. 61 % har mat för minst en vecka – vatten är den svagaste länken i hushållens beredskap.",
+   "confidence": "high",
+   "topic": "nationellt"
+  },
+  {
+   "id": "kontant_senaste_kop",
+   "sdg": [
+    10,
+    16
+   ],
+   "name_sv": "Betalade kontant vid senaste köpet",
+   "value": 5,
+   "unit": "%",
+   "year": 2025,
+   "scope": "Sverige",
+   "direction": "context",
+   "source": {
+    "title": "Betalningsrapport 2026 – Svenska folkets betalningsvanor",
+    "publisher": "Sveriges riksbank",
+    "url": "https://www.riksbank.se/sv/betalningar--kontanter/sa-betalar-svenskarna/betalningsrapport-2026/utvecklingen-pa-betalningsmarknaden/svenska-folkets-betalningsvanor/"
+   },
+   "note_sv": "10 % år 2023 och 40 % år 2010. Låg kontantanvändning ökar sårbarheten vid störningar i digitala betalningar.",
+   "confidence": "high",
+   "topic": "nationellt"
+  },
+  {
+   "id": "beredskapslager_livsmedel_budget",
+   "sdg": [
+    2,
+    16
+   ],
+   "name_sv": "Statliga medel till beredskapslager i livsmedelskedjan",
+   "value": 575,
+   "unit": "mnkr",
+   "year": 2026,
+   "scope": "Sverige",
+   "direction": "context",
+   "source": {
+    "title": "Regeringen prioriterar försörjningsberedskap för livsmedel och dricksvatten (dec 2025)",
+    "publisher": "Regeringskansliet",
+    "url": "https://regeringen.se/pressmeddelanden/2025/12/regeringen-prioriterar-forsorjningsberedskap-for-livsmedel-och-dricksvatten/"
+   },
+   "note_sv": "Del av 1 071 mnkr för livsmedels- och dricksvattenberedskap 2026. Statliga livsmedelslager byggs nu upp från i princip noll; ny lag om beredskapslager föreslås gälla från 1 juli 2026.",
+   "confidence": "high",
+   "topic": "nationellt"
+  },
+  {
+   "id": "livsmedelsavfall_per_person_sverige",
+   "sdg": [
+    12
+   ],
+   "name_sv": "Livsmedelsavfall i butiks- och konsumentledet",
+   "value": 84,
+   "unit": "kg/person/år",
+   "year": 2024,
+   "scope": "Sverige",
+   "direction": "lower_better",
+   "source": {
+    "title": "Livsmedelsavfall och matsvinn 2024 (statistikblad)",
+    "publisher": "Naturvårdsverket",
+    "url": "https://www.naturvardsverket.se/4af847/contentassets/337b7600c2144a09b3e2457431bf4390/livsmedelsavfall-och-matsvinn-2024-statistikblad.pdf"
+   },
+   "note_sv": "880 000 ton totalt. Hushållen står för 72 %: 16 kg matsvinn + 45 kg övrigt livsmedelsavfall per person. Ingen minskning sedan 2020 trots etappmål om −20 % till 2025.",
+   "confidence": "high",
+   "topic": "nationellt"
+  },
+  {
+   "id": "skyfall_klimatfaktor_2071_2100_rcp85",
+   "sdg": [
+    11,
+    13
+   ],
+   "name_sv": "Klimatfaktor för skyfall 2071–2100 (RCP8.5 ≈ SSP5-8.5)",
+   "value": 1.4,
+   "unit": "faktor",
+   "year": 2017,
+   "scope": "Sverige",
+   "direction": "lower_better",
+   "source": {
+    "title": "Klimatologi 47: Sammanfattning till extremregn i nuvarande och framtida klimat, tabell 2",
+    "publisher": "SMHI",
+    "url": "https://www.smhi.se/download/18.18f5a56618fc9f08e8329c86/1717801000638/klimatologi_47%20Sammanfattning%20till%20extremregn%20i%20nuvarande%20och%20framtida%20klimat.pdf"
+   },
+   "note_sv": "Korta skyfall blir ca 40 % kraftigare till 2071–2100 med RCP8.5 och ca 20 % med RCP4.5 (2041–2070: 20 % respektive 15 %). Gäller alla återkomsttider och hela landet. Svenskt Vatten rekommenderar minst 1,25 för regn kortare än en timme.",
+   "confidence": "high",
+   "range": [
+    1.36,
+    1.41
+   ],
+   "topic": "nationellt"
+  },
+  {
+   "id": "overdodlighet_varmebolja_2018",
+   "sdg": [
+    3,
+    13
+   ],
+   "name_sv": "Överdödlighet under värmeböljan sommaren 2018",
+   "value": 700,
+   "unit": "dödsfall",
+   "year": 2018,
+   "scope": "Sverige",
+   "direction": "lower_better",
+   "source": {
+    "title": "Att hantera hälsoeffekter av värmeböljor – vägledning till handlingsplaner (2022)",
+    "publisher": "Folkhälsomyndigheten",
+    "url": "https://www.folkhalsomyndigheten.se/contentassets/ea328afcc93f4ad6a37693176fbb3158/hantera-halsoeffekter-varmeboljor.pdf"
+   },
+   "note_sv": "Cirka 700 fler dödsfall än normalt under hela sommaren; SMHI återger 600–745 som kan tillskrivas värmen. Främst äldre och kroniskt sjuka drabbades.",
+   "confidence": "high",
+   "topic": "nationellt"
+  },
+  {
+   "id": "dodlighetsokning_varme_26c",
+   "sdg": [
+    3,
+    13
+   ],
+   "name_sv": "Ökning av dödligheten per dygn när det är minst 26 °C tre dygn i rad",
+   "value": 10,
+   "unit": "%",
+   "year": 2024,
+   "scope": "Sverige",
+   "direction": "lower_better",
+   "source": {
+    "title": "Tillsynsvägledning om temperatur inomhus",
+    "publisher": "Folkhälsomyndigheten (ursprungskälla: svenska studier, ref. 14)",
+    "url": "https://www.folkhalsomyndigheten.se/publikationer-och-material/publikationsarkiv/t/tillsynsvagledning-om-temperatur-inomhus/?pub=133705"
+   },
+   "note_sv": "Dödligheten ökar med ca 10 % per dag vid 26 °C eller mer tre dygn i rad och med ytterligare 10 % vid 30 °C. Äldre, kroniskt sjuka och små barn är mest känsliga.",
+   "confidence": "high",
+   "topic": "nationellt"
+  },
+  {
+   "id": "rvu_bil_andel_sverige",
+   "sdg": [
+    11,
+    13
+   ],
+   "name_sv": "Bilens andel av huvudresorna i Sverige",
+   "value": 52.6,
+   "unit": "%",
+   "year": 2024,
+   "scope": "Sverige",
+   "direction": "lower_better",
+   "source": {
+    "title": "Resvanor i Sverige 2024 (Statistik 2025:17)",
+    "publisher": "Trafikanalys (Sveriges officiella statistik)",
+    "url": "https://www.trafa.se/globalassets/statistik/resvanor/2025/resvanor-i-sverige-2024.pdf"
+   },
+   "note_sv": "Egen beräkning: 2 053 miljoner bilresor av nästan 3,9 miljarder huvudresor. Trafikanalys skriver \"drygt hälften av alla resor\".",
+   "confidence": "estimate",
+   "topic": "nationellt"
+  },
+  {
+   "id": "rvu_kollektiv_andel_sverige",
+   "sdg": [
+    11
+   ],
+   "name_sv": "Kollektiva färdsätts andel av huvudresorna i Sverige",
+   "value": 18.2,
+   "unit": "%",
+   "year": 2024,
+   "scope": "Sverige",
+   "direction": "higher_better",
+   "source": {
+    "title": "Resvanor i Sverige 2024 (Statistik 2025:17)",
+    "publisher": "Trafikanalys (Sveriges officiella statistik)",
+    "url": "https://www.trafa.se/globalassets/statistik/resvanor/2025/resvanor-i-sverige-2024.pdf"
+   },
+   "note_sv": "Egen beräkning: 708 miljoner av ca 3 900 miljoner huvudresor. Ökade med 5 % från 2023 men ligger 10 % under 2019.",
+   "confidence": "estimate",
+   "topic": "nationellt"
+  },
+  {
+   "id": "rvu_gang_andel_sverige",
+   "sdg": [
+    3,
+    11
+   ],
+   "name_sv": "Gångens andel av huvudresorna i Sverige",
+   "value": 12.8,
+   "unit": "%",
+   "year": 2024,
+   "scope": "Sverige",
+   "direction": "higher_better",
+   "source": {
+    "title": "Resvanor i Sverige 2024 (Statistik 2025:17)",
+    "publisher": "Trafikanalys (Sveriges officiella statistik)",
+    "url": "https://www.trafa.se/globalassets/statistik/resvanor/2025/resvanor-i-sverige-2024.pdf"
+   },
+   "note_sv": "Egen beräkning: 499 miljoner av ca 3 900 miljoner huvudresor. Gångresorna minskade 9 % från 2023 och ligger 20 % under 2019.",
+   "confidence": "estimate",
+   "topic": "nationellt"
+  },
+  {
+   "id": "rvu_cykel_andel_sverige",
+   "sdg": [
+    3,
+    11
+   ],
+   "name_sv": "Cykelns andel av huvudresorna i Sverige",
+   "value": 12.3,
+   "unit": "%",
+   "year": 2024,
+   "scope": "Sverige",
+   "direction": "higher_better",
+   "source": {
+    "title": "Resvanor i Sverige 2024 (Statistik 2025:17)",
+    "publisher": "Trafikanalys (Sveriges officiella statistik)",
+    "url": "https://www.trafa.se/globalassets/statistik/resvanor/2025/resvanor-i-sverige-2024.pdf"
+   },
+   "note_sv": "Egen beräkning: 480 miljoner av ca 3 900 miljoner huvudresor; +12 % från 2023. Cykeln står för bara 2,2 av 137 miljarder resta km.",
+   "confidence": "estimate",
+   "topic": "nationellt"
+  },
+  {
+   "id": "fritidsbatar_elmotor_andel_sverige",
+   "sdg": [
+    7,
+    14
+   ],
+   "name_sv": "Motorbåtar med elmotor",
+   "value": 4,
+   "unit": "% av motorbåtarna",
+   "year": 2025,
+   "scope": "Sverige",
+   "direction": "higher_better",
+   "source": {
+    "title": "Båtlivsundersökningen 2025 (Swedish Boating Survey 2025)",
+    "publisher": "Transportstyrelsen",
+    "url": "https://www.transportstyrelsen.se/globalassets/global/publikationer-och-rapporter/rapporter/sjofart/swedish-boatings-survey2025-batlivsundersokningen-2025-eng.pdf"
+   },
+   "note_sv": "Andel av motorbåtarna med elmotor (flera svar möjliga): 4 % för öppna motorbåtar, 2 % för ruffade. 17 % har fortfarande en förbjuden tvåtaktsmotor med förgasare. Räknat i energi eller trafikarbete är eldriftens andel mycket lägre. Ett nationellt mått: lokala data saknas.",
+   "confidence": "medium",
+   "replaces": "boatElectric",
+   "topic": "nationellt"
+  },
+  {
+   "id": "arbetstid_overenskommen",
+   "sdg": [
+    8
+   ],
+   "name_sv": "Överenskommen (avtalad) medelarbetstid per vecka, sysselsatta 15–74 år",
+   "value": 37.3,
+   "unit": "timmar/vecka",
+   "year": 2025,
+   "scope": "Sverige",
+   "direction": "context",
+   "source": {
+    "title": "Medelarbetstid (överenskommen) per vecka för sysselsatta 15–74 år (AKU), NAKUOkMedArbtidAr",
+    "publisher": "SCB (AKU)",
+    "url": "https://www.statistikdatabasen.scb.se/pxweb/sv/ssd/START__AM__AM0401__AM0401S/NAKUOkMedArbtidAr/"
+   },
+   "note_sv": "Felmarginal ±0,1. 20–64 år: 38,1 timmar. Män 38,2 och kvinnor 36,2 timmar (15–74 år). Den avtalade veckotiden är det mått som bäst motsvarar modellens 'arbetstid'. Kommunsiffror finns inte i AKU.",
+   "confidence": "high",
+   "replaces": "workHours",
+   "range": [
+    37.2,
+    37.4
+   ],
+   "topic": "nationellt"
+  },
+  {
+   "id": "arbetstid_faktisk",
+   "sdg": [
+    8
+   ],
+   "name_sv": "Faktiskt arbetad medeltid per vecka, sysselsatta 15–74 år",
+   "value": 29.7,
+   "unit": "timmar/vecka",
+   "year": 2025,
+   "scope": "Sverige",
+   "direction": "context",
+   "source": {
+    "title": "Medelarbetstid (faktisk) per vecka för sysselsatta 15–74 år (AKU), NAKUFaktMedArbtidAr",
+    "publisher": "SCB (AKU)",
+    "url": "https://www.statistikdatabasen.scb.se/pxweb/sv/ssd/START__AM__AM0401__AM0401S/NAKUFaktMedArbtidAr/"
+   },
+   "note_sv": "Felmarginal ±0,2. Snitt över årets alla veckor, så semester, sjukdom och föräldraledighet räknas med. Därför går måttet inte att jämföra med en avtalad 40-timmarsvecka. 20–64 år: 30,6; män 31,6, kvinnor 27,7. År 2015: 30,1 timmar.",
+   "confidence": "high",
+   "range": [
+    29.5,
+    29.9
+   ],
+   "topic": "nationellt"
+  },
+  {
+   "id": "deltid_andel",
+   "sdg": [
+    5,
+    8
+   ],
+   "name_sv": "Sysselsatta med avtalad arbetstid under 35 timmar per vecka",
+   "value": 16.7,
+   "unit": "%",
+   "year": 2025,
+   "scope": "Sverige",
+   "direction": "context",
+   "source": {
+    "title": "Sysselsatta 15–74 år (AKU) efter veckoarbetstid (överenskommen), NAKUSysselOkArbtidAr",
+    "publisher": "SCB (AKU)",
+    "url": "https://www.statistikdatabasen.scb.se/pxweb/sv/ssd/START__AM__AM0401__AM0401S/NAKUSysselOkArbtidAr/"
+   },
+   "note_sv": "Egen beräkning: (277,8 + 601,9 tusen med 1–34 timmar) / 5 263,0 tusen sysselsatta = 16,7 %. Kvinnor 21,6 %, män 12,3 %. Ca 254 tusen saknar avtalad arbetstid; räknas de bort blir andelen 17,6 %.",
+   "confidence": "estimate",
+   "topic": "nationellt"
+  },
+  {
+   "id": "sex_timmars_arbetsdag_stod",
+   "sdg": [
+    8
+   ],
+   "name_sv": "Andel som tycker att sex timmars arbetsdag är ett bra förslag",
+   "value": 55,
+   "unit": "%",
+   "year": 2025,
+   "scope": "Sverige",
+   "direction": "context",
+   "source": {
+    "title": "Svenska trender 1986–2025 (Införa sex timmars arbetsdag)",
+    "publisher": "SOM-institutet, Göteborgs universitet",
+    "url": "https://www.gu.se/sites/default/files/2026-03/Svenska%20trender%201986-2025.pdf"
+   },
+   "note_sv": "Den nationella SOM-undersökningen 2025: 55 % bra förslag, 22 % varken eller, 23 % dåligt förslag. Visar hur stort stödet för en arbetstidsförkortning är.",
+   "confidence": "high",
+   "topic": "nationellt"
+  },
+  {
+   "id": "hog_tillit_till_manniskor",
+   "sdg": [
+    16
+   ],
+   "name_sv": "Hög mellanmänsklig tillit (7–10 på skala 0–10)",
+   "value": 57,
+   "unit": "%",
+   "year": 2025,
+   "scope": "Sverige",
+   "direction": "higher_better",
+   "source": {
+    "title": "Svenska trender 1986–2025 (Mellanmänsklig tillit)",
+    "publisher": "SOM-institutet, Göteborgs universitet",
+    "url": "https://www.gu.se/sites/default/files/2026-03/Svenska%20trender%201986-2025.pdf"
+   },
+   "note_sv": "Frågan lyder: 'i vilken utsträckning går det att lita på människor i allmänhet?'. 31 % har medelhög (4–6) och 12 % låg (0–3) tillit. Ett annat mått än HLV:s ja/nej-fråga, som modellens tillit bygger på.",
+   "confidence": "high",
+   "topic": "nationellt"
+  },
+  {
+   "id": "ideellt_arbete_andel",
+   "sdg": [
+    16,
+    17
+   ],
+   "name_sv": "Andel som arbetat ideellt det senaste året, 16–84 år",
+   "value": 52,
+   "unit": "%",
+   "year": 2024,
+   "scope": "Sverige",
+   "direction": "higher_better",
+   "source": {
+    "title": "Många bidrar, få orkar bära: Ideellt arbete i Sverige 1992–2024",
+    "publisher": "Marie Cederschiöld högskola (rapportkopia hos Borås stad)",
+    "url": "https://www.boras.se/download/18.59db80a9195a83af567c39bd/1743414059369/M%C3%A5nga%20bidrar%20f%C3%A5%20orkar%20b%C3%A4ra%20MCHS.pdf"
+   },
+   "note_sv": "Befolkningsstudie 2024. Andelen har legat stabilt på 48–53 % sedan 1992, med flest män och medelålders. Enligt SOM 2025 är 34 % medlemmar i en idrotts- eller friluftsförening, 40 % i facket och 14 % i en kulturförening.",
+   "confidence": "high",
+   "topic": "nationellt"
+  },
+  {
+   "id": "livsmedelsberedskap_planeringsmal_dagar",
+   "sdg": [
+    2,
+    16
+   ],
+   "name_sv": "Nationellt planeringsmål: livsmedelsförsörjning under en säkerhetspolitisk kris (minst tre månader)",
+   "value": 90,
+   "unit": "dagar (minst)",
+   "year": 2022,
+   "scope": "Sverige",
+   "direction": "context",
+   "source": {
+    "title": "Kommittédirektiv 2022:33 En ny livsmedelsberedskap",
+    "publisher": "Regeringen (ursprungskälla: prop. Totalförsvaret 2021–2025)",
+    "url": "https://www.regeringen.se/contentassets/420126e0060141278a5dfa39d8a73b95/en-ny-livsmedelsberedskap-dir.-202233.pdf"
+   },
+   "note_sv": "Livsmedelsförsörjningen ska tryggas 'under minst tre månader där logistikflödena med omvärlden är begränsade' (90 dagar = egen omräkning). Riksdagen beslutade den 26 maj 2026 om lag om beredskapslager i livsmedelskedjan (SFS 2026:837), i kraft 1 juli 2026. De första statliga spannmålslagren byggs i Norrland under 2026. Målnivå, inte uppmätt lager.",
+   "confidence": "high",
+   "replaces": "foodStockDays",
+   "topic": "nationellt"
+  },
+  {
+   "id": "internet_icke_anvandare",
+   "sdg": [
+    9,
+    10
+   ],
+   "name_sv": "Andel av befolkningen 16+ som inte använder internet",
+   "value": 3,
+   "unit": "%",
+   "year": 2025,
+   "scope": "Sverige",
+   "direction": "lower_better",
+   "source": {
+    "title": "Svenskarna och internet 2025 – sammanfattning",
+    "publisher": "Internetstiftelsen",
+    "url": "https://svenskarnaochinternet.se/app/uploads/2025/09/svenskarna-och-internet-2025-sammanfattning.pdf"
+   },
+   "note_sv": "Nästan bara personer i pensionsåldern. 95 % använder e-legitimation, i praktiken mobilt Bank-id, ett enskilt kritiskt beroende. Nästan var fjärde har avstått från att boka läkartid för att vårdens e-tjänster är för svåra.",
+   "confidence": "high",
+   "topic": "nationellt"
+  },
+  {
+   "id": "generativ_ai_anvandning",
+   "sdg": [
+    9
+   ],
+   "name_sv": "Andel 16+ som använt generativa AI-verktyg",
+   "value": 37,
+   "unit": "%",
+   "year": 2025,
+   "scope": "Sverige",
+   "direction": "context",
+   "source": {
+    "title": "Artificiell intelligens i Sverige 2026 (statistiknyhet 2026-05-21)",
+    "publisher": "SCB",
+    "url": "https://www.scb.se/hitta-statistik/statistik-efter-amne/forskning-och-det-digitala-samhallet/ovrigt/artificiell-intelligens-i-sverige/pong/statistiknyhet/artificiell-intelligens-i-sverige-2026/"
+   },
+   "note_sv": "25 % år 2024. 18 % använder AI i arbetet. 35 % av företagen använde AI 2025, och bland stora företag 72 %.",
+   "confidence": "high",
+   "topic": "nationellt"
+  },
+  {
+   "id": "kommuner_ai_i_alla_delar",
+   "sdg": [
+    9,
+    16
+   ],
+   "name_sv": "Kommuner där AI i viss utsträckning används inom alla delar av verksamheten",
+   "value": 25,
+   "unit": "% av svarande kommuner",
+   "year": 2025,
+   "scope": "Sverige",
+   "direction": "context",
+   "source": {
+    "title": "AI i kommunens tjänst – så använder Sveriges kommuner AI (Rapport 2026)",
+    "publisher": "Akavia (enkät till alla 290 kommuner, 170 svar)",
+    "url": "https://www.akavia.se/siteassets/04-om-akavia/rapporter/ai-i-kommunens-tjanst-sa-anvander-sverges-kommuner-ai.pdf"
+   },
+   "note_sv": "Ingen kommun säger att AI genomsyrar hela kommunen. 40 % använder AI i vissa delar och 34 % bara hos enstaka personer. Knappt var fjärde kommun har en AI-strategi (fyra av tio bland kommuner med minst 50 000 invånare), och nära hälften har riktlinjer. 7 % har utbildat all personal. Detta är ingen SKR-enkät, eftersom ingen sådan hittades.",
+   "confidence": "medium",
+   "replaces": "aiCapacity",
+   "topic": "nationellt"
+  },
+  {
+   "id": "ai_forordningen_hogrisk_tillampning",
+   "sdg": [
+    9,
+    16
+   ],
+   "name_sv": "År då EU:s AI-förordning börjar gälla för fristående högrisksystem (bilaga III), 2 december",
+   "value": 2027,
+   "unit": "år",
+   "year": 2026,
+   "scope": "Sverige",
+   "direction": "context",
+   "source": {
+    "title": "AI Act – Regulatory framework for AI / AI Omnibus enters into force",
+    "publisher": "Europeiska kommissionen",
+    "url": "https://digital-strategy.ec.europa.eu/en/policies/regulatory-framework-ai"
+   },
+   "note_sv": "AI-förordningen trädde i kraft 1 augusti 2024. Förbud och AI-kunnighet gäller sedan 2 februari 2025, GPAI-regler sedan augusti 2025 och resten av förordningen sedan 2 augusti 2026. AI-omnibusen (i kraft 27 juli 2026) sköt upp högriskkraven till 2 december 2027 (bilaga III, bland annat offentliga förmåner) och 2 augusti 2028 (bilaga I). Kommunernas AI i myndighetsutövning berörs främst av bilaga III.",
+   "confidence": "high",
+   "replaces": "aiGovernance",
+   "topic": "nationellt"
+  },
+  {
+   "id": "konsumtion_kokvaxter_per_person",
+   "sdg": [
+    2,
+    12
+   ],
+   "name_sv": "Konsumtion av färska och frysta köksväxter per person",
+   "value": 62.2,
+   "unit": "kg/person/år",
+   "year": 2023,
+   "scope": "Sverige",
+   "direction": "context",
+   "source": {
+    "title": "Livsmedelskonsumtion och näringsinnehåll. Uppgifter till och med 2023",
+    "publisher": "Jordbruksverket",
+    "url": "https://jordbruksverket.se/om-jordbruksverket/jordbruksverkets-officiella-statistik/jordbruksverkets-statistikrapporter/statistik/2024-12-10-livsmedelskonsumtion-och-naringsinnehall.--uppgifter-till-och-med-2023"
+   },
+   "note_sv": "Totalkonsumtion, nästan fördubblad sedan 1980. Direktkonsumtionen av färska köksväxter är 45,8 kg och av rotfrukter 10,5 kg. Används som nämnare när stadsodlingens andel räknas ut.",
+   "confidence": "high",
+   "replaces": "cityVeg",
+   "topic": "nationellt"
+  },
+  {
+   "id": "konsumtion_frukt_bar_per_person",
+   "sdg": [
+    2,
+    12
+   ],
+   "name_sv": "Konsumtion av färsk och fryst frukt och bär per person",
+   "value": 54.7,
+   "unit": "kg/person/år",
+   "year": 2023,
+   "scope": "Sverige",
+   "direction": "context",
+   "source": {
+    "title": "Livsmedelskonsumtion och näringsinnehåll. Uppgifter till och med 2023",
+    "publisher": "Jordbruksverket",
+    "url": "https://jordbruksverket.se/om-jordbruksverket/jordbruksverkets-officiella-statistik/jordbruksverkets-statistikrapporter/statistik/2024-12-10-livsmedelskonsumtion-och-naringsinnehall.--uppgifter-till-och-med-2023"
+   },
+   "note_sv": "Samma nivå som 1980. Med förädlade produkter (juice, sylt med mera) är konsumtionen av frukt och bär 82,4 kg per person och år.",
+   "confidence": "high",
+   "replaces": "cityVeg",
+   "topic": "nationellt"
+  },
+  {
+   "id": "utslapp_per_gastnatt",
+   "sdg": [
+    12,
+    13
+   ],
+   "name_sv": "Klimatpåverkan per turistgästnatt (Västsverige)",
+   "value": 39,
+   "unit": "kg CO2e/gästnatt",
+   "year": 2015,
+   "scope": "Sverige",
+   "direction": "lower_better",
+   "source": {
+    "title": "Turistens klimatpåverkan – modell och beräkning för Västsverige (Brunklaus m.fl. 2015)",
+    "publisher": "Chalmers tekniska högskola",
+    "url": "https://research.chalmers.se/publication/226288"
+   },
+   "note_sv": "Livscykelberäkning för turismen i Västsverige: 110 kg CO2e per turist och 39 kg per gästnatt, varav resan till och från resmålet 54 % och logi 23 %.",
+   "confidence": "medium",
+   "topic": "nationellt"
+  },
+  {
+   "id": "ecodriving_bransle_besparing",
+   "sdg": [
+    13,
+    14
+   ],
+   "name_sv": "Bränslebesparing med simulatorbaserad sparsam framföring (Sjöfartshögskolan)",
+   "value": 13,
+   "unit": "% (upp till)",
+   "year": 2026,
+   "scope": "Sverige",
+   "direction": "higher_better",
+   "source": {
+    "title": "How simulation drives sustainable maritime transportation and IMO compliance",
+    "publisher": "Kongsberg Maritime",
+    "url": "https://www.kongsberg.com/maritime/feature_articles/2026/1/driving-a-greener-future-for-global-shipping"
+   },
+   "note_sv": "Kurser för befälhavare på mindre passagerarfärjor i Stockholms skärgård har gett upp till 13 % lägre bränsleförbrukning. Sedan 2015 har över 400 besättningsmedlemmar på Trafikverkets vägfärjor utbildats (1,5 liter mindre per tur, uppgivet 11 000 ton CO₂ per år) och totalt över 700 befäl. Uppgifterna är simulatortillverkaren Kongsbergs återgivning av en LNU-rapport som inte har granskats här.",
+   "confidence": "medium",
+   "topic": "nationellt"
+  },
+  {
+   "id": "unga_19_24_sverige_prognos_2050",
+   "sdg": [
+    4
+   ],
+   "name_sv": "Invånare 19–24 år i Sverige 2050 enligt SCB:s befolkningsframskrivning",
+   "value": 667595,
+   "unit": "personer",
+   "year": 2050,
+   "scope": "Sverige",
+   "direction": "context",
+   "source": {
+    "title": "Folkmängd efter inrikes/utrikes född, ålder och kön. År 2026–2120 (BefolkprognRevNb)",
+    "publisher": "SCB",
+    "url": "https://www.statistikdatabasen.scb.se/pxweb/sv/ssd/START__BE__BE0401__BE0401A/BefolkprognRevNb/"
+   },
+   "note_sv": "Summa av ettårsklasserna 19–24 år (egen summering): 740 827 (2026), topp 779 316 (2035) och 667 595 (2050), alltså −14 % från toppen och −10 % jämfört med 2026 (egna beräkningar). Högskolans naturliga rekryteringsbas växer till mitten av 2030-talet och krymper sedan, vilket skärper konkurrensen om studenter.",
+   "confidence": "medium",
+   "topic": "nationellt"
+  },
+  {
+   "id": "befolkning_total",
+   "sdg": [
+    11
+   ],
+   "name_sv": "Folkmängd Trollhättans kommun",
+   "value": 59265,
+   "unit": "invånare",
+   "year": 2025,
+   "scope": "Trollhättans kommun",
+   "direction": "context",
+   "source": {
+    "title": "Kolada N01951: Invånare totalt, antal",
+    "publisher": "RKA Kolada",
+    "url": "https://api.kolada.se/v3/data/kpi/N01951/municipality/1488/year/2025"
+   },
+   "note_sv": "Folkbokförda invånare den 31 december (SCB).",
+   "confidence": "high",
+   "topic": "kolada"
+  },
+  {
+   "id": "befolkningstillvaxt_1ar",
+   "sdg": [
+    11
+   ],
+   "name_sv": "Befolkningsförändring senaste året",
+   "value": 0.444,
+   "unit": "%",
+   "year": 2025,
+   "scope": "Trollhättans kommun",
+   "direction": "context",
+   "source": {
+    "title": "Kolada N01963: Befolkningsförändring sedan föregående år, procent",
+    "publisher": "RKA Kolada",
+    "url": "https://api.kolada.se/v3/data/kpi/N01963/municipality/1488/year/2025"
+   },
+   "note_sv": "Förändringen av folkmängden sedan året innan (SCB). Riket 0,168 %, länet 0,281 % (2025).",
+   "confidence": "high",
+   "topic": "kolada"
+  },
+  {
+   "id": "befolkningstillvaxt_5ar",
+   "sdg": [
+    11
+   ],
+   "name_sv": "Befolkningsförändring senaste fem åren",
+   "value": 0.027,
+   "unit": "%",
+   "year": 2025,
+   "scope": "Trollhättans kommun",
+   "direction": "context",
+   "source": {
+    "title": "Kolada N01958: Befolkningsförändring under senaste femårsperioden, procent",
+    "publisher": "RKA Kolada",
+    "url": "https://api.kolada.se/v3/data/kpi/N01958/municipality/1488/year/2025"
+   },
+   "note_sv": "Förändringen av folkmängden under de senaste fem åren (SCB). Riket 2,2 %, länet 2,5 % (2025).",
+   "confidence": "high",
+   "topic": "kolada"
+  },
+  {
+   "id": "befolkningstathet",
+   "sdg": [
+    11
+   ],
+   "name_sv": "Befolkningstäthet",
+   "value": 143.959,
+   "unit": "inv/km²",
+   "year": 2025,
+   "scope": "Trollhättans kommun",
+   "direction": "context",
+   "source": {
+    "title": "Kolada N02937: Invånare per kvadratkilometer",
+    "publisher": "RKA Kolada",
+    "url": "https://api.kolada.se/v3/data/kpi/N02937/municipality/1488/year/2025"
+   },
+   "note_sv": "Invånare per kvadratkilometer landareal (SCB). Riket 25,9 inv/km², länet 74,3 inv/km² (2025).",
+   "confidence": "high",
+   "topic": "kolada"
+  },
+  {
+   "id": "andel_0_19",
+   "sdg": [
+    4,
+    11
+   ],
+   "name_sv": "Andel invånare 0–19 år",
+   "value": 23.019,
+   "unit": "%",
+   "year": 2025,
+   "scope": "Trollhättans kommun",
+   "direction": "context",
+   "source": {
+    "title": "Kolada N01994: Invånare 0-19 år, andel (%)",
+    "publisher": "RKA Kolada",
+    "url": "https://api.kolada.se/v3/data/kpi/N01994/municipality/1488/year/2025"
+   },
+   "note_sv": "Andelen av befolkningen som är 0–19 år (SCB). Riket 22,4 %, länet 22,3 % (2025).",
+   "confidence": "high",
+   "topic": "kolada"
+  },
+  {
+   "id": "andel_65_plus",
+   "sdg": [
+    3,
+    11
+   ],
+   "name_sv": "Andel invånare 65+ år",
+   "value": 19.951,
+   "unit": "%",
+   "year": 2025,
+   "scope": "Trollhättans kommun",
+   "direction": "context",
+   "source": {
+    "title": "Kolada N01960: Invånare 65+, andel (%)",
+    "publisher": "RKA Kolada",
+    "url": "https://api.kolada.se/v3/data/kpi/N01960/municipality/1488/year/2025"
+   },
+   "note_sv": "Andelen av befolkningen som är 65 år eller äldre (SCB). Riket 21,1 %, länet 20,5 % (2025).",
+   "confidence": "high",
+   "topic": "kolada"
+  },
+  {
+   "id": "andel_80_plus",
+   "sdg": [
+    3,
+    11
+   ],
+   "name_sv": "Andel invånare 80+ år",
+   "value": 6.088,
+   "unit": "%",
+   "year": 2025,
+   "scope": "Trollhättans kommun",
+   "direction": "context",
+   "source": {
+    "title": "Kolada N01813: Invånare 80+, andel (%)",
+    "publisher": "RKA Kolada",
+    "url": "https://api.kolada.se/v3/data/kpi/N01813/municipality/1488/year/2025"
+   },
+   "note_sv": "Andelen av befolkningen som är 80 år eller äldre (SCB). Riket 6,4 %, länet 6,2 % (2025).",
+   "confidence": "high",
+   "topic": "kolada"
+  },
+  {
+   "id": "landareal",
+   "sdg": [
+    15
+   ],
+   "name_sv": "Landareal",
+   "value": 411.66,
+   "unit": "km²",
+   "year": 2026,
+   "scope": "Trollhättans kommun",
+   "direction": "context",
+   "source": {
+    "title": "Kolada N02993: Landareal, kvadratkilometer",
+    "publisher": "RKA Kolada",
+    "url": "https://api.kolada.se/v3/data/kpi/N02993/municipality/1488/year/2026"
+   },
+   "note_sv": "Landareal utan vatten (SCB).",
+   "confidence": "high",
+   "topic": "kolada"
+  },
+  {
+   "id": "hushall_antal",
+   "sdg": [
+    11
+   ],
+   "name_sv": "Antal hushåll",
+   "value": 27871,
+   "unit": "hushåll",
+   "year": 2025,
+   "scope": "Trollhättans kommun",
+   "direction": "context",
+   "source": {
+    "title": "Kolada N02938: Hushåll, antal",
+    "publisher": "RKA Kolada",
+    "url": "https://api.kolada.se/v3/data/kpi/N02938/municipality/1488/year/2025"
+   },
+   "note_sv": "Antalet hushåll (SCB).",
+   "confidence": "high",
+   "topic": "kolada"
+  },
+  {
+   "id": "vaxthusgaser_per_inv",
+   "sdg": [
+    13
+   ],
+   "name_sv": "Territoriella växthusgasutsläpp per invånare",
+   "value": 2.079,
+   "unit": "ton CO2e/inv",
+   "year": 2024,
+   "scope": "Trollhättans kommun",
+   "direction": "lower_better",
+   "source": {
+    "title": "Kolada N00401: Utsläpp till luft av växthusgaser totalt, ton CO2-ekv/inv",
+    "publisher": "RKA Kolada",
+    "url": "https://api.kolada.se/v3/data/kpi/N00401/municipality/1488/year/2024"
+   },
+   "note_sv": "Territoriella utsläpp inom kommunens gräns (Nationella emissionsdatabasen, RUS/SMHI) – inte konsumtionsbaserade. Riket 4,5 ton CO2e/inv, länet 5,5 ton CO2e/inv (2024).",
+   "confidence": "high",
+   "topic": "kolada"
+  },
+  {
+   "id": "vaxthusgaser_transporter_per_inv",
+   "sdg": [
+    11,
+    13
+   ],
+   "name_sv": "Utsläpp från transporter per invånare",
+   "value": 1.255,
+   "unit": "ton CO2e/inv",
+   "year": 2024,
+   "scope": "Trollhättans kommun",
+   "direction": "lower_better",
+   "source": {
+    "title": "Kolada N85073: Utsläpp till luft av växthusgaser, transporter, ton CO2e/inv",
+    "publisher": "RKA Kolada",
+    "url": "https://api.kolada.se/v3/data/kpi/N85073/municipality/1488/year/2024"
+   },
+   "note_sv": "Inrikes transporter inom kommunens gräns (RUS/SMHI). Riket 1,6 ton CO2e/inv, länet 1,6 ton CO2e/inv (2024).",
+   "confidence": "high",
+   "topic": "kolada"
+  },
+  {
+   "id": "vaxthusgaser_jordbruk_per_inv",
+   "sdg": [
+    2,
+    13
+   ],
+   "name_sv": "Utsläpp från jordbruk per invånare",
+   "value": 0.224,
+   "unit": "ton CO2e/inv",
+   "year": 2024,
+   "scope": "Trollhättans kommun",
+   "direction": "lower_better",
+   "source": {
+    "title": "Kolada N85078: Utsläpp till luft av växthusgaser, jordbruk, ton CO2e/inv",
+    "publisher": "RKA Kolada",
+    "url": "https://api.kolada.se/v3/data/kpi/N85078/municipality/1488/year/2024"
+   },
+   "note_sv": "Jordbrukets utsläpp: djurens matsmältning, gödsel och mark (RUS/SMHI). Riket 0,585 ton CO2e/inv, länet 0,594 ton CO2e/inv (2024).",
+   "confidence": "high",
+   "topic": "kolada"
+  },
+  {
+   "id": "vaxthusgaser_el_fjarrvarme_per_inv",
+   "sdg": [
+    7,
+    13
+   ],
+   "name_sv": "Utsläpp från el- och fjärrvärmeproduktion per invånare",
+   "value": 0.042,
+   "unit": "ton CO2e/inv",
+   "year": 2024,
+   "scope": "Trollhättans kommun",
+   "direction": "lower_better",
+   "source": {
+    "title": "Kolada N85076: Utsläpp till luft av växthusgaser, el och fjärrvärme, ton CO2e/inv",
+    "publisher": "RKA Kolada",
+    "url": "https://api.kolada.se/v3/data/kpi/N85076/municipality/1488/year/2024"
+   },
+   "note_sv": "Utsläpp från el- och fjärrvärmeproduktionen i kommunen (RUS/SMHI). Riket 0,489 ton CO2e/inv, länet 0,399 ton CO2e/inv (2024).",
+   "confidence": "high",
+   "topic": "kolada"
+  },
+  {
+   "id": "vaxthusgaser_industri_per_inv",
+   "sdg": [
+    9,
+    13
+   ],
+   "name_sv": "Utsläpp från industri per invånare",
+   "value": 0.005,
+   "unit": "ton CO2e/inv",
+   "year": 2024,
+   "scope": "Trollhättans kommun",
+   "direction": "lower_better",
+   "source": {
+    "title": "Kolada N85077: Utsläpp till luft av växthusgaser, industri, ton CO2e/inv",
+    "publisher": "RKA Kolada",
+    "url": "https://api.kolada.se/v3/data/kpi/N85077/municipality/1488/year/2024"
+   },
+   "note_sv": "Industrins förbränning och processutsläpp (RUS/SMHI). Riket 1,2 ton CO2e/inv, länet 2,4 ton CO2e/inv (2024).",
+   "confidence": "high",
+   "topic": "kolada"
+  },
+  {
+   "id": "elanvandning_per_inv",
+   "sdg": [
+    7
+   ],
+   "name_sv": "Slutanvändning av el per invånare",
+   "value": 8.108,
+   "unit": "MWh/inv",
+   "year": 2024,
+   "scope": "Trollhättans kommun",
+   "direction": "lower_better",
+   "source": {
+    "title": "Kolada N45906: Slutanvändning av el inom det geografiska området, MWh/inv",
+    "publisher": "RKA Kolada",
+    "url": "https://api.kolada.se/v3/data/kpi/N45906/municipality/1488/year/2024"
+   },
+   "note_sv": "All slutanvändning av el inom kommunen, industrins inräknad (Energimyndigheten/SCB). Riket 11,9 MWh/inv, länet 10,3 MWh/inv (2024).",
+   "confidence": "high",
+   "topic": "kolada"
+  },
+  {
+   "id": "fjarrvarme_fornybar_andel",
+   "sdg": [
+    7,
+    13
+   ],
+   "name_sv": "Förnybar andel av fjärrvärmeproduktionen",
+   "value": 99.914,
+   "unit": "%",
+   "year": 2024,
+   "scope": "Trollhättans kommun",
+   "direction": "higher_better",
+   "source": {
+    "title": "Kolada N45930: Fjärrvärmeproduktion av förnybara energikällor, andel (%)",
+    "publisher": "RKA Kolada",
+    "url": "https://api.kolada.se/v3/data/kpi/N45930/municipality/1488/year/2024"
+   },
+   "note_sv": "Andelen av kommunens fjärrvärmeproduktion som kommer från förnybara energikällor (Energimyndigheten/SCB). Riket 83,9 % (2024).",
+   "confidence": "high",
+   "topic": "kolada"
+  },
+  {
+   "id": "elproduktion_lokal",
+   "sdg": [
+    7
+   ],
+   "name_sv": "Elproduktion inom kommunen",
+   "value": 1641981,
+   "unit": "MWh/år",
+   "year": 2024,
+   "scope": "Trollhättans kommun",
+   "direction": "higher_better",
+   "source": {
+    "title": "Kolada N45926: Elproduktion totalt inom det geografiska området, MWh",
+    "publisher": "RKA Kolada",
+    "url": "https://api.kolada.se/v3/data/kpi/N45926/municipality/1488/year/2024"
+   },
+   "note_sv": "All elproduktion inom kommunens gräns – vatten, vind, sol och kraftvärme (Energimyndigheten/SCB).",
+   "confidence": "high",
+   "topic": "kolada"
+  },
+  {
+   "id": "solceller_installerad_effekt",
+   "sdg": [
+    7
+   ],
+   "name_sv": "Installerad solcellseffekt",
+   "value": 22.17,
+   "unit": "MW",
+   "year": 2025,
+   "scope": "Trollhättans kommun",
+   "direction": "higher_better",
+   "source": {
+    "title": "Kolada N45970: Solcellsanläggningar totalt, installerad effekt (MW)",
+    "publisher": "RKA Kolada",
+    "url": "https://api.kolada.se/v3/data/kpi/N45970/municipality/1488/year/2025"
+   },
+   "note_sv": "Nätanslutna solcellsanläggningar, installerad effekt (Energimyndigheten).",
+   "confidence": "high",
+   "topic": "kolada"
+  },
+  {
+   "id": "vindkraft_installerad_effekt",
+   "sdg": [
+    7
+   ],
+   "name_sv": "Installerad vindkrafteffekt inom kommunen",
+   "value": 0.6,
+   "unit": "MW",
+   "year": 2025,
+   "scope": "Trollhättans kommun",
+   "direction": "higher_better",
+   "source": {
+    "title": "Kolada N45979: Vindkraftverk, installerad effekt, MW",
+    "publisher": "RKA Kolada",
+    "url": "https://api.kolada.se/v3/data/kpi/N45979/municipality/1488/year/2025"
+   },
+   "note_sv": "Installerad effekt i vindkraftverk inom kommunens gräns (Energimyndigheten).",
+   "confidence": "high",
+   "topic": "kolada"
+  },
+  {
+   "id": "elbilar_andel",
+   "sdg": [
+    7,
+    11,
+    13
+   ],
+   "name_sv": "Andel elbilar av personbilsbeståndet",
+   "value": 8.751,
+   "unit": "%",
+   "year": 2025,
+   "scope": "Trollhättans kommun",
+   "direction": "higher_better",
+   "source": {
+    "title": "Kolada N07945: Elbilar, andel (%)",
+    "publisher": "RKA Kolada",
+    "url": "https://api.kolada.se/v3/data/kpi/N07945/municipality/1488/year/2025"
+   },
+   "note_sv": "Elbilar som andel av personbilarna i trafik (Trafikanalys). Riket 8,6 %, länet 8,5 % (2025).",
+   "confidence": "high",
+   "topic": "kolada"
+  },
+  {
+   "id": "kollektivtrafiknara_lage",
+   "sdg": [
+    11
+   ],
+   "name_sv": "Befolkning i kollektivtrafiknära läge",
+   "value": 90.8,
+   "unit": "%",
+   "year": 2024,
+   "scope": "Trollhättans kommun",
+   "direction": "higher_better",
+   "source": {
+    "title": "Kolada N07418: Befolkning i kollektivtrafiknära läge, andel (%)",
+    "publisher": "RKA Kolada",
+    "url": "https://api.kolada.se/v3/data/kpi/N07418/municipality/1488/year/2024"
+   },
+   "note_sv": "Andelen som har en hållplats med minst en avgång i timmen (vardagar 06–20) inom 500 m fågelvägen. Riket 80,9 %, länet 82,0 % (2024).",
+   "confidence": "high",
+   "topic": "kolada"
+  },
+  {
+   "id": "cykelvag_per_inv",
+   "sdg": [
+    11
+   ],
+   "name_sv": "Cykelväg per invånare",
+   "value": 3.09,
+   "unit": "meter/inv",
+   "year": 2025,
+   "scope": "Trollhättans kommun",
+   "direction": "higher_better",
+   "source": {
+    "title": "Kolada N07806: Cykelväg i kommunen, total, meter/inv",
+    "publisher": "RKA Kolada",
+    "url": "https://api.kolada.se/v3/data/kpi/N07806/municipality/1488/year/2025"
+   },
+   "note_sv": "Total cykelvägslängd – kommunal, statlig och enskild – per invånare. Riket 2,7 meter/inv (2025).",
+   "confidence": "high",
+   "topic": "kolada"
+  },
+  {
+   "id": "ekologisk_akermark_andel",
+   "sdg": [
+    2,
+    15
+   ],
+   "name_sv": "Ekologiskt brukad åkermark",
+   "value": 16.182,
+   "unit": "%",
+   "year": 2025,
+   "scope": "Trollhättans kommun",
+   "direction": "higher_better",
+   "source": {
+    "title": "Kolada N00403: Ekologiskt brukad åkermark, andel (%)",
+    "publisher": "RKA Kolada",
+    "url": "https://api.kolada.se/v3/data/kpi/N00403/municipality/1488/year/2025"
+   },
+   "note_sv": "Andelen av åkermarken som brukas ekologiskt (Jordbruksverket). Riket 14,1 %, länet 18,7 % (2025).",
+   "confidence": "high",
+   "topic": "kolada"
+  },
+  {
+   "id": "grundvatten_god_status",
+   "sdg": [
+    6
+   ],
+   "name_sv": "Grundvattenförekomster med god kemisk och kvantitativ status",
+   "value": 100,
+   "unit": "%",
+   "year": 2022,
+   "scope": "Trollhättans kommun",
+   "direction": "higher_better",
+   "source": {
+    "title": "Kolada N85053: Grundvattenförekomster med god kemisk och kvantitativ status, andel (%)",
+    "publisher": "RKA Kolada",
+    "url": "https://api.kolada.se/v3/data/kpi/N85053/municipality/1488/year/2022"
+   },
+   "note_sv": "Andelen grundvattenförekomster med god kemisk och kvantitativ status (VISS/länsstyrelserna). Riket 97,2 %, länet 99,2 % (2022).",
+   "confidence": "high",
+   "topic": "kolada"
+  },
+  {
+   "id": "skyddad_natur_total",
+   "sdg": [
+    14,
+    15
+   ],
+   "name_sv": "Skyddad natur, andel av total areal",
+   "value": 1.338,
+   "unit": "%",
+   "year": 2025,
+   "scope": "Trollhättans kommun",
+   "direction": "higher_better",
+   "source": {
+    "title": "Kolada N85054: Skyddad natur totalt, andel (%)",
+    "publisher": "RKA Kolada",
+    "url": "https://api.kolada.se/v3/data/kpi/N85054/municipality/1488/year/2025"
+   },
+   "note_sv": "Nationalpark, naturreservat, naturvårdsområde och biotopskydd som andel av den totala arealen (SCB/Naturvårdsverket). Riket 12,1 %, länet 7,2 % (2025).",
+   "confidence": "high",
+   "topic": "kolada"
+  },
+  {
+   "id": "medellivslangd_man",
+   "sdg": [
+    3
+   ],
+   "name_sv": "Medellivslängd män",
+   "value": 81.04,
+   "unit": "år",
+   "year": 2025,
+   "scope": "Trollhättans kommun",
+   "direction": "higher_better",
+   "source": {
+    "title": "Kolada N00923: Medellivslängd män, år",
+    "publisher": "RKA Kolada",
+    "url": "https://api.kolada.se/v3/data/kpi/N00923/municipality/1488/year/2025"
+   },
+   "note_sv": "Medellivslängd vid födseln, femårsmedel (SCB). Riket 81,8 år, länet 81,6 år (2025).",
+   "confidence": "high",
+   "topic": "kolada"
+  },
+  {
+   "id": "medellivslangd_kvinnor",
+   "sdg": [
+    3,
+    5
+   ],
+   "name_sv": "Medellivslängd kvinnor",
+   "value": 84.41,
+   "unit": "år",
+   "year": 2025,
+   "scope": "Trollhättans kommun",
+   "direction": "higher_better",
+   "source": {
+    "title": "Kolada N00925: Medellivslängd kvinnor, år",
+    "publisher": "RKA Kolada",
+    "url": "https://api.kolada.se/v3/data/kpi/N00925/municipality/1488/year/2025"
+   },
+   "note_sv": "Medellivslängd vid födseln, femårsmedel (SCB). Riket 85,1 år, länet 85,0 år (2025).",
+   "confidence": "high",
+   "topic": "kolada"
+  },
+  {
+   "id": "sjalvskattad_god_halsa",
+   "sdg": [
+    3
+   ],
+   "name_sv": "Bra självskattat hälsotillstånd",
+   "value": 72.5,
+   "unit": "%",
+   "year": 2024,
+   "scope": "Trollhättans kommun",
+   "direction": "higher_better",
+   "source": {
+    "title": "Kolada U01405: Invånare med bra självskattat hälsotillstånd, andel (%)",
+    "publisher": "RKA Kolada",
+    "url": "https://api.kolada.se/v3/data/kpi/U01405/municipality/1488/year/2024"
+   },
+   "note_sv": "Andelen 16–84 år som bedömer sin hälsa som bra eller mycket bra (Folkhälsomyndighetens Hälsa på lika villkor, flera år sammanvägda). Riket 71,0 %, länet 71,0 % (2024).",
+   "confidence": "high",
+   "topic": "kolada"
+  },
+  {
+   "id": "fetma",
+   "sdg": [
+    3
+   ],
+   "name_sv": "Fetma (BMI ≥ 30)",
+   "value": 17.3,
+   "unit": "%",
+   "year": 2024,
+   "scope": "Trollhättans kommun",
+   "direction": "lower_better",
+   "source": {
+    "title": "Kolada U01411: Invånare med fetma, andel (%)",
+    "publisher": "RKA Kolada",
+    "url": "https://api.kolada.se/v3/data/kpi/U01411/municipality/1488/year/2024"
+   },
+   "note_sv": "Andelen 16–84 år med BMI 30 eller mer (Hälsa på lika villkor, flera år sammanvägda). Riket 17,3 %, länet 16,4 % (2024).",
+   "confidence": "high",
+   "topic": "kolada"
+  },
+  {
+   "id": "fysiskt_aktiva",
+   "sdg": [
+    3
+   ],
+   "name_sv": "Fysiskt aktiva minst 150 min/vecka",
+   "value": 64.5,
+   "unit": "%",
+   "year": 2024,
+   "scope": "Trollhättans kommun",
+   "direction": "higher_better",
+   "source": {
+    "title": "Kolada U01429: Invånare 16-84 år som är fysiskt aktiva minst 150 min/vecka, andel (%)",
+    "publisher": "RKA Kolada",
+    "url": "https://api.kolada.se/v3/data/kpi/U01429/municipality/1488/year/2024"
+   },
+   "note_sv": "Andelen 16–84 år som är fysiskt aktiva minst 150 minuter i veckan (Hälsa på lika villkor). Riket 66,1 %, länet 64,4 % (2024).",
+   "confidence": "high",
+   "topic": "kolada"
+  },
+  {
+   "id": "allvarlig_psykisk_pafrestning",
+   "sdg": [
+    3
+   ],
+   "name_sv": "Allvarlig psykisk påfrestning (vuxna 16–84)",
+   "value": 10.6,
+   "unit": "%",
+   "year": 2024,
+   "scope": "Trollhättans kommun",
+   "direction": "lower_better",
+   "source": {
+    "title": "Kolada N01452: Invånare 16-84 år med allvarlig psykisk påfrestning, andel (%)",
+    "publisher": "RKA Kolada",
+    "url": "https://api.kolada.se/v3/data/kpi/N01452/municipality/1488/year/2024"
+   },
+   "note_sv": "Andelen 16–84 år med allvarlig psykisk påfrestning enligt Kessler 6 (Hälsa på lika villkor). Riket 10,0 %, länet 9,8 % (2024).",
+   "confidence": "high",
+   "topic": "kolada"
+  },
+  {
+   "id": "psykisk_ohalsa_barn_unga",
+   "sdg": [
+    3
+   ],
+   "name_sv": "Psykisk ohälsa bland barn och unga 0–19 år",
+   "value": 9.08,
+   "unit": "%",
+   "year": 2024,
+   "scope": "Trollhättans kommun",
+   "direction": "lower_better",
+   "source": {
+    "title": "Kolada N33820: Psykisk ohälsa bland barn och unga, andel (%)",
+    "publisher": "RKA Kolada",
+    "url": "https://api.kolada.se/v3/data/kpi/N33820/municipality/1488/year/2024"
+   },
+   "note_sv": "Andelen 0–19 år med psykiatrisk diagnos, psykofarmaka eller psykiatrisk vård under året (Socialstyrelsen). Riket 10,0 % (2024).",
+   "confidence": "high",
+   "topic": "kolada"
+  },
+  {
+   "id": "avsaknad_emotionellt_stod",
+   "sdg": [
+    3,
+    10
+   ],
+   "name_sv": "Avsaknad av emotionellt stöd (proxy för ensamhet)",
+   "value": 12.2,
+   "unit": "%",
+   "year": 2024,
+   "scope": "Trollhättans kommun",
+   "direction": "lower_better",
+   "source": {
+    "title": "Kolada U01435: Invånare med avsaknad av emotionellt stöd, andel (%)",
+    "publisher": "RKA Kolada",
+    "url": "https://api.kolada.se/v3/data/kpi/U01435/municipality/1488/year/2024"
+   },
+   "note_sv": "Andelen 16–84 år som saknar emotionellt stöd – ett mått nära ensamhet (Hälsa på lika villkor). Riket 13,3 %, länet 14,2 % (2024).",
+   "confidence": "high",
+   "topic": "kolada"
+  },
+  {
+   "id": "gymnasieexamen_4ar",
+   "sdg": [
+    4
+   ],
+   "name_sv": "Gymnasieexamen inom 4 år",
+   "value": 72.109,
+   "unit": "%",
+   "year": 2025,
+   "scope": "Trollhättans kommun",
+   "direction": "higher_better",
+   "source": {
+    "title": "Kolada N17461: Gymnasieelever med examen inom 4 år, hemkommun, andel (%)",
+    "publisher": "RKA Kolada",
+    "url": "https://api.kolada.se/v3/data/kpi/N17461/municipality/1488/year/2025"
+   },
+   "note_sv": "Gymnasieelever folkbokförda i kommunen som tagit examen inom fyra år, introduktionsprogrammen inräknade (Skolverket). Riket 74,8 % (2025).",
+   "confidence": "high",
+   "topic": "kolada"
+  },
+  {
+   "id": "eftergymnasial_utbildning_25_64",
+   "sdg": [
+    4
+   ],
+   "name_sv": "Eftergymnasial utbildning, 25–64 år",
+   "value": 46.853,
+   "unit": "%",
+   "year": 2025,
+   "scope": "Trollhättans kommun",
+   "direction": "higher_better",
+   "source": {
+    "title": "Kolada N01982: Invånare 25-64 år med eftergymnasial utbildning, andel (%)",
+    "publisher": "RKA Kolada",
+    "url": "https://api.kolada.se/v3/data/kpi/N01982/municipality/1488/year/2025"
+   },
+   "note_sv": "Andelen 25–64 år med eftergymnasial utbildning (SCB). Riket 48,5 %, länet 49,1 % (2025).",
+   "confidence": "high",
+   "topic": "kolada"
+  },
+  {
+   "id": "arbetsloshet_20_64",
+   "sdg": [
+    8
+   ],
+   "name_sv": "Arbetslöshet 20–64 år (BAS)",
+   "value": 7.062,
+   "unit": "%",
+   "year": 2024,
+   "scope": "Trollhättans kommun",
+   "direction": "lower_better",
+   "source": {
+    "title": "Kolada N02280: Arbetslöshet, 20-64 år, BAS, andel (%)",
+    "publisher": "RKA Kolada",
+    "url": "https://api.kolada.se/v3/data/kpi/N02280/municipality/1488/year/2024"
+   },
+   "note_sv": "Registerbaserad arbetslöshet bland 20–64-åringar i november (SCB). Riket 5,4 %, länet 5,0 % (2024).",
+   "confidence": "high",
+   "topic": "kolada"
+  },
+  {
+   "id": "unga_varken_arbetar_studerar",
+   "sdg": [
+    4,
+    8
+   ],
+   "name_sv": "Unga 16–24 år som varken arbetar eller studerar",
+   "value": 6.129,
+   "unit": "%",
+   "year": 2024,
+   "scope": "Trollhättans kommun",
+   "direction": "lower_better",
+   "source": {
+    "title": "Kolada N02797: Invånare 16-24 år som varken arbetar eller studerar, andel (%)",
+    "publisher": "RKA Kolada",
+    "url": "https://api.kolada.se/v3/data/kpi/N02797/municipality/1488/year/2024"
+   },
+   "note_sv": "Andelen 16–24 år som varken arbetar eller studerar (SCB). Riket 6,2 %, länet 5,9 % (2024).",
+   "confidence": "high",
+   "topic": "kolada"
+  },
+  {
+   "id": "medianinkomst_20_64",
+   "sdg": [
+    8,
+    10
+   ],
+   "name_sv": "Medianinkomst (sammanräknad förvärvsinkomst) 20–64 år",
+   "value": 390200,
+   "unit": "kr/år",
+   "year": 2024,
+   "scope": "Trollhättans kommun",
+   "direction": "higher_better",
+   "source": {
+    "title": "Kolada N00906: Sammanräknad förvärvsinkomst i åldern 20-64 år (median), kr",
+    "publisher": "RKA Kolada",
+    "url": "https://api.kolada.se/v3/data/kpi/N00906/municipality/1488/year/2024"
+   },
+   "note_sv": "Sammanräknad förvärvsinkomst för 20–64-åringar, median (SCB). Riket 401 400 kr/år, länet 404 900 kr/år (2024).",
+   "confidence": "high",
+   "topic": "kolada"
+  },
+  {
+   "id": "gini_disponibel_inkomst",
+   "sdg": [
+    10
+   ],
+   "name_sv": "Ginikoefficient, disponibel inkomst",
+   "value": 0.272,
+   "unit": "index 0–1",
+   "year": 2024,
+   "scope": "Trollhättans kommun",
+   "direction": "lower_better",
+   "source": {
+    "title": "Kolada N00997: Ginikoefficient – hushållens disponibla inkomster, index",
+    "publisher": "RKA Kolada",
+    "url": "https://api.kolada.se/v3/data/kpi/N00997/municipality/1488/year/2024"
+   },
+   "note_sv": "Ginikoefficient för hushållens disponibla inkomster; 0 är total jämlikhet (SCB). Riket 0,314, länet 0,296 (2024).",
+   "confidence": "high",
+   "topic": "kolada"
+  },
+  {
+   "id": "barn_lag_ekonomisk_standard",
+   "sdg": [
+    1,
+    10
+   ],
+   "name_sv": "Barn och unga 0–19 år med låg ekonomisk standard",
+   "value": 22,
+   "unit": "%",
+   "year": 2024,
+   "scope": "Trollhättans kommun",
+   "direction": "lower_better",
+   "source": {
+    "title": "Kolada N66077: Invånare, 0-19 år, med låg ekonomisk standard, andel (%)",
+    "publisher": "RKA Kolada",
+    "url": "https://api.kolada.se/v3/data/kpi/N66077/municipality/1488/year/2024"
+   },
+   "note_sv": "Andelen 0–19 år i hushåll under 60 % av medianens ekonomiska standard (SCB). Riket 17,0 %, länet 17,0 % (2024).",
+   "confidence": "high",
+   "topic": "kolada"
+  },
+  {
+   "id": "nystartade_foretag_per_1000",
+   "sdg": [
+    8,
+    9
+   ],
+   "name_sv": "Nystartade företag per 1000 invånare 16–64 år",
+   "value": 8.532,
+   "unit": "antal/1000",
+   "year": 2025,
+   "scope": "Trollhättans kommun",
+   "direction": "higher_better",
+   "source": {
+    "title": "Kolada N00999: Nystartade företag, antal/1000 inv, 16-64 år",
+    "publisher": "RKA Kolada",
+    "url": "https://api.kolada.se/v3/data/kpi/N00999/municipality/1488/year/2025"
+   },
+   "note_sv": "Nystartade företag per 1 000 invånare 16–64 år (Tillväxtanalys). Riket 11,5 antal/1000, länet 11,3 antal/1000 (2025).",
+   "confidence": "high",
+   "topic": "kolada"
+  },
+  {
+   "id": "trangboddhet_norm2",
+   "sdg": [
+    11
+   ],
+   "name_sv": "Trångboddhet i flerbostadshus (norm 2)",
+   "value": 16.072,
+   "unit": "%",
+   "year": 2025,
+   "scope": "Trollhättans kommun",
+   "direction": "lower_better",
+   "source": {
+    "title": "Kolada N07907: Trångboddhet i flerbostadshus, enligt norm 2, andel (%)",
+    "publisher": "RKA Kolada",
+    "url": "https://api.kolada.se/v3/data/kpi/N07907/municipality/1488/year/2025"
+   },
+   "note_sv": "Andelen boende i flerbostadshus med mer än två personer per rum, kök och vardagsrum oräknade (SCB). Riket 15,1 %, länet 15,2 % (2025).",
+   "confidence": "high",
+   "topic": "kolada"
+  },
+  {
+   "id": "fardigstallda_bostader_per_1000",
+   "sdg": [
+    11
+   ],
+   "name_sv": "Färdigställda bostäder per 1000 invånare",
+   "value": 0.607,
+   "unit": "bostäder/1000 inv",
+   "year": 2025,
+   "scope": "Trollhättans kommun",
+   "direction": "context",
+   "source": {
+    "title": "Kolada N07916: Färdigställda bostäder, ny- och ombyggnad, antal/1000 inv",
+    "publisher": "RKA Kolada",
+    "url": "https://api.kolada.se/v3/data/kpi/N07916/municipality/1488/year/2025"
+   },
+   "note_sv": "Färdigställda bostäder genom ny- och ombyggnad per 1 000 invånare (SCB). Riket 3,1 bostäder/1000 inv, länet 2,6 bostäder/1000 inv (2025).",
+   "confidence": "high",
+   "topic": "kolada"
+  },
+  {
+   "id": "kvinnor_kommunfullmaktige",
+   "sdg": [
+    5,
+    16
+   ],
+   "name_sv": "Andel kvinnor i kommunfullmäktige",
+   "value": 52,
+   "unit": "%",
+   "year": 2025,
+   "scope": "Trollhättans kommun",
+   "direction": "higher_better",
+   "source": {
+    "title": "Kolada N05815: Kvinnor i kommunfullmäktige, andel (%)",
+    "publisher": "RKA Kolada",
+    "url": "https://api.kolada.se/v3/data/kpi/N05815/municipality/1488/year/2025"
+   },
+   "note_sv": "Andelen kvinnor bland ledamöterna i kommunfullmäktige under mandatperioden (SCB). Riket 43,0 % (2025).",
+   "confidence": "high",
+   "topic": "kolada"
+  },
+  {
+   "id": "avsaknad_tillit",
+   "sdg": [
+    16
+   ],
+   "name_sv": "Avsaknad av tillit till andra",
+   "value": 29.1,
+   "unit": "%",
+   "year": 2024,
+   "scope": "Trollhättans kommun",
+   "direction": "lower_better",
+   "source": {
+    "title": "Kolada U01413: Invånare 16-84 år med avsaknad av tillit till andra, andel (%)",
+    "publisher": "RKA Kolada",
+    "url": "https://api.kolada.se/v3/data/kpi/U01413/municipality/1488/year/2024"
+   },
+   "note_sv": "Andelen 16–84 år som svarar nej på om man kan lita på de flesta människor (Hälsa på lika villkor). Riket 29,6 %, länet 28,2 % (2024).",
+   "confidence": "high",
+   "topic": "kolada"
+  },
+  {
+   "id": "otrygghet_kvall",
+   "sdg": [
+    16
+   ],
+   "name_sv": "Otrygg vid utevistelse sen kväll i eget bostadsområde",
+   "value": 35,
+   "unit": "%",
+   "year": 2025,
+   "scope": "Trollhättans kommun",
+   "direction": "lower_better",
+   "source": {
+    "title": "Kolada N07609: NTU - Otrygghet vid utomhusvistelse sen kväll i det egna bostadsområdet, andel (%)",
+    "publisher": "RKA Kolada",
+    "url": "https://api.kolada.se/v3/data/kpi/N07609/municipality/1488/year/2025"
+   },
+   "note_sv": "Andelen som känner sig otrygga eller avstår från att gå ut sen kväll i det egna bostadsområdet (BRÅ:s Nationella trygghetsundersökning); osäker på kommunnivå. Riket 25,0 %, länet 25,6 % (2025).",
+   "confidence": "high",
+   "topic": "kolada"
+  },
+  {
+   "id": "bredband_100mbit",
+   "sdg": [
+    9
+   ],
+   "name_sv": "Tillgång till fast bredband ≥ 100 Mbit/s",
+   "value": 99.93,
+   "unit": "% av hushållen",
+   "year": 2025,
+   "scope": "Trollhättans kommun",
+   "direction": "higher_better",
+   "source": {
+    "title": "Kolada N07900: Tillgång till fast bredband om minst 100 Mbit/s, andel (%)",
+    "publisher": "RKA Kolada",
+    "url": "https://api.kolada.se/v3/data/kpi/N07900/municipality/1488/year/2025"
+   },
+   "note_sv": "Hushåll med fast bredband om minst 100 Mbit/s eller omedelbar möjlighet att ansluta, den 1 oktober (PTS). Riket 100 % av hushållen, länet 99,7 % av hushållen (2025).",
+   "confidence": "high",
+   "topic": "kolada"
+  },
+  {
+   "id": "kommunalt_avfall_kg_per_inv",
+   "sdg": [
+    12
+   ],
+   "name_sv": "Insamlat kommunalt avfall per invånare",
+   "value": 377,
+   "unit": "kg/inv",
+   "year": 2025,
+   "scope": "Trollhättans kommun",
+   "direction": "lower_better",
+   "source": {
+    "title": "Kolada U07801: Insamlat kommunalt avfall totalt, kg/invånare (justerat)",
+    "publisher": "RKA Kolada",
+    "url": "https://api.kolada.se/v3/data/kpi/U07801/municipality/1488/year/2025"
+   },
+   "note_sv": "Insamlat kommunalt avfall per invånare, justerat för fritidshus, turism och pendling (Avfall Sverige). Riket 424 kg/inv, länet 436 kg/inv (2025).",
+   "confidence": "high",
+   "topic": "kolada"
+  },
+  {
+   "id": "materialatervinning_andel",
+   "sdg": [
+    12
+   ],
+   "name_sv": "Kommunalt avfall till materialåtervinning inkl. biologisk behandling",
+   "value": 46,
+   "unit": "%",
+   "year": 2025,
+   "scope": "Trollhättans kommun",
+   "direction": "higher_better",
+   "source": {
+    "title": "Kolada U07414: Kommunalt avfall som samlats in för materialåtervinning, inkl. biologisk behandling, andel (%)",
+    "publisher": "RKA Kolada",
+    "url": "https://api.kolada.se/v3/data/kpi/U07414/municipality/1488/year/2025"
+   },
+   "note_sv": "Andelen av det kommunala avfallet som samlats in för materialåtervinning, biologisk behandling inräknad (Avfall Sverige). EU:s mål är 55 % 2025 och 65 % 2035. Riket 40,0 %, länet 39,3 % (2025).",
+   "confidence": "high",
+   "topic": "kolada"
+  },
+  {
+   "id": "medborgare_nojda_dricksvattenarbete",
+   "sdg": [
+    6
+   ],
+   "name_sv": "Invånare som anser att kommunens arbete för att säkra dricksvattnet är bra",
+   "value": 97.6,
+   "unit": "%",
+   "year": 2025,
+   "scope": "Trollhättans kommun",
+   "direction": "higher_better",
+   "source": {
+    "title": "Kolada N00638: Medborgarundersökningen – Kommunens arbete för att säkerställa tillgången till dricksvatten är bra, andel (%)",
+    "publisher": "RKA Kolada",
+    "url": "https://api.kolada.se/v3/data/kpi/N00638/municipality/1488/year/2025"
+   },
+   "note_sv": "Andelen som tycker att kommunens arbete för att säkra tillgången till dricksvatten är bra (SCB:s medborgarundersökning). Riket 88,9 %, länet 91,1 % (2025).",
+   "confidence": "high",
+   "topic": "kolada"
+  },
+  {
+   "id": "vattenforekomster_god_status",
+   "sdg": [
+    6
+   ],
+   "name_sv": "Vattenförekomster (alla typer) med god status",
+   "value": 5,
+   "unit": "%",
+   "year": 2022,
+   "scope": "Trollhättans kommun",
+   "direction": "higher_better",
+   "source": {
+    "title": "Kolada N85050: Vattenförekomster med god status, andel (%)",
+    "publisher": "RKA Kolada",
+    "url": "https://api.kolada.se/v3/data/kpi/N85050/municipality/1488/year/2022"
+   },
+   "note_sv": "Andelen av kommunens vattenförekomster – sjöar, vattendrag, kust och grundvatten – med god status (VISS). Riket 48,5 %, länet 33,3 % (2022).",
+   "confidence": "high",
+   "topic": "kolada"
+  },
+  {
+   "id": "medelavstand_skyddad_natur",
+   "sdg": [
+    15
+   ],
+   "name_sv": "Medelavstånd till skyddad natur",
+   "value": 1.1,
+   "unit": "km",
+   "year": 2025,
+   "scope": "Trollhättans kommun",
+   "direction": "lower_better",
+   "source": {
+    "title": "Kolada N85084: Medelavstånd till skyddad natur, km",
+    "publisher": "RKA Kolada",
+    "url": "https://api.kolada.se/v3/data/kpi/N85084/municipality/1488/year/2025"
+   },
+   "note_sv": "Invånarnas medelavstånd till närmaste skyddade naturområde (SCB). Riket 2,0 km, länet 2,1 km (2025).",
+   "confidence": "high",
+   "topic": "kolada"
+  },
+  {
+   "id": "inpendling_antal",
+   "sdg": [
+    8,
+    11
+   ],
+   "name_sv": "Inpendlare till Trollhättans kommun",
+   "value": 11569,
+   "unit": "personer",
+   "year": 2024,
+   "scope": "Trollhättans kommun",
+   "direction": "context",
+   "source": {
+    "title": "Kolada N02277: Inpendling, antal",
+    "publisher": "RKA Kolada",
+    "url": "https://api.kolada.se/v3/data/kpi/N02277/municipality/1488/year/2024"
+   },
+   "note_sv": "Förvärvsarbetande som arbetar i kommunen men bor i en annan (SCB).",
+   "confidence": "high",
+   "topic": "kolada"
+  },
+  {
+   "id": "utpendling_antal",
+   "sdg": [
+    8,
+    11
+   ],
+   "name_sv": "Utpendlare från Trollhättans kommun",
+   "value": 10362,
+   "unit": "personer",
+   "year": 2024,
+   "scope": "Trollhättans kommun",
+   "direction": "context",
+   "source": {
+    "title": "Kolada N02278: Utpendling, antal",
+    "publisher": "RKA Kolada",
+    "url": "https://api.kolada.se/v3/data/kpi/N02278/municipality/1488/year/2024"
+   },
+   "note_sv": "Förvärvsarbetande som bor i kommunen men arbetar i en annan (SCB).",
+   "confidence": "high",
+   "topic": "kolada"
+  },
+  {
+   "id": "korstracka_personbil_per_inv",
+   "sdg": [
+    11,
+    13
+   ],
+   "name_sv": "Körsträcka med personbil per invånare",
+   "value": 624.217,
+   "unit": "mil/inv/år",
+   "year": 2024,
+   "scope": "Trollhättans kommun",
+   "direction": "lower_better",
+   "source": {
+    "title": "Kolada U07917: Genomsnittlig körsträcka med personbil, mil/inv",
+    "publisher": "RKA Kolada",
+    "url": "https://api.kolada.se/v3/data/kpi/U07917/municipality/1488/year/2024"
+   },
+   "note_sv": "Genomsnittlig körsträcka med personbilar registrerade i kommunen, per invånare (Trafikanalys). Riket 625 mil/inv/år, länet 619 mil/inv/år (2024).",
+   "confidence": "high",
+   "topic": "kolada"
+  },
+  {
+   "id": "fossiloberoende_personbilar_andel",
+   "sdg": [
+    7,
+    13
+   ],
+   "name_sv": "Fossiloberoende personbilar, andel av beståndet",
+   "value": 27.497,
+   "unit": "%",
+   "year": 2025,
+   "scope": "Trollhättans kommun",
+   "direction": "higher_better",
+   "source": {
+    "title": "Kolada U00501: Fossiloberoende personbilar, andel (%)",
+    "publisher": "RKA Kolada",
+    "url": "https://api.kolada.se/v3/data/kpi/U00501/municipality/1488/year/2025"
+   },
+   "note_sv": "El, laddhybrid, gas, etanol m.fl. som andel av personbilarna i trafik (Trafikanalys). Riket 26,0 %, länet 25,4 % (2025).",
+   "confidence": "high",
+   "topic": "kolada"
+  },
+  {
+   "id": "laddpunkter_publika_antal",
+   "sdg": [
+    7,
+    11
+   ],
+   "name_sv": "Publika laddpunkter för elbil",
+   "value": 475,
+   "unit": "laddpunkter",
+   "year": 2025,
+   "scope": "Trollhättans kommun",
+   "direction": "higher_better",
+   "source": {
+    "title": "Kolada N07713: Elbilsladdpunkter, totalt antal",
+    "publisher": "RKA Kolada",
+    "url": "https://api.kolada.se/v3/data/kpi/N07713/municipality/1488/year/2025"
+   },
+   "note_sv": "Publika laddpunkter för elbil i kommunen.",
+   "confidence": "high",
+   "topic": "kolada"
+  },
+  {
+   "id": "vaxthusgaser_transporter_ton",
+   "sdg": [
+    11,
+    13
+   ],
+   "name_sv": "Utsläpp av växthusgaser från transporter, totalt",
+   "value": 74066.282,
+   "unit": "ton CO2e",
+   "year": 2024,
+   "scope": "Trollhättans kommun",
+   "direction": "lower_better",
+   "source": {
+    "title": "Kolada N85533: Utsläpp till luft av växthusgaser, transporter, ton CO2e",
+    "publisher": "RKA Kolada",
+    "url": "https://api.kolada.se/v3/data/kpi/N85533/municipality/1488/year/2024"
+   },
+   "note_sv": "Inrikes transporternas utsläpp inom kommunens gräns, totalt (RUS/SMHI).",
+   "confidence": "high",
+   "topic": "kolada"
+  },
+  {
+   "id": "elproduktion_kraftvarme",
+   "sdg": [
+    7
+   ],
+   "name_sv": "Elproduktion i kraftvärme",
+   "value": 2068,
+   "unit": "MWh/år",
+   "year": 2024,
+   "scope": "Trollhättans kommun",
+   "direction": "higher_better",
+   "source": {
+    "title": "Kolada N45950: Elproduktion från kraftvärmeverk samt industriellt mottryck, MWh",
+    "publisher": "RKA Kolada",
+    "url": "https://api.kolada.se/v3/data/kpi/N45950/municipality/1488/year/2024"
+   },
+   "note_sv": "El från kraftvärmeverk och industriellt mottryck inom kommunen (Energimyndigheten/SCB).",
+   "confidence": "high",
+   "topic": "kolada"
+  },
+  {
+   "id": "elproduktion_vindkraft",
+   "sdg": [
+    7
+   ],
+   "name_sv": "Elproduktion från vindkraft inom kommunen",
+   "value": 383,
+   "unit": "MWh/år",
+   "year": 2023,
+   "scope": "Trollhättans kommun",
+   "direction": "higher_better",
+   "source": {
+    "title": "Kolada N45904: Elproduktion från vindkraft, MWh",
+    "publisher": "RKA Kolada",
+    "url": "https://api.kolada.se/v3/data/kpi/N45904/municipality/1488/year/2023"
+   },
+   "note_sv": "Elproduktion från vindkraftverk inom kommunens gräns (Energimyndigheten/SCB).",
+   "confidence": "high",
+   "topic": "kolada"
+  },
+  {
+   "id": "elproduktion_sol",
+   "sdg": [
+    7
+   ],
+   "name_sv": "Elproduktion från solkraft inom kommunen",
+   "value": 17635,
+   "unit": "MWh/år",
+   "year": 2024,
+   "scope": "Trollhättans kommun",
+   "direction": "higher_better",
+   "source": {
+    "title": "Kolada N45952: Elproduktion från solkraft, MWh",
+    "publisher": "RKA Kolada",
+    "url": "https://api.kolada.se/v3/data/kpi/N45952/municipality/1488/year/2024"
+   },
+   "note_sv": "Elproduktion från solceller inom kommunen (Energimyndigheten/SCB).",
+   "confidence": "high",
+   "topic": "kolada"
+  },
+  {
+   "id": "bostadsmarknadslage_bme",
+   "sdg": [
+    11
+   ],
+   "name_sv": "Kommunens bedömning av bostadsmarknaden (0 = underskott, 1 = balans, 2 = överskott)",
+   "value": 1,
+   "unit": "index 0–2",
+   "year": 2026,
+   "scope": "Trollhättans kommun",
+   "direction": "context",
+   "source": {
+    "title": "Kolada U30446: Bostadsmarknadsläge i kommunen totalt",
+    "publisher": "RKA Kolada",
+    "url": "https://api.kolada.se/v3/data/kpi/U30446/municipality/1488/year/2026"
+   },
+   "note_sv": "Kommunens egen bedömning i Boverkets bostadsmarknadsenkät: 0 underskott, 1 balans, 2 överskott.",
+   "confidence": "high",
+   "topic": "kolada"
+  },
+  {
+   "id": "bostadsmarknadslage_ungdomar_bme",
+   "sdg": [
+    11
+   ],
+   "name_sv": "Kommunens bedömning av bostadsmarknaden för ungdomar 19–25 år (0 = underskott)",
+   "value": 1,
+   "unit": "index 0–2",
+   "year": 2026,
+   "scope": "Trollhättans kommun",
+   "direction": "context",
+   "source": {
+    "title": "Kolada U30460: Bostadsmarknadsläget i kommunen, ungdomar",
+    "publisher": "RKA Kolada",
+    "url": "https://api.kolada.se/v3/data/kpi/U30460/municipality/1488/year/2026"
+   },
+   "note_sv": "Kommunens egen bedömning för 19–25-åringar i Boverkets bostadsmarknadsenkät: 0 underskott, 1 balans, 2 överskott.",
+   "confidence": "high",
+   "topic": "kolada"
+  },
+  {
+   "id": "sysselsatta_arbetsstalle_kommun",
+   "sdg": [
+    8
+   ],
+   "name_sv": "Sysselsatta med arbetsställe i Trollhättans kommun",
+   "value": 29905,
+   "unit": "personer",
+   "year": 2024,
+   "scope": "Trollhättans kommun",
+   "direction": "context",
+   "source": {
+    "title": "Kolada N02201: Sysselsatta efter arbetsställets belägenhet, antal",
+    "publisher": "RKA Kolada",
+    "url": "https://api.kolada.se/v3/data/kpi/N02201/municipality/1488/year/2024"
+   },
+   "note_sv": "Förvärvsarbetande med arbetsställe i kommunen, var de än bor (SCB).",
+   "confidence": "high",
+   "topic": "kolada"
+  },
+  {
+   "id": "kommunen_tillsvidareanstallda",
+   "sdg": [
+    8
+   ],
+   "name_sv": "Tillsvidareanställda månadsavlönade i Trollhättans kommun",
+   "value": 4611,
+   "unit": "personer",
+   "year": 2025,
+   "scope": "Trollhättans kommun",
+   "direction": "context",
+   "source": {
+    "title": "Kolada N00071: Månadsavlönad personal, tillsvidareanställda i kommunen, antal",
+    "publisher": "RKA Kolada",
+    "url": "https://api.kolada.se/v3/data/kpi/N00071/municipality/1488/year/2025"
+   },
+   "note_sv": "Kommunens tillsvidareanställda månadsavlönade – personer, inte årsarbetare (SKR).",
+   "confidence": "high",
+   "topic": "kolada"
+  },
+  {
+   "id": "trygg_i_skolan_ak8",
+   "sdg": [
+    4,
+    16
+   ],
+   "name_sv": "Elever i åk 8 som känner sig trygga i skolan",
+   "value": 76.5,
+   "unit": "%",
+   "year": 2026,
+   "scope": "Trollhättans kommun",
+   "direction": "higher_better",
+   "source": {
+    "title": "Kolada N15643: Elever i åk 8: Känner du dig trygg i skolan? (Helt och hållet/Till stor del)",
+    "publisher": "RKA Kolada",
+    "url": "https://api.kolada.se/v3/data/kpi/N15643/municipality/1488/year/2026"
+   },
+   "note_sv": "Andelen elever i årskurs 8 som känner sig trygga i skolan helt och hållet eller till stor del.",
+   "confidence": "high",
+   "topic": "kolada"
+  },
+  {
+   "id": "individuellt_valbefinnande_index",
+   "sdg": [
+    3
+   ],
+   "name_sv": "Individuellt välbefinnande, kommunindex (0–100)",
+   "value": 60.87,
+   "unit": "index 0–100",
+   "year": 2025,
+   "scope": "Trollhättans kommun",
+   "direction": "higher_better",
+   "source": {
+    "title": "Kolada N00366: Individuellt välbefinnande – Kommunindex",
+    "publisher": "RKA Kolada",
+    "url": "https://api.kolada.se/v3/data/kpi/N00366/municipality/1488/year/2025"
+   },
+   "note_sv": "Tillväxtverkets index som väger samman självskattad hälsa, tandhälsa och psykiskt välbefinnande, normaliserat mellan landets kommuner (0–100). Riket 55,2 (2025).",
+   "confidence": "high",
+   "topic": "kolada"
+  },
+  {
+   "id": "gott_psykiskt_valbefinnande",
+   "sdg": [
+    3
+   ],
+   "name_sv": "Invånare 16–84 år med gott psykiskt välbefinnande",
+   "value": 86.1,
+   "unit": "%",
+   "year": 2024,
+   "scope": "Trollhättans kommun",
+   "direction": "higher_better",
+   "source": {
+    "title": "Kolada U01473: Invånare 16–84 år med gott psykiskt välbefinnande, andel (%)",
+    "publisher": "RKA Kolada",
+    "url": "https://api.kolada.se/v3/data/kpi/U01473/municipality/1488/year/2024"
+   },
+   "note_sv": "Andelen 16–84 år med gott psykiskt välbefinnande (Hälsa på lika villkor, flera år sammanvägda). Riket 84,9 %, länet 85,3 % (2024).",
+   "confidence": "high",
+   "topic": "kolada"
+  },
+  {
+   "id": "demografisk_forsorjningskvot",
+   "sdg": [
+    1,
+    3,
+    8
+   ],
+   "name_sv": "Demografisk försörjningskvot ((0–19 + 65+) / 20–64 år)",
+   "value": 0.753,
+   "unit": "kvot",
+   "year": 2025,
+   "scope": "Trollhättans kommun",
+   "direction": "lower_better",
+   "source": {
+    "title": "Kolada N00927: Demografisk försörjningskvot",
+    "publisher": "RKA Kolada",
+    "url": "https://api.kolada.se/v3/data/kpi/N00927/municipality/1488/year/2025"
+   },
+   "note_sv": "Antalet 0–19- och 65+-åringar per person 20–64 år (SCB): hur många varje person i arbetsför ålder försörjer. Riket 0,770, länet 0,749 (2025).",
+   "confidence": "high",
+   "topic": "kolada"
+  },
+  {
+   "id": "ekologiska_livsmedel_kommunen",
+   "sdg": [
+    2,
+    12
+   ],
+   "name_sv": "Ekologiska livsmedel i kommunens verksamhet",
+   "value": 22.6,
+   "unit": "%",
+   "year": 2025,
+   "scope": "Trollhättans kommun",
+   "direction": "higher_better",
+   "source": {
+    "title": "Kolada U07514: Ekologiska livsmedel i kommunens verksamhet, andel (%)",
+    "publisher": "RKA Kolada",
+    "url": "https://api.kolada.se/v3/data/kpi/U07514/municipality/1488/year/2025"
+   },
+   "note_sv": "Ekologiska livsmedel som andel av kommunens inköpsvärde för livsmedel (KRAV, Demeter, EU-ekologiskt eller MSC); entreprenad ingår inte.",
+   "confidence": "high",
+   "topic": "kolada"
+  },
+  {
+   "id": "hojum_effekt",
+   "sdg": [
+    7,
+    13
+   ],
+   "name_sv": "Hojums installerade eleffekt",
+   "value": 168,
+   "unit": "MW",
+   "year": 2026,
+   "scope": "Hojums kraftverk",
+   "direction": "context",
+   "source": {
+    "title": "Hojum",
+    "publisher": "Vattenfall",
+    "url": "https://powerplants.vattenfall.com/hojum/"
+   },
+   "note_sv": "Anläggningsuppgift kontrollerad 2026; inte årsproduktion eller kommunal tillgänglig effekt.",
+   "confidence": "high",
+   "topic": "klimat-energi"
+  },
+  {
+   "id": "hojum_fallhojd",
+   "sdg": [
+    7,
+    13
+   ],
+   "name_sv": "Hojums fallhöjd",
+   "value": 32,
+   "unit": "m",
+   "year": 2026,
+   "scope": "Hojums kraftverk",
+   "direction": "context",
+   "source": {
+    "title": "Hojum",
+    "publisher": "Vattenfall",
+    "url": "https://powerplants.vattenfall.com/hojum/"
+   },
+   "note_sv": "Fallhöjd, inte vattennivå i RH 2000.",
+   "confidence": "high",
+   "topic": "klimat-energi"
+  },
+  {
+   "id": "hojum_vattenforing",
+   "sdg": [
+    7,
+    13
+   ],
+   "name_sv": "Hojums angivna vattenföring",
+   "value": 640,
+   "unit": "m³/s",
+   "year": 2026,
+   "scope": "Hojums kraftverk",
+   "direction": "context",
+   "source": {
+    "title": "Hojum",
+    "publisher": "Vattenfall",
+    "url": "https://powerplants.vattenfall.com/hojum/"
+   },
+   "note_sv": "Anläggningsuppgift, inte uppmätt årsmedelflöde.",
+   "confidence": "high",
+   "topic": "klimat-energi"
+  },
+  {
+   "id": "olidan_effekt",
+   "sdg": [
+    7,
+    13
+   ],
+   "name_sv": "Olidans installerade eleffekt",
+   "value": 84,
+   "unit": "MW",
+   "year": 2026,
+   "scope": "Olidans kraftverk",
+   "direction": "context",
+   "source": {
+    "title": "Olidan",
+    "publisher": "Vattenfall",
+    "url": "https://powerplants.vattenfall.com/sv/olidan/"
+   },
+   "note_sv": "Vattenfalls anläggningsuppgift kontrollerad 2026.",
+   "confidence": "high",
+   "topic": "klimat-energi"
+  },
+  {
+   "id": "olidan_vattenforing",
+   "sdg": [
+    7,
+    13
+   ],
+   "name_sv": "Olidans angivna vattenföring",
+   "value": 280,
+   "unit": "m³/s",
+   "year": 2026,
+   "scope": "Olidans kraftverk",
+   "direction": "context",
+   "source": {
+    "title": "Olidan",
+    "publisher": "Vattenfall",
+    "url": "https://powerplants.vattenfall.com/sv/olidan/"
+   },
+   "note_sv": "Ingen omräkning till årsproduktion har gjorts.",
+   "confidence": "high",
+   "topic": "klimat-energi"
+  },
+  {
+   "id": "olidan_driftstart",
+   "sdg": [
+    7,
+    9
+   ],
+   "name_sv": "Olidans första elleverans",
+   "value": 1910,
+   "unit": "år",
+   "year": 1910,
+   "scope": "Olidans kraftverk",
+   "direction": "context",
+   "source": {
+    "title": "Olidan",
+    "publisher": "Vattenfall",
+    "url": "https://powerplants.vattenfall.com/sv/olidan/"
+   },
+   "note_sv": "El levererades till industri och järnväg.",
+   "confidence": "high",
+   "topic": "klimat-energi"
+  },
+  {
+   "id": "fjarrvarme_trabransle",
+   "sdg": [
+    7,
+    13
+   ],
+   "name_sv": "Träbränslets andel av producerad fjärrvärme",
+   "value": 86,
+   "unit": "%",
+   "year": 2025,
+   "scope": "Trollhättan Energis fjärrvärme",
+   "direction": "context",
+   "source": {
+    "title": "Fjärrvärmens ursprung 2025",
+    "publisher": "Trollhättan Energi",
+    "url": "https://www.trollhattanenergi.se/fjarrvarme/ursprung/"
+   },
+   "note_sv": "Produktionsmix 2025.",
+   "confidence": "high",
+   "topic": "klimat-energi"
+  },
+  {
+   "id": "fjarrvarme_spillvarme",
+   "sdg": [
+    7,
+    13
+   ],
+   "name_sv": "Spillvärmens andel av producerad fjärrvärme",
+   "value": 7.7,
+   "unit": "%",
+   "year": 2025,
+   "scope": "Trollhättan Energis fjärrvärme",
+   "direction": "context",
+   "source": {
+    "title": "Fjärrvärmens ursprung 2025",
+    "publisher": "Trollhättan Energi",
+    "url": "https://www.trollhattanenergi.se/fjarrvarme/ursprung/"
+   },
+   "note_sv": "Produktionsmix 2025; annan nämnare än tillförd energi.",
+   "confidence": "high",
+   "topic": "klimat-energi"
+  },
+  {
+   "id": "fjarrvarme_spillvarme_mwh",
+   "sdg": [
+    7,
+    13
+   ],
+   "name_sv": "Spillvärme i fjärrvärmeproduktionen",
+   "value": 23787,
+   "unit": "MWh",
+   "year": 2025,
+   "scope": "Trollhättan Energis fjärrvärme",
+   "direction": "context",
+   "source": {
+    "title": "Fjärrvärmens ursprung 2025",
+    "publisher": "Trollhättan Energi",
+    "url": "https://www.trollhattanenergi.se/fjarrvarme/ursprung/"
+   },
+   "note_sv": "Redovisad energi 2025.",
+   "confidence": "high",
+   "topic": "klimat-energi"
+  },
+  {
+   "id": "fjarrvarme_fossilt",
+   "sdg": [
+    7,
+    13
+   ],
+   "name_sv": "Fossila bränslens andel av producerad fjärrvärme",
+   "value": 0.1,
+   "unit": "%",
+   "year": 2025,
+   "scope": "Trollhättan Energis fjärrvärme",
+   "direction": "context",
+   "source": {
+    "title": "Fjärrvärmens ursprung 2025",
+    "publisher": "Trollhättan Energi",
+    "url": "https://www.trollhattanenergi.se/fjarrvarme/ursprung/"
+   },
+   "note_sv": "Avrundad produktionsandel; inte noll.",
+   "confidence": "high",
+   "topic": "klimat-energi"
+  },
+  {
+   "id": "fjarrvarme_klimatintensitet",
+   "sdg": [
+    7,
+    13
+   ],
+   "name_sv": "Levererad fjärrvärmes klimatpåverkan",
+   "value": 9.9,
+   "unit": "kg CO2e/MWh",
+   "year": 2025,
+   "scope": "Trollhättan Energis fjärrvärme",
+   "direction": "context",
+   "source": {
+    "title": "Fjärrvärmens ursprung 2025",
+    "publisher": "Trollhättan Energi",
+    "url": "https://www.trollhattanenergi.se/fjarrvarme/ursprung/"
+   },
+   "note_sv": "Bolagets redovisade värde; fossilfritt betyder inte noll livscykelutsläpp.",
+   "confidence": "high",
+   "topic": "klimat-energi"
+  },
+  {
+   "id": "lan_temperatur_referens",
+   "sdg": [
+    13
+   ],
+   "name_sv": "Historisk årsmedeltemperatur i länet",
+   "value": 6.1,
+   "unit": "°C",
+   "year": "1961–1990",
+   "scope": "Västra Götalands län",
+   "direction": "context",
+   "source": {
+    "title": "Framtidsklimat i Västra Götalands län, Klimatologi 24",
+    "publisher": "SMHI",
+    "url": "https://www.smhi.se/download/18.18f5a56618fc9f08e832c144/1717803756901/Klimatologi_24%20Framtidsklimat%20i%20V%C3%A4stra%20G%C3%B6talands%20l%C3%A4n%20-%20enligt%20RCP-scenarier.pdf"
+   },
+   "note_sv": "Länsmedel, inte en lokal väderstation.",
+   "confidence": "high",
+   "topic": "klimat-energi"
+  },
+  {
+   "id": "lan_temperaturokning_rcp45",
+   "sdg": [
+    13
+   ],
+   "name_sv": "Länets temperaturökning enligt RCP4.5",
+   "value": 3,
+   "unit": "°C",
+   "year": "2069–2098",
+   "scope": "Västra Götalands län",
+   "direction": "context",
+   "source": {
+    "title": "Framtidsklimat i Västra Götalands län, Klimatologi 24",
+    "publisher": "SMHI",
+    "url": "https://www.smhi.se/download/18.18f5a56618fc9f08e832c144/1717803756901/Klimatologi_24%20Framtidsklimat%20i%20V%C3%A4stra%20G%C3%B6talands%20l%C3%A4n%20-%20enligt%20RCP-scenarier.pdf"
+   },
+   "note_sv": "Cirka 3 grader mot 1961–1990. Scenario från 2015; inte prognos för 2126.",
+   "confidence": "medium",
+   "topic": "klimat-energi"
+  },
+  {
+   "id": "lan_temperaturokning_rcp85",
+   "sdg": [
+    13
+   ],
+   "name_sv": "Länets temperaturökning enligt RCP8.5",
+   "value": 5,
+   "unit": "°C",
+   "year": "2069–2098",
+   "scope": "Västra Götalands län",
+   "direction": "context",
+   "source": {
+    "title": "Framtidsklimat i Västra Götalands län, Klimatologi 24",
+    "publisher": "SMHI",
+    "url": "https://www.smhi.se/download/18.18f5a56618fc9f08e832c144/1717803756901/Klimatologi_24%20Framtidsklimat%20i%20V%C3%A4stra%20G%C3%B6talands%20l%C3%A4n%20-%20enligt%20RCP-scenarier.pdf"
+   },
+   "note_sv": "Cirka 5 grader mot 1961–1990. Regionalt scenario, inte kommunal temperaturmätning.",
+   "confidence": "medium",
+   "topic": "klimat-energi"
+  },
+  {
+   "id": "vattenverk_planerad_drift",
+   "sdg": [
+    6,
+    9
+   ],
+   "name_sv": "Planerad driftstart för nytt vattenverk",
+   "value": 2030,
+   "unit": "år",
+   "year": 2026,
+   "scope": "Östra Överby",
+   "direction": "context",
+   "source": {
+    "title": "Nytt vattenverk",
+    "publisher": "Trollhättan Energi",
+    "url": "https://www.trollhattanenergi.se/vatten-och-avlopp/vattenpaketet/nytt-vattenverk/"
+   },
+   "note_sv": "Plan omkring 2030, inte garanterat färdigställande. Vänern blir ny råvattentäkt.",
+   "confidence": "medium",
+   "topic": "klimat-energi"
+  },
+  {
+   "id": "vattenverk_byggstart",
+   "sdg": [
+    6,
+    9
+   ],
+   "name_sv": "Byggstart för nytt vattenverk",
+   "value": 2024,
+   "unit": "år",
+   "year": 2024,
+   "scope": "Östra Överby",
+   "direction": "context",
+   "source": {
+    "title": "Nytt vattenverk",
+    "publisher": "Trollhättan Energi",
+    "url": "https://www.trollhattanenergi.se/vatten-och-avlopp/vattenpaketet/nytt-vattenverk/"
+   },
+   "note_sv": "Byggstart november 2024.",
+   "confidence": "high",
+   "topic": "klimat-energi"
+  },
+  {
+   "id": "kanal_langd",
+   "sdg": [
+    9,
+    11
+   ],
+   "name_sv": "Trollhätte kanals längd",
+   "value": 82,
+   "unit": "km",
+   "year": 2026,
+   "scope": "Trollhätte kanal",
+   "direction": "context",
+   "source": {
+    "title": "Trollhätte kanal",
+    "publisher": "Sjöfartsverket",
+    "url": "https://www.sjofartsverket.se/sv/tjanster/kanaler-slussar-broar/trollhatte-kanal/"
+   },
+   "note_sv": "Hela farleden, inte bara sträckan i kommunen.",
+   "confidence": "high",
+   "topic": "klimat-energi"
+  },
+  {
+   "id": "kanal_nivaskillnad",
+   "sdg": [
+    9,
+    11
+   ],
+   "name_sv": "Kanalens totala nivåskillnad",
+   "value": 44,
+   "unit": "m",
+   "year": 2026,
+   "scope": "Trollhätte kanal",
+   "direction": "context",
+   "source": {
+    "title": "Trollhätte kanal",
+    "publisher": "Sjöfartsverket",
+    "url": "https://www.sjofartsverket.se/sv/tjanster/kanaler-slussar-broar/trollhatte-kanal/"
+   },
+   "note_sv": "Vänern–havet; inte havsnivå vid centrala Trollhättan.",
+   "confidence": "high",
+   "topic": "klimat-energi"
+  },
+  {
+   "id": "slussar_trollhattan",
+   "sdg": [
+    9,
+    11
+   ],
+   "name_sv": "Slussar i dagens Trollhättansträcka",
+   "value": 4,
+   "unit": "slussar",
+   "year": 2026,
+   "scope": "Trollhätte kanal",
+   "direction": "context",
+   "source": {
+    "title": "Trollhätte kanal",
+    "publisher": "Sjöfartsverket",
+    "url": "https://www.sjofartsverket.se/sv/tjanster/kanaler-slussar-broar/trollhatte-kanal/"
+   },
+   "note_sv": "Fyra av kanalens totalt sex slussar.",
+   "confidence": "high",
+   "topic": "klimat-energi"
+  },
+  {
+   "id": "kanal_farledsdjup",
+   "sdg": [
+    9,
+    11
+   ],
+   "name_sv": "Minsta angivna farledsdjup",
+   "value": 6.3,
+   "unit": "m",
+   "year": 2026,
+   "scope": "Trollhätte kanal",
+   "direction": "context",
+   "source": {
+    "title": "Trollhätte kanal",
+    "publisher": "Sjöfartsverket",
+    "url": "https://www.sjofartsverket.se/sv/tjanster/kanaler-slussar-broar/trollhatte-kanal/"
+   },
+   "note_sv": "Farledsdjup, inte högsta tillåtna fartygsdjupgående.",
+   "confidence": "high",
+   "topic": "klimat-energi"
+  },
+  {
+   "id": "slussar_planerad_drift",
+   "sdg": [
+    9,
+    11
+   ],
+   "name_sv": "Planerad driftstart för nya slussar",
+   "value": 2034,
+   "unit": "år",
+   "year": 2026,
+   "scope": "Trollhättan",
+   "direction": "context",
+   "source": {
+    "title": "Slussar i Trollhätte kanal, ny tidplan juni 2026",
+    "publisher": "Trafikverket",
+    "url": "https://www.trafikverket.se/vara-projekt/projekt-i-vastra-gotalands-lan/slussar-i-trollhatte-kanal/"
+   },
+   "note_sv": "Aktuell tidplan juni 2026: omkring 2034. Tidigare uppgift 2030 ska inte användas som aktuell plan.",
+   "confidence": "medium",
+   "topic": "klimat-energi"
+  },
+  {
+   "id": "klimatmal_geografiskt",
+   "sdg": [
+    13
+   ],
+   "name_sv": "Minskning enligt geografiskt klimatmål",
+   "value": 70,
+   "unit": "%",
+   "year": 2030,
+   "scope": "Trollhättans kommun",
+   "direction": "context",
+   "source": {
+    "title": "Koldioxidbudget och klimatmål",
+    "publisher": "Trollhättans Stad",
+    "url": "https://www.trollhattan.se/startsida/bygga-bo-och-miljo/klimatforandringar-och-miljo/klimat/"
+   },
+   "note_sv": "Politiskt mål: minskning från 2022 till 2030, inte uppmätt utfall.",
+   "confidence": "high",
+   "topic": "klimat-energi"
+  },
+  {
+   "id": "klimatmal_konsumtion",
+   "sdg": [
+    12,
+    13
+   ],
+   "name_sv": "Mål för konsumtionsutsläpp per invånare",
+   "value": 3,
+   "unit": "ton CO2e/person",
+   "year": 2030,
+   "scope": "Trollhättans invånare",
+   "direction": "context",
+   "source": {
+    "title": "Koldioxidbudget och klimatmål",
+    "publisher": "Trollhättans Stad",
+    "url": "https://www.trollhattan.se/startsida/bygga-bo-och-miljo/klimatforandringar-och-miljo/klimat/"
+   },
+   "note_sv": "Politiskt mål för konsumtion; skiljs från territoriella utsläpp.",
+   "confidence": "high",
+   "topic": "klimat-energi"
+  },
+  {
+   "id": "klimatmal_nettonoll",
+   "sdg": [
+    13
+   ],
+   "name_sv": "Målår för nettonollutsläpp",
+   "value": 2045,
+   "unit": "år",
+   "year": 2045,
+   "scope": "Trollhättans Stad och samhälle",
+   "direction": "context",
+   "source": {
+    "title": "Koldioxidbudget och klimatmål",
+    "publisher": "Trollhättans Stad",
+    "url": "https://www.trollhattan.se/startsida/bygga-bo-och-miljo/klimatforandringar-och-miljo/klimat/"
+   },
+   "note_sv": "Senast 2045 enligt kommunens långsiktiga mål.",
+   "confidence": "high",
+   "topic": "klimat-energi"
+  },
+  {
+   "id": "alvrummet_reservat_ha",
+   "sdg": [
+    11,
+    15
+   ],
+   "name_sv": "Älvrummets naturreservat, ungefärlig areal",
+   "value": 61,
+   "unit": "hektar",
+   "year": 2026,
+   "scope": "Älvrummets naturreservat",
+   "direction": "context",
+   "source": {
+    "title": "Älvrummet",
+    "publisher": "Trollhättans Stad",
+    "url": "https://www.trollhattan.se/startsida/bygga-bo-och-miljo/natur-och-parker/naturomraden-naturreservat/sidlistning-naturparlor/alvrummet/"
+   },
+   "note_sv": "Kommunens besökssida anger cirka 61 hektar. Avser reservatet, inte hela älvlandskapet.",
+   "confidence": "high",
+   "topic": "plats-natur"
+  },
+  {
+   "id": "ryrbacken_reservat_ha",
+   "sdg": [
+    11,
+    15
+   ],
+   "name_sv": "Ryrbäckens naturreservat, ungefärlig areal",
+   "value": 43,
+   "unit": "hektar",
+   "year": 2026,
+   "scope": "Ryrbäckens naturreservat",
+   "direction": "context",
+   "source": {
+    "title": "Ryrbäcken",
+    "publisher": "Trollhättans Stad",
+    "url": "https://www.trollhattan.se/startsida/bygga-bo-och-miljo/natur-och-parker/naturomraden-naturreservat/sidlistning-naturparlor/ryrbacken/"
+   },
+   "note_sv": "Cirka 43 hektar enligt kommunen. Reservatet ligger söder om modellens centrumruta.",
+   "confidence": "high",
+   "topic": "plats-natur"
+  },
+  {
+   "id": "varvik_planerade_bostader",
+   "sdg": [
+    11
+   ],
+   "name_sv": "Planerade bostäder i Vårvik",
+   "value": 1600,
+   "unit": "bostäder",
+   "year": 2026,
+   "scope": "Vårvik",
+   "direction": "context",
+   "source": {
+    "title": "Stridsbergsområdet, Vårvik – samråd 2026",
+    "publisher": "Trollhättans Stad",
+    "url": "https://www.trollhattan.se/startsida/bygga-bo-och-miljo/kommunens-planarbete/detaljplaner/planer-under-arbete/stridsbergsomradet-varvik/"
+   },
+   "note_sv": "Cirka 1 600 bostäder enligt samrådssidan 2026. Planuppgift, inte färdigbyggda bostäder eller befolkningsprognos.",
+   "confidence": "high",
+   "topic": "plats-natur"
+  },
+  {
+   "id": "stridsberg_planerade_bostader",
+   "sdg": [
+    11
+   ],
+   "name_sv": "Planerade lägenheter i Stridsbergsområdet",
+   "value": 1000,
+   "unit": "lägenheter",
+   "year": 2026,
+   "scope": "Stridsbergsområdet",
+   "direction": "context",
+   "source": {
+    "title": "Stridsbergsområdet, Vårvik – samråd 2026",
+    "publisher": "Trollhättans Stad",
+    "url": "https://www.trollhattan.se/startsida/bygga-bo-och-miljo/kommunens-planarbete/detaljplaner/planer-under-arbete/stridsbergsomradet-varvik/"
+   },
+   "note_sv": "Cirka 1 000 lägenheter inom Vårvik. Ingår i totalen 1 600 och ska inte adderas till den.",
+   "confidence": "high",
+   "topic": "plats-natur"
+  },
+  {
+   "id": "stridsberg_planomrade_ha",
+   "sdg": [
+    11
+   ],
+   "name_sv": "Stridsbergsområdets planareal",
+   "value": 10,
+   "unit": "hektar",
+   "year": 2026,
+   "scope": "Stridsbergsområdet",
+   "direction": "context",
+   "source": {
+    "title": "Stridsbergsområdet, Vårvik – samråd 2026",
+    "publisher": "Trollhättans Stad",
+    "url": "https://www.trollhattan.se/startsida/bygga-bo-och-miljo/kommunens-planarbete/detaljplaner/planer-under-arbete/stridsbergsomradet-varvik/"
+   },
+   "note_sv": "Planområdet omfattar cirka 10 hektar och bevarad industribebyggelse.",
+   "confidence": "high",
+   "topic": "plats-natur"
+  },
+  {
+   "id": "alvrummet_planerat_intrang_ha",
+   "sdg": [
+    9,
+    15
+   ],
+   "name_sv": "Planerad skogsavverkning i Älvrummet",
+   "value": 5,
+   "unit": "hektar",
+   "year": 2025,
+   "scope": "Ny slussled, Älvrummet",
+   "direction": "context",
+   "source": {
+    "title": "Nytt naturreservat i Skälsbo ska kompensera för Älvrummet",
+    "publisher": "Trafikverket",
+    "url": "https://www.trafikverket.se/vara-projekt/projekt-i-vastra-gotalands-lan/slussar-i-trollhatte-kanal/nyheter-for-projekt-nya-slussar-i-trollhatte-kanal/2025/nytt-naturreservat-i-skalsbo-ska-kompensera-for-alvrummet/"
+   },
+   "note_sv": "Trafikverkets förslag från september 2025 omfattar omkring 5 hektar. Detta beskriver projektets intrång, inte ett verifierat genomfört ingrepp.",
+   "confidence": "high",
+   "topic": "plats-natur"
+  },
+  {
+   "id": "skalsbo_kompensationsskog_ha",
+   "sdg": [
+    15
+   ],
+   "name_sv": "Skogsmark med föreslagna kompensationsåtgärder",
+   "value": 26,
+   "unit": "hektar",
+   "year": 2025,
+   "scope": "Skälsbo",
+   "direction": "context",
+   "source": {
+    "title": "Nytt naturreservat i Skälsbo ska kompensera för Älvrummet",
+    "publisher": "Trafikverket",
+    "url": "https://www.trafikverket.se/vara-projekt/projekt-i-vastra-gotalands-lan/slussar-i-trollhatte-kanal/nyheter-for-projekt-nya-slussar-i-trollhatte-kanal/2025/nytt-naturreservat-i-skalsbo-ska-kompensera-for-alvrummet/"
+   },
+   "note_sv": "Cirka 26 hektar skogsmark. Slutlig reservatsyta kan bli större; naturvärden är inte automatiskt utbytbara hektar för hektar.",
+   "confidence": "high",
+   "topic": "plats-natur"
+  },
+  {
+   "id": "krontackning_riktvarde",
+   "sdg": [
+    3,
+    11,
+    15
+   ],
+   "name_sv": "Riktvärde för krontäckning",
+   "value": 30,
+   "unit": "%",
+   "year": 2025,
+   "scope": "Trollhättans grönplanering",
+   "direction": "context",
+   "source": {
+    "title": "Ekosystemtjänstanalys Kopparholmen 8",
+    "publisher": "Trollhättans Stad",
+    "url": "https://www.trollhattan.se/globalassets/dokument/bygga-bo-och-miljo/stadsbyggnad/detaljplaner/kopparholmen-8/ekosystemtjanstanalys.pdf"
+   },
+   "note_sv": "Planunderlaget beskriver 30 procent krontäckning inom kvarter som riktvärde. Ingen uppmätt täckningsgrad för hela centrum.",
+   "confidence": "high",
+   "topic": "plats-natur"
+  },
+  {
+   "id": "synliga_trad_riktvarde",
+   "sdg": [
+    3,
+    11,
+    15
+   ],
+   "name_sv": "Riktvärde för synliga träd",
+   "value": 3,
+   "unit": "träd",
+   "year": 2025,
+   "scope": "Trollhättans grönplanering",
+   "direction": "context",
+   "source": {
+    "title": "Ekosystemtjänstanalys Kopparholmen 8",
+    "publisher": "Trollhättans Stad",
+    "url": "https://www.trollhattan.se/globalassets/dokument/bygga-bo-och-miljo/stadsbyggnad/detaljplaner/kopparholmen-8/ekosystemtjanstanalys.pdf"
+   },
+   "note_sv": "Riktlinjen innebär tre synliga träd från bostad, skola eller arbetsplats. Avser ambition, inte uppmätt nuläge.",
+   "confidence": "high",
+   "topic": "plats-natur"
+  },
+  {
+   "id": "hallbarhetsstrategi_teman",
+   "sdg": [
+    11,
+    16
+   ],
+   "name_sv": "Temaområden i hållbarhetsstrategin",
+   "value": 11,
+   "unit": "teman",
+   "year": 2025,
+   "scope": "Trollhättans Stad",
+   "direction": "context",
+   "source": {
+    "title": "Hållbar utveckling",
+    "publisher": "Trollhättans Stad",
+    "url": "https://www.trollhattan.se/startsida/kommun-och-politik/hallbar-utveckling/"
+   },
+   "note_sv": "Strategin antogs 2025 och omfattar elva teman. Antalet säger inget om måluppfyllelsen.",
+   "confidence": "high",
+   "topic": "plats-natur"
+  },
+  {
+   "id": "centrum_strategiska_vagval",
+   "sdg": [
+    11,
+    12
+   ],
+   "name_sv": "Strategiska vägval i centrumomstarten",
+   "value": 4,
+   "unit": "vägval",
+   "year": 2026,
+   "scope": "Trollhättans stadskärna",
+   "direction": "context",
+   "source": {
+    "title": "Omstartsstrategi stadskärnan",
+    "publisher": "Trollhättans Stad",
+    "url": "https://www.trollhattan.se/startsida/plats-for-framtiden/pagaende-projekt/stadskarnan/omstart-stadskarnan/omstart-stadskarnan/?vv_hit=true"
+   },
+   "note_sv": "Klimatneutralitet, digital stadskärna, visuell och flexibel stad samt ung stad.",
+   "confidence": "high",
+   "topic": "plats-natur"
+  },
+  {
+   "id": "forsta_slussled_ar",
+   "sdg": [
+    9,
+    11
+   ],
+   "name_sv": "Första färdiga slussleden",
+   "value": 1800,
+   "unit": "årtal",
+   "year": 1800,
+   "scope": "Trollhättans slussområde",
+   "direction": "context",
+   "source": {
+    "title": "Trollhättans historia",
+    "publisher": "Trollhättans Stad",
+    "url": "https://www.trollhattan.se/startsida/kommun-och-politik/kommunfakta/trollhattans-historia/"
+   },
+   "note_sv": "Historisk tidsankare för industri, handel och stadens framväxt.",
+   "confidence": "high",
+   "topic": "plats-natur"
+  },
+  {
+   "id": "andra_slussled_ar",
+   "sdg": [
+    9,
+    11
+   ],
+   "name_sv": "Andra slussledens invigning",
+   "value": 1844,
+   "unit": "årtal",
+   "year": 1844,
+   "scope": "Trollhättans slussområde",
+   "direction": "context",
+   "source": {
+    "title": "Trollhättans historia",
+    "publisher": "Trollhättans Stad",
+    "url": "https://www.trollhattan.se/startsida/kommun-och-politik/kommunfakta/trollhattans-historia/"
+   },
+   "note_sv": "Ny slussled öppnades 1844 efter sex års bygge.",
+   "confidence": "high",
+   "topic": "plats-natur"
+  },
+  {
+   "id": "nuvarande_slussled_ar",
+   "sdg": [
+    9,
+    11
+   ],
+   "name_sv": "Invigningsår för 1916 års slussled",
+   "value": 1916,
+   "unit": "årtal",
+   "year": 1916,
+   "scope": "Trollhättans slussområde",
+   "direction": "context",
+   "source": {
+    "title": "Trollhättans historia",
+    "publisher": "Trollhättans Stad",
+    "url": "https://www.trollhattan.se/startsida/kommun-och-politik/kommunfakta/trollhattans-historia/"
+   },
+   "note_sv": "Kulturhistoriskt årtal. Säger inget om dagens tekniska kapacitet.",
+   "confidence": "high",
+   "topic": "plats-natur"
+  },
+  {
+   "id": "stadsrattigheter_ar",
+   "sdg": [
+    11
+   ],
+   "name_sv": "Stadsrättigheternas år",
+   "value": 1916,
+   "unit": "årtal",
+   "year": 1916,
+   "scope": "Trollhättan",
+   "direction": "context",
+   "source": {
+    "title": "Trollhättans historia",
+    "publisher": "Trollhättans Stad",
+    "url": "https://www.trollhattan.se/startsida/kommun-och-politik/kommunfakta/trollhattans-historia/"
+   },
+   "note_sv": "Stadsrättigheterna inrättades 1916.",
+   "confidence": "high",
+   "topic": "plats-natur"
+  },
+  {
+   "id": "slussomrade_byggnadsminne_ar",
+   "sdg": [
+    11
+   ],
+   "name_sv": "År för statligt byggnadsminne",
+   "value": 2004,
+   "unit": "årtal",
+   "year": 2004,
+   "scope": "Trollhättans kanal- och slussområde",
+   "direction": "context",
+   "source": {
+    "title": "Trollhättans kanal och slussområde",
+    "publisher": "Trollhättans Stad",
+    "url": "https://www.trollhattan.se/startsida/bygga-bo-och-miljo/bygga-nytt-andra-eller-riva/kulturhistoriska-byggnader-och-omraden/byggnadsminnen/trollhattans-kanal-och-slussomrade/"
+   },
+   "note_sv": "Skyddet omfattar en sammansatt miljö med byggnader, slussar, broar och anläggningar.",
+   "confidence": "high",
+   "topic": "plats-natur"
+  },
+  {
+   "id": "befolkning_prognos_2026",
+   "sdg": [
+    11
+   ],
+   "name_sv": "Befolkningsprognos 2026",
+   "value": 59328,
+   "unit": "personer",
+   "year": 2026,
+   "scope": "Trollhättans kommun",
+   "direction": "context",
+   "source": {
+    "title": "Befolkningsprognos Trollhättans kommun 2026–2035, tabell 1–2",
+    "publisher": "Trollhättans stad",
+    "url": "https://www.trollhattan.se/contentassets/ccfe1b1ca62e46dd96c40eef76617e1e/trollhattan_rapport_kommunprognos_20260303.pdf/"
+   },
+   "note_sv": "Kommunens prognos, inte utfall.",
+   "confidence": "high",
+   "topic": "samhalle-ekonomi"
+  },
+  {
+   "id": "befolkning_prognos_2030",
+   "sdg": [
+    11
+   ],
+   "name_sv": "Befolkningsprognos 2030",
+   "value": 60930,
+   "unit": "personer",
+   "year": 2030,
+   "scope": "Trollhättans kommun",
+   "direction": "context",
+   "source": {
+    "title": "Befolkningsprognos Trollhättans kommun 2026–2035, tabell 1–2",
+    "publisher": "Trollhättans stad",
+    "url": "https://www.trollhattan.se/contentassets/ccfe1b1ca62e46dd96c40eef76617e1e/trollhattan_rapport_kommunprognos_20260303.pdf/"
+   },
+   "note_sv": "Kommunens prognos, inte utfall.",
+   "confidence": "high",
+   "topic": "samhalle-ekonomi"
+  },
+  {
+   "id": "befolkning_prognos_2035",
+   "sdg": [
+    11
+   ],
+   "name_sv": "Befolkningsprognos 2035",
+   "value": 62430,
+   "unit": "personer",
+   "year": 2035,
+   "scope": "Trollhättans kommun",
+   "direction": "context",
+   "source": {
+    "title": "Befolkningsprognos Trollhättans kommun 2026–2035, tabell 1–2",
+    "publisher": "Trollhättans stad",
+    "url": "https://www.trollhattan.se/contentassets/ccfe1b1ca62e46dd96c40eef76617e1e/trollhattan_rapport_kommunprognos_20260303.pdf/"
+   },
+   "note_sv": "Kommunens prognos, inte utfall.",
+   "confidence": "high",
+   "topic": "samhalle-ekonomi"
+  },
+  {
+   "id": "aldre_80_2035",
+   "sdg": [
+    11
+   ],
+   "name_sv": "Prognos 80–100 år 2035",
+   "value": 4533,
+   "unit": "personer",
+   "year": 2035,
+   "scope": "Trollhättans kommun",
+   "direction": "context",
+   "source": {
+    "title": "Befolkningsprognos Trollhättans kommun 2026–2035, tabell 1–2",
+    "publisher": "Trollhättans stad",
+    "url": "https://www.trollhattan.se/contentassets/ccfe1b1ca62e46dd96c40eef76617e1e/trollhattan_rapport_kommunprognos_20260303.pdf/"
+   },
+   "note_sv": "Prognosens åldersgrupp.",
+   "confidence": "high",
+   "topic": "samhalle-ekonomi"
+  },
+  {
+   "id": "aldre_65_79_2035",
+   "sdg": [
+    11
+   ],
+   "name_sv": "Prognos 65–79 år 2035",
+   "value": 9321,
+   "unit": "personer",
+   "year": 2035,
+   "scope": "Trollhättans kommun",
+   "direction": "context",
+   "source": {
+    "title": "Befolkningsprognos Trollhättans kommun 2026–2035, tabell 1–2",
+    "publisher": "Trollhättans stad",
+    "url": "https://www.trollhattan.se/contentassets/ccfe1b1ca62e46dd96c40eef76617e1e/trollhattan_rapport_kommunprognos_20260303.pdf/"
+   },
+   "note_sv": "Prognosens åldersgrupp.",
+   "confidence": "high",
+   "topic": "samhalle-ekonomi"
+  },
+  {
+   "id": "skolbarn_6_12_2035",
+   "sdg": [
+    11
+   ],
+   "name_sv": "Prognos 6–12 år 2035",
+   "value": 4411,
+   "unit": "personer",
+   "year": 2035,
+   "scope": "Trollhättans kommun",
+   "direction": "context",
+   "source": {
+    "title": "Befolkningsprognos Trollhättans kommun 2026–2035, tabell 1–2",
+    "publisher": "Trollhättans stad",
+    "url": "https://www.trollhattan.se/contentassets/ccfe1b1ca62e46dd96c40eef76617e1e/trollhattan_rapport_kommunprognos_20260303.pdf/"
+   },
+   "note_sv": "Prognosens åldersgrupp.",
+   "confidence": "high",
+   "topic": "samhalle-ekonomi"
+  },
+  {
+   "id": "befolkning_prognos_tillvaxt",
+   "sdg": [
+    11
+   ],
+   "name_sv": "Beräknad årlig befolkningstillväxt 2025–2035",
+   "value": 0.522,
+   "unit": "% per år",
+   "year": 2035,
+   "scope": "Trollhättans kommun",
+   "direction": "context",
+   "source": {
+    "title": "Befolkningsprognos Trollhättans kommun 2026–2035, tabell 1–2",
+    "publisher": "Trollhättans stad",
+    "url": "https://www.trollhattan.se/contentassets/ccfe1b1ca62e46dd96c40eef76617e1e/trollhattan_rapport_kommunprognos_20260303.pdf/"
+   },
+   "note_sv": "Egen beräkning: ((62 430 / 59 265)^(1/10) − 1) × 100. Ska inte extrapoleras som prognos till 2126.",
+   "confidence": "estimate",
+   "topic": "samhalle-ekonomi"
+  },
+  {
+   "id": "hv_helarsstudenter",
+   "sdg": [
+    4,
+    8,
+    9
+   ],
+   "name_sv": "Helårsstudenter vid Högskolan Väst",
+   "value": 5640,
+   "unit": "helårsstudenter",
+   "year": 2025,
+   "scope": "Högskolan Väst, hela lärosätet",
+   "direction": "context",
+   "source": {
+    "title": "Årsredovisning 2025, s. 7, 9 och 27",
+    "publisher": "Högskolan Väst",
+    "url": "https://www.hv.se/globalassets/dokument/styra-och-leda/arsredovisning-2025.pdf"
+   },
+   "note_sv": "Hela lärosätet, även distans.",
+   "confidence": "high",
+   "topic": "samhalle-ekonomi"
+  },
+  {
+   "id": "hv_anstallda",
+   "sdg": [
+    4,
+    8,
+    9
+   ],
+   "name_sv": "Högskolan Västs anställda",
+   "value": 700,
+   "unit": "personer",
+   "year": 2025,
+   "scope": "Högskolan Väst, hela lärosätet",
+   "direction": "context",
+   "source": {
+    "title": "Årsredovisning 2025, s. 7, 9 och 27",
+    "publisher": "Högskolan Väst",
+    "url": "https://www.hv.se/globalassets/dokument/styra-och-leda/arsredovisning-2025.pdf"
+   },
+   "note_sv": "Medelantal enligt sammanfattningen.",
+   "confidence": "high",
+   "topic": "samhalle-ekonomi"
+  },
+  {
+   "id": "hv_forskning_omsattning",
+   "sdg": [
+    4,
+    8,
+    9
+   ],
+   "name_sv": "Högskolan Västs forskningsomsättning",
+   "value": 210,
+   "unit": "mnkr",
+   "year": 2025,
+   "scope": "Högskolan Väst, hela lärosätet",
+   "direction": "context",
+   "source": {
+    "title": "Årsredovisning 2025, s. 7, 9 och 27",
+    "publisher": "Högskolan Väst",
+    "url": "https://www.hv.se/globalassets/dokument/styra-och-leda/arsredovisning-2025.pdf"
+   },
+   "note_sv": "Avrundad uppgift.",
+   "confidence": "high",
+   "topic": "samhalle-ekonomi"
+  },
+  {
+   "id": "hv_avancerad_helarsstudenter",
+   "sdg": [
+    4,
+    8,
+    9
+   ],
+   "name_sv": "Helårsstudenter på avancerad nivå",
+   "value": 1208,
+   "unit": "helårsstudenter",
+   "year": 2025,
+   "scope": "Högskolan Väst, hela lärosätet",
+   "direction": "context",
+   "source": {
+    "title": "Årsredovisning 2025, s. 7, 9 och 27",
+    "publisher": "Högskolan Väst",
+    "url": "https://www.hv.se/globalassets/dokument/styra-och-leda/arsredovisning-2025.pdf"
+   },
+   "note_sv": "Inklusive studieavgiftsbetalande.",
+   "confidence": "high",
+   "topic": "samhalle-ekonomi"
+  },
+  {
+   "id": "hv_prestationsgrad",
+   "sdg": [
+    4,
+    8,
+    9
+   ],
+   "name_sv": "Högskolan Västs prestationsgrad",
+   "value": 80,
+   "unit": "%",
+   "year": 2025,
+   "scope": "Högskolan Väst, hela lärosätet",
+   "direction": "context",
+   "source": {
+    "title": "Årsredovisning 2025, s. 7, 9 och 27",
+    "publisher": "Högskolan Väst",
+    "url": "https://www.hv.se/globalassets/dokument/styra-och-leda/arsredovisning-2025.pdf"
+   },
+   "note_sv": "Avklarade poäng relativt registrerad studievolym; inte examensandel.",
+   "confidence": "high",
+   "topic": "samhalle-ekonomi"
+  },
+  {
+   "id": "gkn_additiv_investering",
+   "sdg": [
+    8,
+    9,
+    12
+   ],
+   "name_sv": "Annonserad investering i additiv tillverkning",
+   "value": 600,
+   "unit": "mnkr",
+   "year": 2024,
+   "scope": "GKN Aerospace, projekt i Trollhättan",
+   "direction": "context",
+   "source": {
+    "title": "GKN Aerospace invests £50 million, 10 januari 2024",
+    "publisher": "GKN Aerospace",
+    "url": "https://www.gknaerospace.com/news-insights/news/gkn-aerospace-invests-50-million-to-grow-world-leading-sustainable-additive-fabrication-capability/"
+   },
+   "note_sv": "Annonserad 2024, inte verifierat utfall.",
+   "confidence": "medium",
+   "topic": "samhalle-ekonomi"
+  },
+  {
+   "id": "gkn_industriklivet_stod",
+   "sdg": [
+    8,
+    9,
+    12
+   ],
+   "name_sv": "Industriklivets stöd till GKN-projektet",
+   "value": 152,
+   "unit": "mnkr",
+   "year": 2024,
+   "scope": "GKN Aerospace, projekt i Trollhättan",
+   "direction": "context",
+   "source": {
+    "title": "GKN Aerospace invests £50 million, 10 januari 2024",
+    "publisher": "GKN Aerospace",
+    "url": "https://www.gknaerospace.com/news-insights/news/gkn-aerospace-invests-50-million-to-grow-world-leading-sustainable-additive-fabrication-capability/"
+   },
+   "note_sv": "Ingår i investeringen.",
+   "confidence": "medium",
+   "topic": "samhalle-ekonomi"
+  },
+  {
+   "id": "gkn_additiv_jobbtillskott",
+   "sdg": [
+    8,
+    9,
+    12
+   ],
+   "name_sv": "GKN:s förväntade nya arbetstillfällen",
+   "value": 150,
+   "unit": "arbetstillfällen",
+   "year": 2024,
+   "scope": "GKN Aerospace, projekt i Trollhättan",
+   "direction": "context",
+   "source": {
+    "title": "GKN Aerospace invests £50 million, 10 januari 2024",
+    "publisher": "GKN Aerospace",
+    "url": "https://www.gknaerospace.com/news-insights/news/gkn-aerospace-invests-50-million-to-grow-world-leading-sustainable-additive-fabrication-capability/"
+   },
+   "note_sv": "Företagets förväntan, inte observerad sysselsättning.",
+   "confidence": "medium",
+   "topic": "samhalle-ekonomi"
+  },
+  {
+   "id": "gkn_materialpotential",
+   "sdg": [
+    8,
+    9,
+    12
+   ],
+   "name_sv": "Angiven maximal minskning av råmaterial",
+   "value": 80,
+   "unit": "%",
+   "year": 2024,
+   "scope": "GKN Aerospace, projekt i Trollhättan",
+   "direction": "context",
+   "source": {
+    "title": "GKN Aerospace invests £50 million, 10 januari 2024",
+    "publisher": "GKN Aerospace",
+    "url": "https://www.gknaerospace.com/news-insights/news/gkn-aerospace-invests-50-million-to-grow-world-leading-sustainable-additive-fabrication-capability/"
+   },
+   "note_sv": "Upp till 80 procent enligt företaget. Ingen generell kommunal utsläppsfaktor.",
+   "confidence": "medium",
+   "topic": "samhalle-ekonomi"
+  },
+  {
+   "id": "arbetstillfallen_lokalt",
+   "sdg": [
+    8
+   ],
+   "name_sv": "Arbetstillfällen i Trollhättan",
+   "value": 30000,
+   "unit": "arbetstillfällen",
+   "year": 2025,
+   "scope": "Trollhättans kommun",
+   "direction": "context",
+   "source": {
+    "title": "Årsredovisning 2025, s. 16",
+    "publisher": "Trollhättans stad",
+    "url": "https://www.trollhattan.se/file/download/?contentRef=127237"
+   },
+   "note_sv": "Cirka-tal i årsredovisningen; statistikens referensår anges inte.",
+   "confidence": "medium",
+   "topic": "samhalle-ekonomi"
+  },
+  {
+   "id": "arbetsstallen_lokalt",
+   "sdg": [
+    8
+   ],
+   "name_sv": "Arbetsställen i Trollhättan",
+   "value": 5000,
+   "unit": "arbetsställen",
+   "year": 2025,
+   "scope": "Trollhättans kommun",
+   "direction": "context",
+   "source": {
+    "title": "Årsredovisning 2025, s. 16",
+    "publisher": "Trollhättans stad",
+    "url": "https://www.trollhattan.se/file/download/?contentRef=127237"
+   },
+   "note_sv": "Cirka-tal i årsredovisningen; inte antal företag.",
+   "confidence": "medium",
+   "topic": "samhalle-ekonomi"
+  },
+  {
+   "id": "kommunanstallda",
+   "sdg": [
+    8,
+    16
+   ],
+   "name_sv": "Kommunanställda",
+   "value": 4916,
+   "unit": "personer",
+   "year": 2025,
+   "scope": "Trollhättans kommun",
+   "direction": "context",
+   "source": {
+    "title": "Årsredovisning kortversion 2025",
+    "publisher": "Trollhättans stad",
+    "url": "https://www.trollhattan.se/startsida/kommun-och-politik/kommunfakta/arsredovisning-och-bokslut/arsredovisning-kortversion-2025/"
+   },
+   "note_sv": "Kortversionens personaluppgift.",
+   "confidence": "high",
+   "topic": "samhalle-ekonomi"
+  },
+  {
+   "id": "kommun_nettoinvesteringar",
+   "sdg": [
+    9,
+    11
+   ],
+   "name_sv": "Kommunens nettoinvesteringar",
+   "value": 195,
+   "unit": "mnkr",
+   "year": 2025,
+   "scope": "Trollhättans kommun",
+   "direction": "context",
+   "source": {
+    "title": "Årsredovisning kortversion 2025",
+    "publisher": "Trollhättans stad",
+    "url": "https://www.trollhattan.se/startsida/kommun-och-politik/kommunfakta/arsredovisning-och-bokslut/arsredovisning-kortversion-2025/"
+   },
+   "note_sv": "Årets totala nettoinvesteringar.",
+   "confidence": "high",
+   "topic": "samhalle-ekonomi"
+  },
+  {
+   "id": "gkn_titan_besparing",
+   "sdg": [
+    9,
+    12,
+    13
+   ],
+   "name_sv": "Rapporterad titanbesparing med additiv teknik",
+   "value": 25,
+   "unit": "ton titan",
+   "year": 2025,
+   "scope": "GKN Aerospace, additiv tillverkning",
+   "direction": "context",
+   "source": {
+    "title": "Impact Report 2025, Teknik som utvecklats på PTC har tagits till serieproduktion",
+    "publisher": "Innovatum Science Park",
+    "url": "https://impactreport.innovatumsciencepark.se/"
+   },
+   "note_sv": "Företagsuppgift för ett år i rapporten. Systemgräns och beräkningsmetod redovisas inte; inte kommunens territoriella utsläpp.",
+   "confidence": "medium",
+   "topic": "samhalle-ekonomi"
+  },
+  {
+   "id": "gkn_co2_besparing",
+   "sdg": [
+    9,
+    12,
+    13
+   ],
+   "name_sv": "Rapporterad koldioxidbesparing med additiv teknik",
+   "value": 450,
+   "unit": "ton CO₂",
+   "year": 2025,
+   "scope": "GKN Aerospace, additiv tillverkning",
+   "direction": "context",
+   "source": {
+    "title": "Impact Report 2025, Teknik som utvecklats på PTC har tagits till serieproduktion",
+    "publisher": "Innovatum Science Park",
+    "url": "https://impactreport.innovatumsciencepark.se/"
+   },
+   "note_sv": "Företagsuppgift för ett år i rapporten. Systemgräns och beräkningsmetod redovisas inte; inte kommunens territoriella utsläpp.",
+   "confidence": "medium",
+   "topic": "samhalle-ekonomi"
+  }
+ ],
+ "challenges": [
+  {
+   "id": "mark",
+   "title_sv": "Förtätning med plats för grönska",
+   "text_sv": "Nya bostäder och stadens gröna miljöer behöver rymmas tillsammans. Vårvik visar hur tidigare industrimark kan omvandlas, medan stora träd och sammanhängande natur kräver egna utrymmen.",
+   "sdg": [
+    11,
+    15
+   ],
+   "sources": [
+    {
+     "title": "Stridsbergsområdet, Vårvik – samråd 2026",
+     "url": "https://www.trollhattan.se/startsida/bygga-bo-och-miljo/kommunens-planarbete/detaljplaner/planer-under-arbete/stridsbergsomradet-varvik/"
+    },
+    {
+     "title": "Älvrummet",
+     "url": "https://www.trollhattan.se/startsida/bygga-bo-och-miljo/natur-och-parker/naturomraden-naturreservat/sidlistning-naturparlor/alvrummet/"
+    }
+   ]
+  },
+  {
+   "id": "sluss",
+   "title_sv": "Slussar och naturvärden",
+   "text_sv": "Den nya slussleden innebär en konflikt mellan farledens funktion och befintliga naturvärden. Trafikverkets kompensationsförslag för Skälsbo bör följas som ett eget åtagande.",
+   "sdg": [
+    9,
+    15
+   ],
+   "sources": [
+    {
+     "title": "Nytt naturreservat i Skälsbo ska kompensera för Älvrummet",
+     "url": "https://www.trafikverket.se/vara-projekt/projekt-i-vastra-gotalands-lan/slussar-i-trollhatte-kanal/nyheter-for-projekt-nya-slussar-i-trollhatte-kanal/2025/nytt-naturreservat-i-skalsbo-ska-kompensera-for-alvrummet/"
+    }
+   ]
+  },
+  {
+   "id": "centrum",
+   "title_sv": "En stadskärna som används varje dag",
+   "text_sv": "Centrum behöver vara tillgängligt, tryggt och användbart för fler vardagsärenden. Stadens omstartsstrategi kopplar detta till handel, möten och klimatneutralitet.",
+   "sdg": [
+    8,
+    11
+   ],
+   "sources": [
+    {
+     "title": "Omstartsstrategi stadskärnan",
+     "url": "https://www.trollhattan.se/startsida/plats-for-framtiden/pagaende-projekt/stadskarnan/omstart-stadskarnan/omstart-stadskarnan/?vv_hit=true"
+    }
+   ]
+  },
+  {
+   "id": "jamlikhet",
+   "title_sv": "Jämlika livsvillkor",
+   "text_sv": "Stadens hållbarhetsstrategi lyfter uppväxtvillkor, ekonomisk trygghet och hälsa. Framtidsmodellen behöver därför följa vilka invånare som får del av förbättringarna.",
+   "sdg": [
+    3,
+    10
+   ],
+   "sources": [
+    {
+     "title": "Hållbar utveckling",
+     "url": "https://www.trollhattan.se/startsida/kommun-och-politik/hallbar-utveckling/"
+    }
+   ]
+  },
+  {
+   "id": "gront",
+   "title_sv": "Träd behöver tid och utrymme",
+   "text_sv": "Grönplaneringens riktvärden kräver utrymme för växande trädkronor. Nyplantering ersätter inte omedelbart ett uppvuxet träds skugga och livsmiljöer.",
+   "sdg": [
+    3,
+    11,
+    15
+   ],
+   "sources": [
+    {
+     "title": "Ekosystemtjänstanalys Kopparholmen 8",
+     "url": "https://www.trollhattan.se/globalassets/dokument/bygga-bo-och-miljo/stadsbyggnad/detaljplaner/kopparholmen-8/ekosystemtjanstanalys.pdf"
+    }
+   ]
+  },
+  {
+   "id": "arv",
+   "title_sv": "Förändring i en historisk älvstad",
+   "text_sv": "Broar, slussar och industrimiljöer ger staden dess sammanhang. Ombyggnad och nya användningar behöver ta vara på dessa värden.",
+   "sdg": [
+    9,
+    11
+   ],
+   "sources": [
+    {
+     "title": "Trollhättans kanal och slussområde",
+     "url": "https://www.trollhattan.se/startsida/bygga-bo-och-miljo/bygga-nytt-andra-eller-riva/kulturhistoriska-byggnader-och-omraden/byggnadsminnen/trollhattans-kanal-och-slussomrade/"
+    }
+   ]
+  }
+ ],
+ "assets": [
+  {
+   "id": "alven",
+   "title_sv": "Älvrummet nära centrum",
+   "text_sv": "Älvrummet förenar natur, promenader och industrihistoria nära centrum. Dess branter och skogsmiljöer är en resurs för både människor och biologisk mångfald.",
+   "sdg": [
+    3,
+    11,
+    15
+   ],
+   "sources": [
+    {
+     "title": "Älvrummet",
+     "url": "https://www.trollhattan.se/startsida/bygga-bo-och-miljo/natur-och-parker/naturomraden-naturreservat/sidlistning-naturparlor/alvrummet/"
+    }
+   ]
+  },
+  {
+   "id": "omvandling",
+   "title_sv": "Vårviks omvandling",
+   "text_sv": "Vårvik ger erfarenheter av att återanvända industrimark och bevara byggnader samtidigt som bostäder och service tillkommer.",
+   "sdg": [
+    9,
+    11
+   ],
+   "sources": [
+    {
+     "title": "Stridsbergsområdet, Vårvik – samråd 2026",
+     "url": "https://www.trollhattan.se/startsida/bygga-bo-och-miljo/kommunens-planarbete/detaljplaner/planer-under-arbete/stridsbergsomradet-varvik/"
+    }
+   ]
+  },
+  {
+   "id": "ingenjorsarv",
+   "title_sv": "Ingenjörskonst genom generationer",
+   "text_sv": "Slusslederna från 1800, 1844 och 1916 visar hur teknik och samarbete har format Trollhättan. De ger en konkret bakgrund till framtidens omställning.",
+   "sdg": [
+    4,
+    9,
+    11
+   ],
+   "sources": [
+    {
+     "title": "Trollhättans historia",
+     "url": "https://www.trollhattan.se/startsida/kommun-och-politik/kommunfakta/trollhattans-historia/"
+    }
+   ]
+  },
+  {
+   "id": "vardagsrum",
+   "title_sv": "Stadskärnans mötesplatser",
+   "text_sv": "Centrumstrategin utgår från en stadskärna för handel, rekreation och socialt umgänge. Torg, bibliotek och gångstråk kan knyta samman dessa funktioner.",
+   "sdg": [
+    3,
+    11
+   ],
+   "sources": [
+    {
+     "title": "Omstartsstrategi stadskärnan",
+     "url": "https://www.trollhattan.se/startsida/plats-for-framtiden/pagaende-projekt/stadskarnan/omstart-stadskarnan/omstart-stadskarnan/?vv_hit=true"
+    }
+   ]
+  },
+  {
+   "id": "riktning",
+   "title_sv": "En gemensam hållbarhetsriktning",
+   "text_sv": "Hållbarhetsstrategin från 2025 ger kommunen och dess bolag en gemensam riktning. Den behöver omsättas i följbara åtgärder och prioriteringar.",
+   "sdg": [
+    11,
+    16,
+    17
+   ],
+   "sources": [
+    {
+     "title": "Hållbar utveckling",
+     "url": "https://www.trollhattan.se/startsida/kommun-och-politik/hallbar-utveckling/"
+    }
+   ]
+  },
+  {
+   "id": "gronstrak",
+   "title_sv": "Sammanhängande naturstråk",
+   "text_sv": "Älvrummet och Ryrbäcken ger tillgång till skogs- och ravinmiljöer nära staden. Stråken är utgångspunkter för varsam naturvård och tillgängligt friluftsliv.",
+   "sdg": [
+    3,
+    15
+   ],
+   "sources": [
+    {
+     "title": "Älvrummet",
+     "url": "https://www.trollhattan.se/startsida/bygga-bo-och-miljo/natur-och-parker/naturomraden-naturreservat/sidlistning-naturparlor/alvrummet/"
+    },
+    {
+     "title": "Ryrbäcken",
+     "url": "https://www.trollhattan.se/startsida/bygga-bo-och-miljo/natur-och-parker/naturomraden-naturreservat/sidlistning-naturparlor/ryrbacken/"
+    }
+   ]
+  }
+ ],
+ "kommun_vision": [
+  {
+   "title_sv": "En stolt och innovativ stad med plats för framtiden",
+   "owner": "Trollhättans Stad",
+   "horizon": 2030,
+   "text_sv": "Stadens vision betonar mod, nytänkande, delaktighet och handlingskraft. Hållbarhetsstrategin från 2025 sätter en gemensam riktning inom elva teman. Modellens hundraårsperspektiv är ett eget scenarioarbete.",
+   "sources": [
+    {
+     "title": "Innovation på SBF",
+     "url": "https://www.trollhattan.se/innovation/"
+    },
+    {
+     "title": "Hållbar utveckling",
+     "url": "https://www.trollhattan.se/startsida/kommun-och-politik/hallbar-utveckling/"
+    }
+   ]
+  }
+ ],
+ "topics": [
+  "kolada",
+  "klimat-energi",
+  "plats-natur",
+  "samhalle-ekonomi"
+ ]
+}

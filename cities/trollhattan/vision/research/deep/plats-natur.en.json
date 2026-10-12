@@ -1,0 +1,84 @@
+{
+  "indicators": {
+    "alvrummet_reservat_ha": {
+      "name": "Approximate area of Älvrummet Nature Reserve",
+      "unit": "hectares",
+      "note": "The municipal visitor page states approximately 61 hectares, not the entire river landscape."
+    },
+    "ryrbacken_reservat_ha": {
+      "name": "Approximate area of Ryrbäcken Nature Reserve",
+      "unit": "hectares",
+      "note": "Approximately 43 hectares according to the municipality; south of the central model tile."
+    },
+    "varvik_planerade_bostader": {
+      "name": "Planned homes in Vårvik",
+      "unit": "homes",
+      "note": "Approximately 1,600 homes in the 2026 consultation. A planning figure, not completed homes or a population forecast."
+    },
+    "stridsberg_planerade_bostader": {
+      "name": "Planned apartments in Stridsberg",
+      "unit": "apartments",
+      "note": "Approximately 1,000 apartments within Vårvik. Included in the total of 1,600; do not add the figures."
+    },
+    "stridsberg_planomrade_ha": {
+      "name": "Stridsberg planning area",
+      "unit": "hectares",
+      "note": "The planning area covers approximately 10 hectares and retained industrial buildings."
+    },
+    "alvrummet_planerat_intrang_ha": {
+      "name": "Planned forest clearance in Älvrummet",
+      "unit": "hectares",
+      "note": "The September 2025 proposal involves about 5 hectares. This is proposed impact, not verified completed clearance."
+    },
+    "skalsbo_kompensationsskog_ha": {
+      "name": "Forest proposed for compensation measures",
+      "unit": "hectares",
+      "note": "Approximately 26 hectares of forest. The final reserve may be larger; habitats are not automatically interchangeable hectare for hectare."
+    },
+    "krontackning_riktvarde": {
+      "name": "Tree canopy planning benchmark",
+      "unit": "%",
+      "note": "The planning document gives a 30% neighbourhood canopy benchmark, not measured canopy across the city centre."
+    },
+    "synliga_trad_riktvarde": {
+      "name": "Visible-tree planning benchmark",
+      "unit": "trees",
+      "note": "The benchmark is three visible trees from home, school or workplace; an ambition, not a measured baseline."
+    },
+    "hallbarhetsstrategi_teman": {
+      "name": "Themes in the sustainability strategy",
+      "unit": "themes",
+      "note": "The strategy was adopted in 2025 and has eleven themes. The count does not measure achievement."
+    },
+    "centrum_strategiska_vagval": {
+      "name": "Strategic directions for the city centre",
+      "unit": "directions",
+      "note": "Climate neutrality, a digital centre, a visual and flexible city, and a young city."
+    },
+    "forsta_slussled_ar": {
+      "name": "Opening year of the first completed lock route",
+      "unit": "year",
+      "note": "Historical anchor for industry, trade and urban development."
+    },
+    "andra_slussled_ar": {
+      "name": "Opening year of the second lock route",
+      "unit": "year",
+      "note": "The second route opened in 1844 after six years of construction."
+    },
+    "nuvarande_slussled_ar": {
+      "name": "Opening year of the 1916 lock route",
+      "unit": "year",
+      "note": "A historical date, not a statement of current technical capacity."
+    },
+    "stadsrattigheter_ar": {
+      "name": "Year of city status",
+      "unit": "year",
+      "note": "City status was instituted in 1916."
+    },
+    "slussomrade_byggnadsminne_ar": {
+      "name": "Year of state heritage designation",
+      "unit": "year",
+      "note": "The designation covers an ensemble of buildings, locks, bridges and installations."
+    }
+  }
+}

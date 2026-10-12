@@ -1,0 +1,50 @@
+{
+  "provider": "Google AI Studio",
+  "model": "gemini-2.5-flash-preview-tts",
+  "voice": "Zephyr",
+  "date": "2026-10-12",
+  "clips": [
+    {
+      "file": "01-intro.wav",
+      "start": 1,
+      "duration": 15.450958,
+      "speed": 1,
+      "text": "Välkommen till Trollhättan. Här möts Göta älv, industrin och människors vardag. I den här förenklade stadsmodellen kan vi utforska möjliga vägval för nästa sekel."
+    },
+    {
+      "file": "03-alvstaden.wav",
+      "start": 24.5,
+      "duration": 12.410958,
+      "speed": 1,
+      "text": "I Älvstaden prövar vi mer grönska, resor utan egen bil och bättre beredskap för regn och värme. Hur kan livet längs älven utvecklas?"
+    },
+    {
+      "file": "04-industristaden.wav",
+      "start": 39.3,
+      "duration": 12.0,
+      "speed": 1.0609131666666667,
+      "text": "Industristaden bygger vidare på kompetens, återbruk och samarbete. Här undersöker vi hur industrins omställning kan samspela med stadens utveckling."
+    },
+    {
+      "file": "05-nara.wav",
+      "start": 52.3,
+      "duration": 12.0,
+      "speed": 1.0609131666666667,
+      "text": "Den nära staden sätter vardagen i centrum. Mötesplatser, omsorg och närhet till service kan skapa stadsdelar där fler människor får möjlighet att delta."
+    },
+    {
+      "file": "06-osakerhet.wav",
+      "start": 65.3,
+      "duration": 12.0,
+      "speed": 1.1909131666666666,
+      "text": "Framtiden är osäker. Effekterna du ser bygger på scenarioantaganden. Modellen är ett underlag för samtal, inte en prognos eller en beräkning av skred och vattennivåer."
+    },
+    {
+      "file": "07-slut.wav",
+      "start": 80.2,
+      "duration": 6.730958,
+      "speed": 1,
+      "text": "Ett sekel av möjliga vägval. Vilket Trollhättan vill du bygga?"
+    }
+  ]
+}

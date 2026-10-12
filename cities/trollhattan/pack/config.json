@@ -1,0 +1,158 @@
+{
+  "version": 1,
+  "slug": "trollhattan",
+  "name": "Trollhättan",
+  "title": {
+    "top": "TROLLHÄTTAN",
+    "bottom": "WASTELAND"
+  },
+  "page_title": "Trollhättan Wasteland · Battlecars",
+  "wordmark": "T / W",
+  "coordinates": "TROLLHÄTTAN, SVERIGE <i></i> 58°17′ N / 12°17′ E",
+  "text": {
+    "eyebrow": "THE STREETS ARE YOURS. KEEP THEM.",
+    "tagline": "Same streets. New rules.",
+    "intro": "Take an armored machine into the streets of Trollhättan.<br>Hunt the raiders. Scavenge the wrecks. Make it home.",
+    "win_eyebrow": "TROLLHÄTTAN IS YOURS",
+    "start_roam": "DRIVE TROLLHÄTTAN",
+    "explore": "EXPLORE TROLLHÄTTAN",
+    "loading": "Loading Trollhättan…",
+    "ready": "Trollhättan is ready",
+    "map_title": "TROLLHÄTTAN / TACTICAL MAP",
+    "description": "Armored cars. Real Trollhättan streets. An open-world browser combat game."
+  },
+  "room": "TROLLHATTAN",
+  "spawn": {
+    "x": -19.23,
+    "z": 45.29,
+    "heading": 1.1693,
+    "street": "Gärdhemsvägen"
+  },
+  "bounds": {
+    "minX": -830.0,
+    "maxX": 830.0,
+    "minZ": -830.0,
+    "maxZ": 830.0
+  },
+  "labels": [
+    [
+      "FÅGELDAMM",
+      -262.0,
+      -643.4
+    ],
+    [
+      "TROLLHÄTTAN",
+      0.0,
+      -0.0
+    ],
+    [
+      "SPIKÖN",
+      -362.4,
+      -475.3
+    ],
+    [
+      "DROTTNINGTORGET",
+      -115.0,
+      -58.6
+    ],
+    [
+      "MARIA ALBERTS PARK",
+      147.0,
+      -106.0
+    ],
+    [
+      "DAHLÖFS PARK",
+      -47.2,
+      222.2
+    ],
+    [
+      "BERGSLAGSPARKEN",
+      367.3,
+      -462.9
+    ],
+    [
+      "BETTY BACKS PARK",
+      -44.5,
+      -444.7
+    ],
+    [
+      "KUNGSTORGET",
+      -464.6,
+      584.7
+    ],
+    [
+      "KARL JOHANS TORG",
+      -309.2,
+      -122.0
+    ],
+    [
+      "GEIJERSLUND",
+      147.3,
+      85.1
+    ],
+    [
+      "KYRKANS HUS",
+      -80.8,
+      113.4
+    ]
+  ],
+  "districts": [],
+  "squares": [
+    {
+      "name": "DROTTNINGTORGET",
+      "x": -115.0,
+      "z": -58.6,
+      "r": 57.0
+    },
+    {
+      "name": "KANALTORGET",
+      "x": -43.2,
+      "z": -695.7,
+      "r": 18.8
+    }
+  ],
+  "crates": [
+    [
+      -362.4,
+      -475.3
+    ],
+    [
+      29.9,
+      -224.3
+    ],
+    [
+      474.7,
+      472.7
+    ],
+    [
+      -115.0,
+      -58.6
+    ],
+    [
+      147.0,
+      -106.0
+    ]
+  ],
+  "fires": [
+    [
+      8.7,
+      10.0
+    ],
+    [
+      -94.6,
+      18.5
+    ],
+    [
+      -31.6,
+      154.6
+    ]
+  ],
+  "splash": "city/splash.jpg",
+  "voices": [],
+  "music": null,
+  "attribution": "Map data © OpenStreetMap contributors (ODbL) · Terrain: Copernicus DEM GLO-30 © DLR e.V. 2010-2014 and © Airbus Defence and Space GmbH 2014-2018, provided under COPERNICUS by the European Union and ESA",
+  "center": [
+    58.2827931,
+    12.2908612
+  ]
+}

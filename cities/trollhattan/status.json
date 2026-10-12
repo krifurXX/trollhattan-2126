@@ -1,0 +1,84 @@
+{
+  "fetch": {
+    "done": "2026-10-12 06:08:44",
+    "elements": 5447,
+    "counts": {
+      "highway": 1799,
+      "other": 1756,
+      "railway": 78,
+      "barrier": 39,
+      "natural": 457,
+      "leisure": 71,
+      "waterway": 20,
+      "building": 1043,
+      "landuse": 184
+    },
+    "seconds": 18
+  },
+  "terrain": {
+    "done": "2026-10-12 06:08:45",
+    "source": "Copernicus DEM GLO-30 (DSM)",
+    "low": 8.5,
+    "high": 116.07,
+    "seconds": 1
+  },
+  "prepare": {
+    "done": "2026-10-12 06:14:58",
+    "buildings": 858,
+    "roads": 1344,
+    "trees": 4812,
+    "props": 3069,
+    "walls": 725,
+    "landmarks": 35,
+    "layers_m2": {
+      "asphalt": 283736,
+      "cobble": 6578,
+      "sidewalk": 109014,
+      "pier": 525,
+      "paving": 68352,
+      "path": 26642,
+      "parking": 52206,
+      "rail": 14621,
+      "sand": 4822,
+      "pitch": 7464,
+      "park": 311658,
+      "grass": 840894,
+      "cemetery": 49223,
+      "forest": 126210,
+      "dirt": 4263,
+      "ground": 0
+    },
+    "land_m2": 2280545,
+    "water_m2": 279958,
+    "seconds": 38
+  },
+  "textures": {
+    "done": "2026-10-12 06:14:58",
+    "seconds": 0
+  },
+  "blender": {
+    "done": "2026-10-12 06:15:39",
+    "seconds": 41
+  },
+  "export": {
+    "done": "2026-10-12 06:17:26",
+    "seconds": 107
+  },
+  "tiles": {
+    "done": "2026-10-12 06:17:45",
+    "seconds": 19
+  },
+  "pack": {
+    "done": "2026-10-12 06:17:54",
+    "spawn": {
+      "x": -19.23,
+      "z": 45.29,
+      "heading": 1.1693,
+      "street": "Gärdhemsvägen"
+    }
+  },
+  "splash": {
+    "done": "2026-10-12 06:17:54",
+    "seconds": 8
+  }
+}

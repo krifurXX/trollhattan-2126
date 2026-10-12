@@ -1,0 +1,23 @@
+{
+  "name": "Trollhättan",
+  "query": "Trollhättan, Sverige",
+  "display_name": "Trollhättan, Trollhättans kommun, Västra Götalands län, 461 83, Sverige",
+  "country_code": "se",
+  "region": "Västra Götalands län",
+  "center": [
+    58.2827931,
+    12.2908612
+  ],
+  "size_m": 1600,
+  "bbox": [
+    58.275607,
+    12.277192,
+    58.28998,
+    12.304531
+  ],
+  "osm": {
+    "type": "node",
+    "id": 26585395
+  },
+  "attribution": "Map data © OpenStreetMap contributors (ODbL)"
+}

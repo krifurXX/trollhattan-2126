@@ -1,0 +1,15 @@
+{
+ "x0": -1415,
+ "z0": -1435,
+ "step": 30,
+ "w": 95,
+ "h": 95,
+ "scale": 40,
+ "base": 37.82,
+ "channels": "R ground, G spill level (m above base × 40), B the core",
+ "water": 38.32,
+ "ground3D": "the 3D ground (y = 0) stands for 39.52 m RH 2000 and higher ground for itself; the main water (y = -1.2) for 38.32 m",
+ "datum": "RH 2000",
+ "source": "Copernicus DEM GLO-30 (DSM)",
+ "attribution": "Terrain: Copernicus DEM GLO-30 © DLR e.V. 2010-2014 and © Airbus Defence and Space GmbH 2014-2018, provided under COPERNICUS by the European Union and ESA"
+}

@@ -1,0 +1,114 @@
+{
+  "indicators": {
+    "befolkning_prognos_2026": {
+      "name": "Population projection 2026",
+      "unit": "people",
+      "note": "Municipal projection, not an observation."
+    },
+    "befolkning_prognos_2030": {
+      "name": "Population projection 2030",
+      "unit": "people",
+      "note": "Municipal projection, not an observation."
+    },
+    "befolkning_prognos_2035": {
+      "name": "Population projection 2035",
+      "unit": "people",
+      "note": "Municipal projection, not an observation."
+    },
+    "aldre_80_2035": {
+      "name": "Projected population aged 80–100 in 2035",
+      "unit": "people",
+      "note": "Age group in the projection."
+    },
+    "aldre_65_79_2035": {
+      "name": "Projected population aged 65–79 in 2035",
+      "unit": "people",
+      "note": "Age group in the projection."
+    },
+    "skolbarn_6_12_2035": {
+      "name": "Projected population aged 6–12 in 2035",
+      "unit": "people",
+      "note": "Age group in the projection."
+    },
+    "befolkning_prognos_tillvaxt": {
+      "name": "Calculated annual population growth 2025–2035",
+      "unit": "% per year",
+      "note": "Own calculation: ((62,430 / 59,265)^(1/10) − 1) × 100. Not a forecast to 2126."
+    },
+    "hv_helarsstudenter": {
+      "name": "University West full-time equivalent students",
+      "unit": "full-time equivalent students",
+      "note": "Whole university, including distance education."
+    },
+    "hv_anstallda": {
+      "name": "University West employees",
+      "unit": "people",
+      "note": "Average headcount reported in the summary."
+    },
+    "hv_forskning_omsattning": {
+      "name": "University West research turnover",
+      "unit": "SEK million",
+      "note": "Rounded figure."
+    },
+    "hv_avancerad_helarsstudenter": {
+      "name": "Second-cycle full-time equivalent students",
+      "unit": "full-time equivalent students",
+      "note": "Including fee-paying students."
+    },
+    "hv_prestationsgrad": {
+      "name": "University West performance ratio",
+      "unit": "%",
+      "note": "Completed credits relative to registered study volume; not graduation rate."
+    },
+    "gkn_additiv_investering": {
+      "name": "Announced additive manufacturing investment",
+      "unit": "SEK million",
+      "note": "Announced in 2024, not verified expenditure."
+    },
+    "gkn_industriklivet_stod": {
+      "name": "Industriklivet support for GKN project",
+      "unit": "SEK million",
+      "note": "Part of the investment."
+    },
+    "gkn_additiv_jobbtillskott": {
+      "name": "GKN projected additional jobs",
+      "unit": "jobs",
+      "note": "Company projection, not observed employment."
+    },
+    "gkn_materialpotential": {
+      "name": "Stated maximum raw material reduction",
+      "unit": "%",
+      "note": "Up to 80 percent according to the company. Not a municipal emissions factor."
+    },
+    "arbetstillfallen_lokalt": {
+      "name": "Jobs in Trollhättan",
+      "unit": "jobs",
+      "note": "Approximate annual-report figure; underlying statistical year unspecified."
+    },
+    "arbetsstallen_lokalt": {
+      "name": "Workplaces in Trollhättan",
+      "unit": "workplaces",
+      "note": "Approximate annual-report figure; not number of enterprises."
+    },
+    "kommunanstallda": {
+      "name": "Municipal employees",
+      "unit": "people",
+      "note": "Staff figure from the summary."
+    },
+    "kommun_nettoinvesteringar": {
+      "name": "Municipal net investments",
+      "unit": "SEK million",
+      "note": "Total net investment during the year."
+    },
+    "gkn_titan_besparing": {
+      "name": "Reported titanium savings from additive technology",
+      "unit": "tonnes titanium",
+      "note": "Company-reported annual saving. Boundary and method unspecified; not municipal territorial emissions."
+    },
+    "gkn_co2_besparing": {
+      "name": "Reported carbon dioxide savings from additive technology",
+      "unit": "tonnes CO₂",
+      "note": "Company-reported annual saving. Boundary and method unspecified; not municipal territorial emissions."
+    }
+  }
+}

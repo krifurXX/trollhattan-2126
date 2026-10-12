@@ -1,0 +1,322 @@
+{
+  "topic": "plats-natur",
+  "compiled": "2026-10-12",
+  "indicators": [
+    {
+      "id": "alvrummet_reservat_ha",
+      "sdg": [
+        11,
+        15
+      ],
+      "name_sv": "Älvrummets naturreservat, ungefärlig areal",
+      "value": 61,
+      "unit": "hektar",
+      "year": 2026,
+      "scope": "Älvrummets naturreservat",
+      "direction": "context",
+      "source": {
+        "title": "Älvrummet",
+        "publisher": "Trollhättans Stad",
+        "url": "https://www.trollhattan.se/startsida/bygga-bo-och-miljo/natur-och-parker/naturomraden-naturreservat/sidlistning-naturparlor/alvrummet/"
+      },
+      "note_sv": "Kommunens besökssida anger cirka 61 hektar. Avser reservatet, inte hela älvlandskapet.",
+      "confidence": "high"
+    },
+    {
+      "id": "ryrbacken_reservat_ha",
+      "sdg": [
+        11,
+        15
+      ],
+      "name_sv": "Ryrbäckens naturreservat, ungefärlig areal",
+      "value": 43,
+      "unit": "hektar",
+      "year": 2026,
+      "scope": "Ryrbäckens naturreservat",
+      "direction": "context",
+      "source": {
+        "title": "Ryrbäcken",
+        "publisher": "Trollhättans Stad",
+        "url": "https://www.trollhattan.se/startsida/bygga-bo-och-miljo/natur-och-parker/naturomraden-naturreservat/sidlistning-naturparlor/ryrbacken/"
+      },
+      "note_sv": "Cirka 43 hektar enligt kommunen. Reservatet ligger söder om modellens centrumruta.",
+      "confidence": "high"
+    },
+    {
+      "id": "varvik_planerade_bostader",
+      "sdg": [
+        11
+      ],
+      "name_sv": "Planerade bostäder i Vårvik",
+      "value": 1600,
+      "unit": "bostäder",
+      "year": 2026,
+      "scope": "Vårvik",
+      "direction": "context",
+      "source": {
+        "title": "Stridsbergsområdet, Vårvik – samråd 2026",
+        "publisher": "Trollhättans Stad",
+        "url": "https://www.trollhattan.se/startsida/bygga-bo-och-miljo/kommunens-planarbete/detaljplaner/planer-under-arbete/stridsbergsomradet-varvik/"
+      },
+      "note_sv": "Cirka 1 600 bostäder enligt samrådssidan 2026. Planuppgift, inte färdigbyggda bostäder eller befolkningsprognos.",
+      "confidence": "high"
+    },
+    {
+      "id": "stridsberg_planerade_bostader",
+      "sdg": [
+        11
+      ],
+      "name_sv": "Planerade lägenheter i Stridsbergsområdet",
+      "value": 1000,
+      "unit": "lägenheter",
+      "year": 2026,
+      "scope": "Stridsbergsområdet",
+      "direction": "context",
+      "source": {
+        "title": "Stridsbergsområdet, Vårvik – samråd 2026",
+        "publisher": "Trollhättans Stad",
+        "url": "https://www.trollhattan.se/startsida/bygga-bo-och-miljo/kommunens-planarbete/detaljplaner/planer-under-arbete/stridsbergsomradet-varvik/"
+      },
+      "note_sv": "Cirka 1 000 lägenheter inom Vårvik. Ingår i totalen 1 600 och ska inte adderas till den.",
+      "confidence": "high"
+    },
+    {
+      "id": "stridsberg_planomrade_ha",
+      "sdg": [
+        11
+      ],
+      "name_sv": "Stridsbergsområdets planareal",
+      "value": 10,
+      "unit": "hektar",
+      "year": 2026,
+      "scope": "Stridsbergsområdet",
+      "direction": "context",
+      "source": {
+        "title": "Stridsbergsområdet, Vårvik – samråd 2026",
+        "publisher": "Trollhättans Stad",
+        "url": "https://www.trollhattan.se/startsida/bygga-bo-och-miljo/kommunens-planarbete/detaljplaner/planer-under-arbete/stridsbergsomradet-varvik/"
+      },
+      "note_sv": "Planområdet omfattar cirka 10 hektar och bevarad industribebyggelse.",
+      "confidence": "high"
+    },
+    {
+      "id": "alvrummet_planerat_intrang_ha",
+      "sdg": [
+        9,
+        15
+      ],
+      "name_sv": "Planerad skogsavverkning i Älvrummet",
+      "value": 5,
+      "unit": "hektar",
+      "year": 2025,
+      "scope": "Ny slussled, Älvrummet",
+      "direction": "context",
+      "source": {
+        "title": "Nytt naturreservat i Skälsbo ska kompensera för Älvrummet",
+        "publisher": "Trafikverket",
+        "url": "https://www.trafikverket.se/vara-projekt/projekt-i-vastra-gotalands-lan/slussar-i-trollhatte-kanal/nyheter-for-projekt-nya-slussar-i-trollhatte-kanal/2025/nytt-naturreservat-i-skalsbo-ska-kompensera-for-alvrummet/"
+      },
+      "note_sv": "Trafikverkets förslag från september 2025 omfattar omkring 5 hektar. Detta beskriver projektets intrång, inte ett verifierat genomfört ingrepp.",
+      "confidence": "high"
+    },
+    {
+      "id": "skalsbo_kompensationsskog_ha",
+      "sdg": [
+        15
+      ],
+      "name_sv": "Skogsmark med föreslagna kompensationsåtgärder",
+      "value": 26,
+      "unit": "hektar",
+      "year": 2025,
+      "scope": "Skälsbo",
+      "direction": "context",
+      "source": {
+        "title": "Nytt naturreservat i Skälsbo ska kompensera för Älvrummet",
+        "publisher": "Trafikverket",
+        "url": "https://www.trafikverket.se/vara-projekt/projekt-i-vastra-gotalands-lan/slussar-i-trollhatte-kanal/nyheter-for-projekt-nya-slussar-i-trollhatte-kanal/2025/nytt-naturreservat-i-skalsbo-ska-kompensera-for-alvrummet/"
+      },
+      "note_sv": "Cirka 26 hektar skogsmark. Slutlig reservatsyta kan bli större; naturvärden är inte automatiskt utbytbara hektar för hektar.",
+      "confidence": "high"
+    },
+    {
+      "id": "krontackning_riktvarde",
+      "sdg": [
+        3,
+        11,
+        15
+      ],
+      "name_sv": "Riktvärde för krontäckning",
+      "value": 30,
+      "unit": "%",
+      "year": 2025,
+      "scope": "Trollhättans grönplanering",
+      "direction": "context",
+      "source": {
+        "title": "Ekosystemtjänstanalys Kopparholmen 8",
+        "publisher": "Trollhättans Stad",
+        "url": "https://www.trollhattan.se/globalassets/dokument/bygga-bo-och-miljo/stadsbyggnad/detaljplaner/kopparholmen-8/ekosystemtjanstanalys.pdf"
+      },
+      "note_sv": "Planunderlaget beskriver 30 procent krontäckning inom kvarter som riktvärde. Ingen uppmätt täckningsgrad för hela centrum.",
+      "confidence": "high"
+    },
+    {
+      "id": "synliga_trad_riktvarde",
+      "sdg": [
+        3,
+        11,
+        15
+      ],
+      "name_sv": "Riktvärde för synliga träd",
+      "value": 3,
+      "unit": "träd",
+      "year": 2025,
+      "scope": "Trollhättans grönplanering",
+      "direction": "context",
+      "source": {
+        "title": "Ekosystemtjänstanalys Kopparholmen 8",
+        "publisher": "Trollhättans Stad",
+        "url": "https://www.trollhattan.se/globalassets/dokument/bygga-bo-och-miljo/stadsbyggnad/detaljplaner/kopparholmen-8/ekosystemtjanstanalys.pdf"
+      },
+      "note_sv": "Riktlinjen innebär tre synliga träd från bostad, skola eller arbetsplats. Avser ambition, inte uppmätt nuläge.",
+      "confidence": "high"
+    },
+    {
+      "id": "hallbarhetsstrategi_teman",
+      "sdg": [
+        11,
+        16
+      ],
+      "name_sv": "Temaområden i hållbarhetsstrategin",
+      "value": 11,
+      "unit": "teman",
+      "year": 2025,
+      "scope": "Trollhättans Stad",
+      "direction": "context",
+      "source": {
+        "title": "Hållbar utveckling",
+        "publisher": "Trollhättans Stad",
+        "url": "https://www.trollhattan.se/startsida/kommun-och-politik/hallbar-utveckling/"
+      },
+      "note_sv": "Strategin antogs 2025 och omfattar elva teman. Antalet säger inget om måluppfyllelsen.",
+      "confidence": "high"
+    },
+    {
+      "id": "centrum_strategiska_vagval",
+      "sdg": [
+        11,
+        12
+      ],
+      "name_sv": "Strategiska vägval i centrumomstarten",
+      "value": 4,
+      "unit": "vägval",
+      "year": 2026,
+      "scope": "Trollhättans stadskärna",
+      "direction": "context",
+      "source": {
+        "title": "Omstartsstrategi stadskärnan",
+        "publisher": "Trollhättans Stad",
+        "url": "https://www.trollhattan.se/startsida/plats-for-framtiden/pagaende-projekt/stadskarnan/omstart-stadskarnan/omstart-stadskarnan/?vv_hit=true"
+      },
+      "note_sv": "Klimatneutralitet, digital stadskärna, visuell och flexibel stad samt ung stad.",
+      "confidence": "high"
+    },
+    {
+      "id": "forsta_slussled_ar",
+      "sdg": [
+        9,
+        11
+      ],
+      "name_sv": "Första färdiga slussleden",
+      "value": 1800,
+      "unit": "årtal",
+      "year": 1800,
+      "scope": "Trollhättans slussområde",
+      "direction": "context",
+      "source": {
+        "title": "Trollhättans historia",
+        "publisher": "Trollhättans Stad",
+        "url": "https://www.trollhattan.se/startsida/kommun-och-politik/kommunfakta/trollhattans-historia/"
+      },
+      "note_sv": "Historisk tidsankare för industri, handel och stadens framväxt.",
+      "confidence": "high"
+    },
+    {
+      "id": "andra_slussled_ar",
+      "sdg": [
+        9,
+        11
+      ],
+      "name_sv": "Andra slussledens invigning",
+      "value": 1844,
+      "unit": "årtal",
+      "year": 1844,
+      "scope": "Trollhättans slussområde",
+      "direction": "context",
+      "source": {
+        "title": "Trollhättans historia",
+        "publisher": "Trollhättans Stad",
+        "url": "https://www.trollhattan.se/startsida/kommun-och-politik/kommunfakta/trollhattans-historia/"
+      },
+      "note_sv": "Ny slussled öppnades 1844 efter sex års bygge.",
+      "confidence": "high"
+    },
+    {
+      "id": "nuvarande_slussled_ar",
+      "sdg": [
+        9,
+        11
+      ],
+      "name_sv": "Invigningsår för 1916 års slussled",
+      "value": 1916,
+      "unit": "årtal",
+      "year": 1916,
+      "scope": "Trollhättans slussområde",
+      "direction": "context",
+      "source": {
+        "title": "Trollhättans historia",
+        "publisher": "Trollhättans Stad",
+        "url": "https://www.trollhattan.se/startsida/kommun-och-politik/kommunfakta/trollhattans-historia/"
+      },
+      "note_sv": "Kulturhistoriskt årtal. Säger inget om dagens tekniska kapacitet.",
+      "confidence": "high"
+    },
+    {
+      "id": "stadsrattigheter_ar",
+      "sdg": [
+        11
+      ],
+      "name_sv": "Stadsrättigheternas år",
+      "value": 1916,
+      "unit": "årtal",
+      "year": 1916,
+      "scope": "Trollhättan",
+      "direction": "context",
+      "source": {
+        "title": "Trollhättans historia",
+        "publisher": "Trollhättans Stad",
+        "url": "https://www.trollhattan.se/startsida/kommun-och-politik/kommunfakta/trollhattans-historia/"
+      },
+      "note_sv": "Stadsrättigheterna inrättades 1916.",
+      "confidence": "high"
+    },
+    {
+      "id": "slussomrade_byggnadsminne_ar",
+      "sdg": [
+        11
+      ],
+      "name_sv": "År för statligt byggnadsminne",
+      "value": 2004,
+      "unit": "årtal",
+      "year": 2004,
+      "scope": "Trollhättans kanal- och slussområde",
+      "direction": "context",
+      "source": {
+        "title": "Trollhättans kanal och slussområde",
+        "publisher": "Trollhättans Stad",
+        "url": "https://www.trollhattan.se/startsida/bygga-bo-och-miljo/bygga-nytt-andra-eller-riva/kulturhistoriska-byggnader-och-omraden/byggnadsminnen/trollhattans-kanal-och-slussomrade/"
+      },
+      "note_sv": "Skyddet omfattar en sammansatt miljö med byggnader, slussar, broar och anläggningar.",
+      "confidence": "high"
+    }
+  ]
+}

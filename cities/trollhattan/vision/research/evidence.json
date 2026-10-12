@@ -1,0 +1,29 @@
+{
+  "evidence": {
+    "trollhattan_assumptions": {
+      "id": "trollhattan_assumptions",
+      "claim_sv": "Reglagens effektstorlekar är scenarioantaganden. Lokala fakta motiverar frågorna men bevisar inte modellens orsakssamband.",
+      "context_sv": "Alla koefficienter kan granskas i model.js. Effekterna varierar mellan 65 och 135 procent i osäkerhetsberäkningen. Genomförandetider, kapacitet, indexskalor och målgränser är antagna. SDG-värden är illustrativa index, inte en officiell Agenda 2030-bedömning. Befolkningsprognosen används till 2035; därefter är mittscenariot konstant. Ingen hydraulisk eller geoteknisk riskanalys ingår.",
+      "confidence": "estimate",
+      "theme": "governance",
+      "source": {
+        "title": "Trollhättan 2126: öppna modellantaganden",
+        "publisher": "Denna scenariomodell",
+        "year": 2026,
+        "url": "https://github.com/fltman/sustainable-builder"
+      }
+    }
+  },
+  "themes": {},
+  "quotes": [],
+  "en": {
+    "evidence": {
+      "trollhattan_assumptions": {
+        "claim": "Lever effect sizes are scenario assumptions. Local facts motivate questions but do not validate causal relationships.",
+        "context": "Coefficients are in model.js. Effect sizes vary from 65 to 135 percent in the uncertainty ensemble. Timescales, capacity, index scales and thresholds are assumptions. SDG scores are illustrative, not official assessments. Population follows the municipal projection to 2035 and is then constant in the central scenario. No hydraulic or geotechnical risk analysis is included."
+      }
+    },
+    "themes": {},
+    "quotes": []
+  }
+}

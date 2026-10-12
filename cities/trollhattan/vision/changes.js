@@ -1,0 +1,13 @@
+import { t, pct } from '@engine/i18n.js';
+// Visual parameters describe the illustration, not surveyed areas or measured modal shares.
+const visual=(id,key,anchor,color,sv,en,nsv,nen)=>({id,color,weight:1,v:v=>v[key]??0,anchor,title:()=>t(sv,en),show:(d,d0,v,v0)=>({value:v[key]??0,from:v0[key]??0,fmt:pct,unit:t('illustrationens nivå','illustration level')}),note:()=>t(nsv,nen)});
+export const CHANGES=[
+ visual('skugga','shade',{x:-113,y:5,z:-67},'#518666','Skugga vid Drottningtorget','Shade at Drottningtorget','Scenariot visar mer skugga och platser att vila. Nivån är en illustration, inte uppmätt krontäckning.','The scenario shows more shade and seating. The level is illustrative, not measured tree canopy.'),
+ visual('mark','depave','trees','#459c81','Mer genomsläpplig mark','More permeable ground','Utvalda hårdgjorda ytor visas grönare. Ledningar, tillgänglighet och dagvatten behöver utredas på varje plats.','Selected paved surfaces appear greener. Utilities, accessibility and drainage need site-specific assessment.'),
+ visual('tak','roofCover',{x:100,y:20,z:10},'#dca63c','Varsam omställning av taken','Careful changes to roofs','Solenergi och grönska visas som scenariogestaltning. Bärighet, kulturvärden och faktiska takytor är inte projekterade.','Solar energy and greenery are scenario illustrations. Structural capacity, heritage and actual roof areas have not been designed.'),
+ visual('cykel','bikes',{x:497,y:6,z:-447},'#3b83be','Cykeln i vardagen','Everyday cycling','Fler cyklister visar en tänkt förändring i resvanor. Antalet animerade personer är inte trafikstatistik.','More cyclists illustrate a possible change in travel habits. Animated counts are not traffic statistics.'),
+ visual('trad','verge','trees','#769747','Grönare vardagsstråk','Greener everyday routes','Träd längs stråken visar en möjlig inriktning. Befintliga stora träd behöver bevaras och nya träd behöver tid.','Trees along routes show a possible direction. Existing mature trees need protection and new trees need time.')
+];
+export const moved=(c,v,v0)=>c.weight*Math.abs(c.v(v)-c.v(v0));
+export function ranked(v,v0,min=.06){return CHANGES.map(c=>({c,m:moved(c,v,v0)})).filter(o=>o.m>=min).sort((a,b)=>b.m-a.m);}
+export function changeSpec(c,run,year,at){const i=Math.max(0,Math.min(run.years.length-1,Math.floor(year)-2026)),y=run.years[i],y0=run.years[0],s=c.show(y.ind,y0.ind,y.vision,y0.vision);return {id:'chg-'+c.id,at,color:c.color,kicker:`2026 → ${Math.floor(year)}`,title:c.title(y.vision,y0.vision),...s,fromText:`2026: ${s.fmt(s.from)}`,note:c.note(y.ind,y0.ind,y.vision,y0.vision),side:'auto'};}
